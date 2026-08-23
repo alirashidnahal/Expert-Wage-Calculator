@@ -1,0 +1,11 @@
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+*.zip
+.idea/
+.vscode/
+node_modules/
+vendor/
+coverage/
+.phpunit.result.cache

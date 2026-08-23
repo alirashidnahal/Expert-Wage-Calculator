@@ -1,0 +1,1053 @@
+{
+  "translation-revision-date": "2026-08-23 00:00+0330",
+  "generator": "Expert Wage Calculator translation builder",
+  "source": "assets/js/expert-wage-i18n.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "expert-wage-calculator",
+        "lang": "en_US",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      " — ": [
+        " — "
+      ],
+      " (optional)": [
+        " (optional)"
+      ],
+      ", ": [
+        ", "
+      ],
+      "%1$s cannot be greater than %2$s.": [
+        "%1$s cannot be greater than %2$s."
+      ],
+      "%1$s cannot be less than %2$s.": [
+        "%1$s cannot be less than %2$s."
+      ],
+      "%s must be greater than zero.": [
+        "%s must be greater than zero."
+      ],
+      "%s must contain numbers only.": [
+        "%s must contain numbers only."
+      ],
+      "1402 tariff until the 1405 tariff took effect": [
+        "1402 tariff until the 1405 tariff took effect"
+      ],
+      "1405 tariff": [
+        "1405 tariff"
+      ],
+      "Accident review": [
+        "Accident review"
+      ],
+      "Added clause to Article 31": [
+        "Added clause to Article 31"
+      ],
+      "Added note to Article 18": [
+        "Added note to Article 18"
+      ],
+      "Additional connected items": [
+        "Additional connected items"
+      ],
+      "Additional connected parcels": [
+        "Additional connected parcels"
+      ],
+      "Additional fee for locating Article 43 property on aerial imagery": [
+        "Additional fee for locating Article 43 property on aerial imagery"
+      ],
+      "Additional similar unit, floor, or block": [
+        "Additional similar unit, floor, or block"
+      ],
+      "Administrative and public services": [
+        "Administrative and public services"
+      ],
+      "Administrative and public services expert assessment": [
+        "Administrative and public services expert assessment"
+      ],
+      "Aggregate figures forming the price": [
+        "Aggregate figures forming the price"
+      ],
+      "Aggregate figures under review": [
+        "Aggregate figures under review"
+      ],
+      "Agricultural rent valuation": [
+        "Agricultural rent valuation"
+      ],
+      "Agriculture and natural resources": [
+        "Agriculture and natural resources"
+      ],
+      "Agriculture and natural resources valuation": [
+        "Agriculture and natural resources valuation"
+      ],
+      "Amended Article 11, 1402": [
+        "Amended Article 11, 1402"
+      ],
+      "Amended Article 13, 1402": [
+        "Amended Article 13, 1402"
+      ],
+      "Amended Article 28": [
+        "Amended Article 28"
+      ],
+      "Amended Article 43": [
+        "Amended Article 43"
+      ],
+      "Amended Article 51": [
+        "Amended Article 51"
+      ],
+      "Amended Note 3 of Article 11": [
+        "Amended Note 3 of Article 11"
+      ],
+      "Amended Note 3 of Article 45": [
+        "Amended Note 3 of Article 45"
+      ],
+      "Amended Note 4 of Article 11": [
+        "Amended Note 4 of Article 11"
+      ],
+      "Amended Note 5 of Article 11": [
+        "Amended Note 5 of Article 11"
+      ],
+      "Amended Note 7 of Article 11": [
+        "Amended Note 7 of Article 11"
+      ],
+      "Amended note to Article 43": [
+        "Amended note to Article 43"
+      ],
+      "Amendment approved on 1402/08/20 to the base 1398 tariff": [
+        "Amendment approved on 1402/08/20 to the base 1398 tariff"
+      ],
+      "Amount in rials": [
+        "Amount in rials"
+      ],
+      "Area": [
+        "Area"
+      ],
+      "Article 11": [
+        "Article 11"
+      ],
+      "Article 13": [
+        "Article 13"
+      ],
+      "Article 14": [
+        "Article 14"
+      ],
+      "Article 14 with the twofold increase": [
+        "Article 14 with the twofold increase"
+      ],
+      "Article 15": [
+        "Article 15"
+      ],
+      "Article 15 with the twofold increase": [
+        "Article 15 with the twofold increase"
+      ],
+      "Article 16": [
+        "Article 16"
+      ],
+      "Article 16 with the twofold increase": [
+        "Article 16 with the twofold increase"
+      ],
+      "Article 17": [
+        "Article 17"
+      ],
+      "Article 17 with the twofold increase": [
+        "Article 17 with the twofold increase"
+      ],
+      "Article 18": [
+        "Article 18"
+      ],
+      "Article 19": [
+        "Article 19"
+      ],
+      "Article 19 with the twofold increase": [
+        "Article 19 with the twofold increase"
+      ],
+      "Article 21": [
+        "Article 21"
+      ],
+      "Article 21 with the twofold increase": [
+        "Article 21 with the twofold increase"
+      ],
+      "Article 22": [
+        "Article 22"
+      ],
+      "Article 22 with the twofold increase": [
+        "Article 22 with the twofold increase"
+      ],
+      "Article 23": [
+        "Article 23"
+      ],
+      "Article 24": [
+        "Article 24"
+      ],
+      "Article 24 with the twofold increase": [
+        "Article 24 with the twofold increase"
+      ],
+      "Article 25": [
+        "Article 25"
+      ],
+      "Article 26": [
+        "Article 26"
+      ],
+      "Article 27": [
+        "Article 27"
+      ],
+      "Article 27 with the twofold increase": [
+        "Article 27 with the twofold increase"
+      ],
+      "Article 28": [
+        "Article 28"
+      ],
+      "Article 29": [
+        "Article 29"
+      ],
+      "Article 29 with the twofold increase": [
+        "Article 29 with the twofold increase"
+      ],
+      "Article 30": [
+        "Article 30"
+      ],
+      "Article 30 with the twofold increase": [
+        "Article 30 with the twofold increase"
+      ],
+      "Article 31 with the twofold increase": [
+        "Article 31 with the twofold increase"
+      ],
+      "Article 32": [
+        "Article 32"
+      ],
+      "Article 32 with the twofold increase": [
+        "Article 32 with the twofold increase"
+      ],
+      "Article 33": [
+        "Article 33"
+      ],
+      "Article 34": [
+        "Article 34"
+      ],
+      "Article 34 with the twofold increase": [
+        "Article 34 with the twofold increase"
+      ],
+      "Article 35": [
+        "Article 35"
+      ],
+      "Article 35 with the twofold increase": [
+        "Article 35 with the twofold increase"
+      ],
+      "Article 36 with the twofold increase": [
+        "Article 36 with the twofold increase"
+      ],
+      "Article 37": [
+        "Article 37"
+      ],
+      "Article 38": [
+        "Article 38"
+      ],
+      "Article 38 with the twofold increase": [
+        "Article 38 with the twofold increase"
+      ],
+      "Article 39 with the twofold increase": [
+        "Article 39 with the twofold increase"
+      ],
+      "Article 40": [
+        "Article 40"
+      ],
+      "Article 40 with the twofold increase": [
+        "Article 40 with the twofold increase"
+      ],
+      "Article 41": [
+        "Article 41"
+      ],
+      "Article 41 with the twofold increase": [
+        "Article 41 with the twofold increase"
+      ],
+      "Article 42": [
+        "Article 42"
+      ],
+      "Article 42 with the twofold increase": [
+        "Article 42 with the twofold increase"
+      ],
+      "Article 43": [
+        "Article 43"
+      ],
+      "Article 44 with the twofold increase": [
+        "Article 44 with the twofold increase"
+      ],
+      "Article 45": [
+        "Article 45"
+      ],
+      "Article 46": [
+        "Article 46"
+      ],
+      "Article 46 with the twofold increase": [
+        "Article 46 with the twofold increase"
+      ],
+      "Article 47": [
+        "Article 47"
+      ],
+      "Article 47 with the twofold increase": [
+        "Article 47 with the twofold increase"
+      ],
+      "Article 48": [
+        "Article 48"
+      ],
+      "Article 49": [
+        "Article 49"
+      ],
+      "Article 50": [
+        "Article 50"
+      ],
+      "Article 51": [
+        "Article 51"
+      ],
+      "Article 52": [
+        "Article 52"
+      ],
+      "Article 53": [
+        "Article 53"
+      ],
+      "Article 54": [
+        "Article 54"
+      ],
+      "Article 54 with the twofold increase": [
+        "Article 54 with the twofold increase"
+      ],
+      "Article 55": [
+        "Article 55"
+      ],
+      "Article 55 with the twofold increase": [
+        "Article 55 with the twofold increase"
+      ],
+      "Article 7": [
+        "Article 7"
+      ],
+      "Article 7 with the twofold increase": [
+        "Article 7 with the twofold increase"
+      ],
+      "Article 9": [
+        "Article 9"
+      ],
+      "Article 9 with the twofold increase": [
+        "Article 9 with the twofold increase"
+      ],
+      "Artistic disciplines": [
+        "Artistic disciplines"
+      ],
+      "Audit of aggregate account figures": [
+        "Audit of aggregate account figures"
+      ],
+      "Authenticity of handwriting and signatures in a financial case": [
+        "Authenticity of handwriting and signatures in a financial case"
+      ],
+      "Authenticity of handwriting and signatures in a non-financial case": [
+        "Authenticity of handwriting and signatures in a non-financial case"
+      ],
+      "Authenticity of handwriting, signatures, and fingerprints in a financial case": [
+        "Authenticity of handwriting, signatures, and fingerprints in a financial case"
+      ],
+      "Authenticity of handwriting, signatures, and fingerprints in a non-financial case": [
+        "Authenticity of handwriting, signatures, and fingerprints in a non-financial case"
+      ],
+      "Base wage for one expert": [
+        "Base wage for one expert"
+      ],
+      "Biotechnology and nanotechnology": [
+        "Biotechnology and nanotechnology"
+      ],
+      "Biotechnology and nanotechnology expert assessment": [
+        "Biotechnology and nanotechnology expert assessment"
+      ],
+      "Boat collision in inland waters": [
+        "Boat collision in inland waters"
+      ],
+      "Claimed amount": [
+        "Claimed amount"
+      ],
+      "Classification of cultivated, uncultivated, barren, and national lands": [
+        "Classification of cultivated, uncultivated, barren, and national lands"
+      ],
+      "Clause 1 of Article 20": [
+        "Clause 1 of Article 20"
+      ],
+      "Clause 1 of Article 20 with the twofold increase": [
+        "Clause 1 of Article 20 with the twofold increase"
+      ],
+      "Clause 1 of Article 22": [
+        "Clause 1 of Article 22"
+      ],
+      "Clause 1 of Article 26": [
+        "Clause 1 of Article 26"
+      ],
+      "Clause 1 of Article 31": [
+        "Clause 1 of Article 31"
+      ],
+      "Clause 1 of Article 32": [
+        "Clause 1 of Article 32"
+      ],
+      "Clause 1 of Article 36": [
+        "Clause 1 of Article 36"
+      ],
+      "Clause 1 of Article 39": [
+        "Clause 1 of Article 39"
+      ],
+      "Clause 1 of Article 44": [
+        "Clause 1 of Article 44"
+      ],
+      "Clause 2 of Article 20": [
+        "Clause 2 of Article 20"
+      ],
+      "Clause 2 of Article 20 with the twofold increase": [
+        "Clause 2 of Article 20 with the twofold increase"
+      ],
+      "Clause 2 of Article 22": [
+        "Clause 2 of Article 22"
+      ],
+      "Clause 2 of Article 26": [
+        "Clause 2 of Article 26"
+      ],
+      "Clause 2 of Article 31": [
+        "Clause 2 of Article 31"
+      ],
+      "Clause 2 of Article 32": [
+        "Clause 2 of Article 32"
+      ],
+      "Clause 2 of Article 36": [
+        "Clause 2 of Article 36"
+      ],
+      "Clause 2 of Article 39": [
+        "Clause 2 of Article 39"
+      ],
+      "Clause 2 of Article 44": [
+        "Clause 2 of Article 44"
+      ],
+      "Clause 3 of Article 22": [
+        "Clause 3 of Article 22"
+      ],
+      "Clause 3 of Article 26": [
+        "Clause 3 of Article 26"
+      ],
+      "Clause 3 of Article 31": [
+        "Clause 3 of Article 31"
+      ],
+      "Clause 3 of Article 36": [
+        "Clause 3 of Article 36"
+      ],
+      "Clause 3 of Article 44": [
+        "Clause 3 of Article 44"
+      ],
+      "Clause 3-A of Article 32": [
+        "Clause 3-A of Article 32"
+      ],
+      "Clause 3-B of Article 32": [
+        "Clause 3-B of Article 32"
+      ],
+      "Clause 4 of Article 32": [
+        "Clause 4 of Article 32"
+      ],
+      "Clause 4 of Article 36": [
+        "Clause 4 of Article 36"
+      ],
+      "Clause A of Article 47": [
+        "Clause A of Article 47"
+      ],
+      "Clause B-1 of Article 47": [
+        "Clause B-1 of Article 47"
+      ],
+      "Clause B-2 of Article 47": [
+        "Clause B-2 of Article 47"
+      ],
+      "Clause C of Article 47": [
+        "Clause C of Article 47"
+      ],
+      "Clause E of Article 47": [
+        "Clause E of Article 47"
+      ],
+      "Clause F of Article 47": [
+        "Clause F of Article 47"
+      ],
+      "Clause G of Article 47": [
+        "Clause G of Article 47"
+      ],
+      "Collision of a marine vessel with a capacity below 500 tons": [
+        "Collision of a marine vessel with a capacity below 500 tons"
+      ],
+      "Collision of a marine vessel with a capacity of 500 tons or more": [
+        "Collision of a marine vessel with a capacity of 500 tons or more"
+      ],
+      "Collision of a vessel with a capacity below 500 tons": [
+        "Collision of a vessel with a capacity below 500 tons"
+      ],
+      "Collision of a vessel with a capacity of 500 tons or more": [
+        "Collision of a vessel with a capacity of 500 tons or more"
+      ],
+      "Collision of recreational or passenger boats in inland waters": [
+        "Collision of recreational or passenger boats in inland waters"
+      ],
+      "Comparison of architectural or structural plans with site conditions": [
+        "Comparison of architectural or structural plans with site conditions"
+      ],
+      "Comparison of construction contract specifications with site conditions": [
+        "Comparison of construction contract specifications with site conditions"
+      ],
+      "Computer software expert assessment": [
+        "Computer software expert assessment"
+      ],
+      "Concurrent review of multiple non-damage subjects for one vehicle": [
+        "Concurrent review of multiple non-damage subjects for one vehicle"
+      ],
+      "Confirmation of building structural safety for other fields": [
+        "Confirmation of building structural safety for other fields"
+      ],
+      "Contract amount": [
+        "Contract amount"
+      ],
+      "Contract dispute, review, and determination of progress statements": [
+        "Contract dispute, review, and determination of progress statements"
+      ],
+      "Coordinate determination with handheld single-frequency GPS": [
+        "Coordinate determination with handheld single-frequency GPS"
+      ],
+      "Coordinate determination with multi-frequency GPS": [
+        "Coordinate determination with multi-frequency GPS"
+      ],
+      "Current machinery value": [
+        "Current machinery value"
+      ],
+      "Damage amount": [
+        "Damage amount"
+      ],
+      "Design or review of structural calculations for an existing building": [
+        "Design or review of structural calculations for an existing building"
+      ],
+      "Design or review of the overall architecture of an existing building": [
+        "Design or review of the overall architecture of an existing building"
+      ],
+      "Determination of canal and stream boundaries with a bed width up to 12 meters": [
+        "Determination of canal and stream boundaries with a bed width up to 12 meters"
+      ],
+      "Determination of canal and stream boundaries with a width up to 12 meters": [
+        "Determination of canal and stream boundaries with a width up to 12 meters"
+      ],
+      "Determination of each person water right": [
+        "Determination of each person water right"
+      ],
+      "Determination of land and national resources": [
+        "Determination of land and national resources"
+      ],
+      "Determination of machinery specifications and useful life": [
+        "Determination of machinery specifications and useful life"
+      ],
+      "Determination of machinery specifications, depreciation, and useful life": [
+        "Determination of machinery specifications, depreciation, and useful life"
+      ],
+      "Determination of previously developed land": [
+        "Determination of previously developed land"
+      ],
+      "Determination of previously developed land from a construction perspective": [
+        "Determination of previously developed land from a construction perspective"
+      ],
+      "Determination of qualitative and performance characteristics of metals": [
+        "Determination of qualitative and performance characteristics of metals"
+      ],
+      "Determination of registered boundaries and disputes over agricultural property": [
+        "Determination of registered boundaries and disputes over agricultural property"
+      ],
+      "Determination of registered boundaries and property disputes": [
+        "Determination of registered boundaries and property disputes"
+      ],
+      "Determination of rent, overdue rent, or fair rental value": [
+        "Determination of rent, overdue rent, or fair rental value"
+      ],
+      "Determination of river or canal boundaries wider than 12 meters": [
+        "Determination of river or canal boundaries wider than 12 meters"
+      ],
+      "Determination of share and partnership interest value": [
+        "Determination of share and partnership interest value"
+      ],
+      "Determination of the accident cause and responsible party": [
+        "Determination of the accident cause and responsible party"
+      ],
+      "Determination of the age of water resources": [
+        "Determination of the age of water resources"
+      ],
+      "Determination of the cause, origin, and amount of damage": [
+        "Determination of the cause, origin, and amount of damage"
+      ],
+      "Determination of the cost of goods": [
+        "Determination of the cost of goods"
+      ],
+      "Determination of water chemistry and pollution": [
+        "Determination of water chemistry and pollution"
+      ],
+      "Determination of watercraft value": [
+        "Determination of watercraft value"
+      ],
+      "Determined subject amount": [
+        "Determined subject amount"
+      ],
+      "Digital document authenticity and network security": [
+        "Digital document authenticity and network security"
+      ],
+      "Digital document authenticity, network security, and cyberattacks": [
+        "Digital document authenticity, network security, and cyberattacks"
+      ],
+      "Disputes involving feature-length cinema programs": [
+        "Disputes involving feature-length cinema programs"
+      ],
+      "Disputes involving short programs or documentaries": [
+        "Disputes involving short programs or documentaries"
+      ],
+      "Disputes involving short programs, documentaries, or animation": [
+        "Disputes involving short programs, documentaries, or animation"
+      ],
+      "Diving and underwater operations": [
+        "Diving and underwater operations"
+      ],
+      "Documented maximum": [
+        "Documented maximum"
+      ],
+      "Documented minimum": [
+        "Documented minimum"
+      ],
+      "documents": [
+        "documents"
+      ],
+      "Each expert share after the 30% reduction": [
+        "Each expert share after the 30% reduction"
+      ],
+      "Each expert share including mission allowance": [
+        "Each expert share including mission allowance"
+      ],
+      "Effective from the notification date of 1405/05/20": [
+        "Effective from the notification date of 1405/05/20"
+      ],
+      "Estimated total": [
+        "Estimated total"
+      ],
+      "Exact tariff estimate based on the calculation formula": [
+        "Exact tariff estimate based on the calculation formula"
+      ],
+      "Expert subject value": [
+        "Expert subject value"
+      ],
+      "experts": [
+        "experts"
+      ],
+      "Financial matters": [
+        "Financial matters"
+      ],
+      "For a parcel outside the designated area, an increase of up to 20% may be applied at the authority discretion.": [
+        "For a parcel outside the designated area, an increase of up to 20% may be applied at the authority discretion."
+      ],
+      "General and valuation": [
+        "General and valuation"
+      ],
+      "Image age": [
+        "Image age"
+      ],
+      "Industry and technology": [
+        "Industry and technology"
+      ],
+      "Interior architecture and other technical matters": [
+        "Interior architecture and other technical matters"
+      ],
+      "Interpretation of aerial photographs or satellite imagery": [
+        "Interpretation of aerial photographs or satellite imagery"
+      ],
+      "item": [
+        "item"
+      ],
+      "kilometers": [
+        "kilometers"
+      ],
+      "Land surveying and profile preparation": [
+        "Land surveying and profile preparation"
+      ],
+      "liters per second": [
+        "liters per second"
+      ],
+      "Location map of qanats, streams, and canals": [
+        "Location map of qanats, streams, and canals"
+      ],
+      "Location map of qanats, streams, canals, and rivers": [
+        "Location map of qanats, streams, canals, and rivers"
+      ],
+      "Maintenance, compensation for services, marital gift, and customary dowry": [
+        "Maintenance, compensation for services, marital gift, and customary dowry"
+      ],
+      "Measurement of water and water rights": [
+        "Measurement of water and water rights"
+      ],
+      "Medical and food matters": [
+        "Medical and food matters"
+      ],
+      "Medical, pharmaceutical, or food expert assessment": [
+        "Medical, pharmaceutical, or food expert assessment"
+      ],
+      "Mining review without discovery of minerals": [
+        "Mining review without discovery of minerals"
+      ],
+      "Mining review without valuation": [
+        "Mining review without valuation"
+      ],
+      "Mission allowance": [
+        "Mission allowance"
+      ],
+      "Mission allowance for each expert": [
+        "Mission allowance for each expert"
+      ],
+      "Mission days inside the province": [
+        "Mission days inside the province"
+      ],
+      "Mission days outside the province": [
+        "Mission days outside the province"
+      ],
+      "Monthly rent": [
+        "Monthly rent"
+      ],
+      "Movable property": [
+        "Movable property"
+      ],
+      "No additional numeric input is required for this subject.": [
+        "No additional numeric input is required for this subject."
+      ],
+      "No calculation rule is defined for this subject.": [
+        "No calculation rule is defined for this subject."
+      ],
+      "No subject was found.": [
+        "No subject was found."
+      ],
+      "Non-final estimate; the final amount requires authority approval": [
+        "Non-final estimate; the final amount requires authority approval"
+      ],
+      "Not determined": [
+        "Not determined"
+      ],
+      "Note 1 of Article 31": [
+        "Note 1 of Article 31"
+      ],
+      "Note 1 of Article 45": [
+        "Note 1 of Article 45"
+      ],
+      "Note 2 of Article 31": [
+        "Note 2 of Article 31"
+      ],
+      "Note 2 of Article 39": [
+        "Note 2 of Article 39"
+      ],
+      "Note 2 of Article 45": [
+        "Note 2 of Article 45"
+      ],
+      "Note 2 of Article 52": [
+        "Note 2 of Article 52"
+      ],
+      "Note 3 of Article 11": [
+        "Note 3 of Article 11"
+      ],
+      "Note 3 of Article 45": [
+        "Note 3 of Article 45"
+      ],
+      "Note 4 of Article 11": [
+        "Note 4 of Article 11"
+      ],
+      "Note to Article 18": [
+        "Note to Article 18"
+      ],
+      "Note to Article 43": [
+        "Note to Article 43"
+      ],
+      "Note to Article 46": [
+        "Note to Article 46"
+      ],
+      "Note to Article 52": [
+        "Note to Article 52"
+      ],
+      "Note to Group 12": [
+        "Note to Group 12"
+      ],
+      "Note to the biotechnology and nanotechnology group": [
+        "Note to the biotechnology and nanotechnology group"
+      ],
+      "Number of documents": [
+        "Number of documents"
+      ],
+      "Number of panel members": [
+        "Number of panel members"
+      ],
+      "Number of parcels": [
+        "Number of parcels"
+      ],
+      "Number of points": [
+        "Number of points"
+      ],
+      "Number of units": [
+        "Number of units"
+      ],
+      "Number of vehicles": [
+        "Number of vehicles"
+      ],
+      "Number of years under review": [
+        "Number of years under review"
+      ],
+      "Other commercial matters": [
+        "Other commercial matters"
+      ],
+      "Other industry and technology expert assessments": [
+        "Other industry and technology expert assessments"
+      ],
+      "Other investment, banking, or insurance matters": [
+        "Other investment, banking, or insurance matters"
+      ],
+      "Other investment, banking, securities, or insurance matters": [
+        "Other investment, banking, securities, or insurance matters"
+      ],
+      "parcels": [
+        "parcels"
+      ],
+      "Partition of agricultural property": [
+        "Partition of agricultural property"
+      ],
+      "Partition of property, real estate, or an estate": [
+        "Partition of property, real estate, or an estate"
+      ],
+      "points": [
+        "points"
+      ],
+      "Preparation of the overall architectural plan of an existing building": [
+        "Preparation of the overall architectural plan of an existing building"
+      ],
+      "Preparation or review of the structure of an existing building": [
+        "Preparation or review of the structure of an existing building"
+      ],
+      "Preservation of evidence": [
+        "Preservation of evidence"
+      ],
+      "Printing and print-shop expert assessment": [
+        "Printing and print-shop expert assessment"
+      ],
+      "Quantity": [
+        "Quantity"
+      ],
+      "Rent determination": [
+        "Rent determination"
+      ],
+      "Review of balance sheets, profit and loss, or bankruptcy": [
+        "Review of balance sheets, profit and loss, or bankruptcy"
+      ],
+      "Review of building compliance with urban regulations": [
+        "Review of building compliance with urban regulations"
+      ],
+      "Review of compliance of an urban land subdivision plan": [
+        "Review of compliance of an urban land subdivision plan"
+      ],
+      "Review of part of a contract or delay": [
+        "Review of part of a contract or delay"
+      ],
+      "Review of registration records and parcel location": [
+        "Review of registration records and parcel location"
+      ],
+      "Review of urban land-use compliance": [
+        "Review of urban land-use compliance"
+      ],
+      "Review of wastewater conditions": [
+        "Review of wastewater conditions"
+      ],
+      "Review of wastewater conditions and pollution load": [
+        "Review of wastewater conditions and pollution load"
+      ],
+      "Review of well and qanat drilling quality": [
+        "Review of well and qanat drilling quality"
+      ],
+      "Review of well and qanat drilling quality and spring rehabilitation": [
+        "Review of well and qanat drilling quality and spring rehabilitation"
+      ],
+      "rials": [
+        "rials"
+      ],
+      "Roads, buildings, surveying, and registration matters": [
+        "Roads, buildings, surveying, and registration matters"
+      ],
+      "Root, cultivation, development, and planting rights": [
+        "Root, cultivation, development, and planting rights"
+      ],
+      "Root, cultivation, development, farming, and planting rights": [
+        "Root, cultivation, development, farming, and planting rights"
+      ],
+      "Route length": [
+        "Route length"
+      ],
+      "Safety and accident expert assessment": [
+        "Safety and accident expert assessment"
+      ],
+      "Safety and accidents": [
+        "Safety and accidents"
+      ],
+      "Sampling of agricultural and livestock products": [
+        "Sampling of agricultural and livestock products"
+      ],
+      "Setting out parcel boundaries with known control points": [
+        "Setting out parcel boundaries with known control points"
+      ],
+      "Setting out parcel boundaries with unknown control points": [
+        "Setting out parcel boundaries with unknown control points"
+      ],
+      "Sports expert assessment involving injury or death": [
+        "Sports expert assessment involving injury or death"
+      ],
+      "Sports expert assessment without injury or death": [
+        "Sports expert assessment without injury or death"
+      ],
+      "square meters": [
+        "square meters"
+      ],
+      "Statistical expert assessment": [
+        "Statistical expert assessment"
+      ],
+      "Subject value": [
+        "Subject value"
+      ],
+      "Technical certification of design and graphics": [
+        "Technical certification of design and graphics"
+      ],
+      "Technical issues involving photographs and video": [
+        "Technical issues involving photographs and video"
+      ],
+      "Technical opinion and determination of vehicle tonnage and model": [
+        "Technical opinion and determination of vehicle tonnage and model"
+      ],
+      "Technical review of surface water and groundwater aquifers": [
+        "Technical review of surface water and groundwater aquifers"
+      ],
+      "Technical structural-safety report": [
+        "Technical structural-safety report"
+      ],
+      "The calculation could not be completed. Check the entered values.": [
+        "The calculation could not be completed. Check the entered values."
+      ],
+      "The calculation denominator is invalid.": [
+        "The calculation denominator is invalid."
+      ],
+      "The cost of preparing a map, when required, is calculated separately.": [
+        "The cost of preparing a map, when required, is calculated separately."
+      ],
+      "The exact amount is determined according to the quantity and quality of the work and requires approval by the referring authority.": [
+        "The exact amount is determined according to the quantity and quality of the work and requires approval by the referring authority."
+      ],
+      "The expert panel cannot contain more than 50 members.": [
+        "The expert panel cannot contain more than 50 members."
+      ],
+      "The expert panel must contain at least 2 members.": [
+        "The expert panel must contain at least 2 members."
+      ],
+      "The expert subject was not found for the selected year.": [
+        "The expert subject was not found for the selected year."
+      ],
+      "The referring authority determines the final amount according to the quantity and quality of the services.": [
+        "The referring authority determines the final amount according to the quantity and quality of the services."
+      ],
+      "The referring authority determines the number of subjects that may be reviewed.": [
+        "The referring authority determines the number of subjects that may be reviewed."
+      ],
+      "The selected tariff year is not supported.": [
+        "The selected tariff year is not supported."
+      ],
+      "Total for the %s-member panel": [
+        "Total for the %s-member panel"
+      ],
+      "Transportation claim based on the claimed amount": [
+        "Transportation claim based on the claimed amount"
+      ],
+      "units": [
+        "units"
+      ],
+      "Unspecified subject or specialist technical review": [
+        "Unspecified subject or specialist technical review"
+      ],
+      "Unspecified technical opinion on roads and buildings": [
+        "Unspecified technical opinion on roads and buildings"
+      ],
+      "Valuation and damage assessment for administrative services": [
+        "Valuation and damage assessment for administrative services"
+      ],
+      "Valuation in all fields": [
+        "Valuation in all fields"
+      ],
+      "Valuation in industry and technology fields": [
+        "Valuation in industry and technology fields"
+      ],
+      "Valuation in medical and food matters": [
+        "Valuation in medical and food matters"
+      ],
+      "Valuation of agricultural equipment and products": [
+        "Valuation of agricultural equipment and products"
+      ],
+      "Valuation of commercial matters": [
+        "Valuation of commercial matters"
+      ],
+      "Valuation of films and photographic and cinematographic equipment": [
+        "Valuation of films and photographic and cinematographic equipment"
+      ],
+      "Valuation of films and photographic equipment": [
+        "Valuation of films and photographic equipment"
+      ],
+      "Valuation of household and office equipment": [
+        "Valuation of household and office equipment"
+      ],
+      "Valuation of intangible assets and brands": [
+        "Valuation of intangible assets and brands"
+      ],
+      "Valuation of investments, banking, or insurance": [
+        "Valuation of investments, banking, or insurance"
+      ],
+      "Valuation of investments, banking, securities, or insurance": [
+        "Valuation of investments, banking, securities, or insurance"
+      ],
+      "Valuation of metals": [
+        "Valuation of metals"
+      ],
+      "Valuation of movable property": [
+        "Valuation of movable property"
+      ],
+      "Valuation of non-agricultural land, buildings, and goodwill rights": [
+        "Valuation of non-agricultural land, buildings, and goodwill rights"
+      ],
+      "Valuation of non-agricultural land, buildings, materials, and goodwill rights": [
+        "Valuation of non-agricultural land, buildings, materials, and goodwill rights"
+      ],
+      "Valuation of open-pit mineral reserves": [
+        "Valuation of open-pit mineral reserves"
+      ],
+      "Valuation of parts, used goods, and scrap": [
+        "Valuation of parts, used goods, and scrap"
+      ],
+      "Valuation of qanats, wells, and water and wastewater networks": [
+        "Valuation of qanats, wells, and water and wastewater networks"
+      ],
+      "Valuation of underground mineral reserves": [
+        "Valuation of underground mineral reserves"
+      ],
+      "Value": [
+        "Value"
+      ],
+      "Vehicle authenticity review": [
+        "Vehicle authenticity review"
+      ],
+      "Vehicle matters": [
+        "Vehicle matters"
+      ],
+      "Vehicle valuation or damage assessment": [
+        "Vehicle valuation or damage assessment"
+      ],
+      "vehicles": [
+        "vehicles"
+      ],
+      "Water and mining engineering": [
+        "Water and mining engineering"
+      ],
+      "Water flow rate": [
+        "Water flow rate"
+      ],
+      "years": [
+        "years"
+      ]
+    }
+  }
+}

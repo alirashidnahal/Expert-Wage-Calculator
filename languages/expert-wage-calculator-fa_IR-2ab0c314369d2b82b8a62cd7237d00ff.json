@@ -1,0 +1,1053 @@
+{
+  "translation-revision-date": "2026-08-23 00:00+0330",
+  "generator": "Expert Wage Calculator translation builder",
+  "source": "assets/js/expert-wage-i18n.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "expert-wage-calculator",
+        "lang": "fa_IR",
+        "plural-forms": "nplurals=2; plural=(n > 1);"
+      },
+      " — ": [
+        " — "
+      ],
+      " (optional)": [
+        " (اختیاری)"
+      ],
+      ", ": [
+        "، "
+      ],
+      "%1$s cannot be greater than %2$s.": [
+        "%1$s نمی‌تواند بیشتر از %2$s باشد."
+      ],
+      "%1$s cannot be less than %2$s.": [
+        "%1$s نمی‌تواند کمتر از %2$s باشد."
+      ],
+      "%s must be greater than zero.": [
+        "%s باید بزرگ‌تر از صفر باشد."
+      ],
+      "%s must contain numbers only.": [
+        "%s باید فقط شامل عدد باشد."
+      ],
+      "1402 tariff until the 1405 tariff took effect": [
+        "تعرفه ۱۴۰۲ تا پیش از ابلاغ ۱۴۰۵"
+      ],
+      "1405 tariff": [
+        "تعرفه ۱۴۰۵"
+      ],
+      "Accident review": [
+        "رسیدگی به تصادف"
+      ],
+      "Added clause to Article 31": [
+        "بند الحاقی ماده ۳۱"
+      ],
+      "Added note to Article 18": [
+        "تبصره الحاقی ماده ۱۸"
+      ],
+      "Additional connected items": [
+        "موارد متصل اضافی"
+      ],
+      "Additional connected parcels": [
+        "پلاک‌های متصل اضافی"
+      ],
+      "Additional fee for locating Article 43 property on aerial imagery": [
+        "هزینه افزوده جانمایی ماده ۴۳ روی عکس هوایی"
+      ],
+      "Additional similar unit, floor, or block": [
+        "واحد، طبقه یا بلوک مشابه اضافی"
+      ],
+      "Administrative and public services": [
+        "خدمات اداری و عمومی"
+      ],
+      "Administrative and public services expert assessment": [
+        "کارشناسی خدمات اداری و عمومی"
+      ],
+      "Aggregate figures forming the price": [
+        "جمع ارقام تشکیل‌دهنده قیمت"
+      ],
+      "Aggregate figures under review": [
+        "جمع ارقام مورد رسیدگی"
+      ],
+      "Agricultural rent valuation": [
+        "ارزیابی اجاره‌بهای کشاورزی"
+      ],
+      "Agriculture and natural resources": [
+        "کشاورزی و منابع طبیعی"
+      ],
+      "Agriculture and natural resources valuation": [
+        "ارزیابی کشاورزی و منابع طبیعی"
+      ],
+      "Amended Article 11, 1402": [
+        "ماده ۱۱ اصلاحی ۱۴۰۲"
+      ],
+      "Amended Article 13, 1402": [
+        "ماده ۱۳ اصلاحی ۱۴۰۲"
+      ],
+      "Amended Article 28": [
+        "ماده ۲۸ اصلاحی"
+      ],
+      "Amended Article 43": [
+        "ماده ۴۳ اصلاحی"
+      ],
+      "Amended Article 51": [
+        "ماده ۵۱ اصلاحی"
+      ],
+      "Amended Note 3 of Article 11": [
+        "تبصره ۳ ماده ۱۱ اصلاحی"
+      ],
+      "Amended Note 3 of Article 45": [
+        "تبصره ۳ ماده ۴۵ اصلاحی"
+      ],
+      "Amended Note 4 of Article 11": [
+        "تبصره ۴ ماده ۱۱ اصلاحی"
+      ],
+      "Amended Note 5 of Article 11": [
+        "تبصره ۵ ماده ۱۱ اصلاحی"
+      ],
+      "Amended Note 7 of Article 11": [
+        "تبصره ۷ ماده ۱۱ اصلاحی"
+      ],
+      "Amended note to Article 43": [
+        "تبصره ماده ۴۳ اصلاحی"
+      ],
+      "Amendment approved on 1402/08/20 to the base 1398 tariff": [
+        "اصلاحیه مصوب ۱۴۰۲/۰۸/۲۰ بر تعرفه پایه ۱۳۹۸"
+      ],
+      "Amount in rials": [
+        "مبلغ به ریال"
+      ],
+      "Area": [
+        "مساحت"
+      ],
+      "Article 11": [
+        "ماده ۱۱"
+      ],
+      "Article 13": [
+        "ماده ۱۳"
+      ],
+      "Article 14": [
+        "ماده ۱۴"
+      ],
+      "Article 14 with the twofold increase": [
+        "ماده ۱۴ با افزایش دوبرابری"
+      ],
+      "Article 15": [
+        "ماده ۱۵"
+      ],
+      "Article 15 with the twofold increase": [
+        "ماده ۱۵ با افزایش دوبرابری"
+      ],
+      "Article 16": [
+        "ماده ۱۶"
+      ],
+      "Article 16 with the twofold increase": [
+        "ماده ۱۶ با افزایش دوبرابری"
+      ],
+      "Article 17": [
+        "ماده ۱۷"
+      ],
+      "Article 17 with the twofold increase": [
+        "ماده ۱۷ با افزایش دوبرابری"
+      ],
+      "Article 18": [
+        "ماده ۱۸"
+      ],
+      "Article 19": [
+        "ماده ۱۹"
+      ],
+      "Article 19 with the twofold increase": [
+        "ماده ۱۹ با افزایش دوبرابری"
+      ],
+      "Article 21": [
+        "ماده ۲۱"
+      ],
+      "Article 21 with the twofold increase": [
+        "ماده ۲۱ با افزایش دوبرابری"
+      ],
+      "Article 22": [
+        "ماده ۲۲"
+      ],
+      "Article 22 with the twofold increase": [
+        "ماده ۲۲ با افزایش دوبرابری"
+      ],
+      "Article 23": [
+        "ماده ۲۳"
+      ],
+      "Article 24": [
+        "ماده ۲۴"
+      ],
+      "Article 24 with the twofold increase": [
+        "ماده ۲۴ با افزایش دوبرابری"
+      ],
+      "Article 25": [
+        "ماده ۲۵"
+      ],
+      "Article 26": [
+        "ماده ۲۶"
+      ],
+      "Article 27": [
+        "ماده ۲۷"
+      ],
+      "Article 27 with the twofold increase": [
+        "ماده ۲۷ با افزایش دوبرابری"
+      ],
+      "Article 28": [
+        "ماده ۲۸"
+      ],
+      "Article 29": [
+        "ماده ۲۹"
+      ],
+      "Article 29 with the twofold increase": [
+        "ماده ۲۹ با افزایش دوبرابری"
+      ],
+      "Article 30": [
+        "ماده ۳۰"
+      ],
+      "Article 30 with the twofold increase": [
+        "ماده ۳۰ با افزایش دوبرابری"
+      ],
+      "Article 31 with the twofold increase": [
+        "ماده ۳۱ با افزایش دوبرابری"
+      ],
+      "Article 32": [
+        "ماده ۳۲"
+      ],
+      "Article 32 with the twofold increase": [
+        "ماده ۳۲ با افزایش دوبرابری"
+      ],
+      "Article 33": [
+        "ماده ۳۳"
+      ],
+      "Article 34": [
+        "ماده ۳۴"
+      ],
+      "Article 34 with the twofold increase": [
+        "ماده ۳۴ با افزایش دوبرابری"
+      ],
+      "Article 35": [
+        "ماده ۳۵"
+      ],
+      "Article 35 with the twofold increase": [
+        "ماده ۳۵ با افزایش دوبرابری"
+      ],
+      "Article 36 with the twofold increase": [
+        "ماده ۳۶ با افزایش دوبرابری"
+      ],
+      "Article 37": [
+        "ماده ۳۷"
+      ],
+      "Article 38": [
+        "ماده ۳۸"
+      ],
+      "Article 38 with the twofold increase": [
+        "ماده ۳۸ با افزایش دوبرابری"
+      ],
+      "Article 39 with the twofold increase": [
+        "ماده ۳۹ با افزایش دوبرابری"
+      ],
+      "Article 40": [
+        "ماده ۴۰"
+      ],
+      "Article 40 with the twofold increase": [
+        "ماده ۴۰ با افزایش دوبرابری"
+      ],
+      "Article 41": [
+        "ماده ۴۱"
+      ],
+      "Article 41 with the twofold increase": [
+        "ماده ۴۱ با افزایش دوبرابری"
+      ],
+      "Article 42": [
+        "ماده ۴۲"
+      ],
+      "Article 42 with the twofold increase": [
+        "ماده ۴۲ با افزایش دوبرابری"
+      ],
+      "Article 43": [
+        "ماده ۴۳"
+      ],
+      "Article 44 with the twofold increase": [
+        "ماده ۴۴ با افزایش دوبرابری"
+      ],
+      "Article 45": [
+        "ماده ۴۵"
+      ],
+      "Article 46": [
+        "ماده ۴۶"
+      ],
+      "Article 46 with the twofold increase": [
+        "ماده ۴۶ با افزایش دوبرابری"
+      ],
+      "Article 47": [
+        "ماده ۴۷"
+      ],
+      "Article 47 with the twofold increase": [
+        "ماده ۴۷ با افزایش دوبرابری"
+      ],
+      "Article 48": [
+        "ماده ۴۸"
+      ],
+      "Article 49": [
+        "ماده ۴۹"
+      ],
+      "Article 50": [
+        "ماده ۵۰"
+      ],
+      "Article 51": [
+        "ماده ۵۱"
+      ],
+      "Article 52": [
+        "ماده ۵۲"
+      ],
+      "Article 53": [
+        "ماده ۵۳"
+      ],
+      "Article 54": [
+        "ماده ۵۴"
+      ],
+      "Article 54 with the twofold increase": [
+        "ماده ۵۴ با افزایش دوبرابری"
+      ],
+      "Article 55": [
+        "ماده ۵۵"
+      ],
+      "Article 55 with the twofold increase": [
+        "ماده ۵۵ با افزایش دوبرابری"
+      ],
+      "Article 7": [
+        "ماده ۷"
+      ],
+      "Article 7 with the twofold increase": [
+        "ماده ۷ با افزایش دوبرابری"
+      ],
+      "Article 9": [
+        "ماده ۹"
+      ],
+      "Article 9 with the twofold increase": [
+        "ماده ۹ با افزایش دوبرابری"
+      ],
+      "Artistic disciplines": [
+        "فنون هنری"
+      ],
+      "Audit of aggregate account figures": [
+        "حسابرسی جمع ارقام حساب‌ها"
+      ],
+      "Authenticity of handwriting and signatures in a financial case": [
+        "اصالت خط و امضا در پرونده مالی"
+      ],
+      "Authenticity of handwriting and signatures in a non-financial case": [
+        "اصالت خط و امضا در پرونده غیرمالی"
+      ],
+      "Authenticity of handwriting, signatures, and fingerprints in a financial case": [
+        "اصالت خط، امضا و اثر انگشت در پرونده مالی"
+      ],
+      "Authenticity of handwriting, signatures, and fingerprints in a non-financial case": [
+        "اصالت خط، امضا و اثر انگشت در پرونده غیرمالی"
+      ],
+      "Base wage for one expert": [
+        "دستمزد پایه تک‌نفره"
+      ],
+      "Biotechnology and nanotechnology": [
+        "بیو و نانوتکنولوژی"
+      ],
+      "Biotechnology and nanotechnology expert assessment": [
+        "کارشناسی بیو و نانوتکنولوژی"
+      ],
+      "Boat collision in inland waters": [
+        "تصادم قایق در آب داخلی"
+      ],
+      "Claimed amount": [
+        "مبلغ خواسته"
+      ],
+      "Classification of cultivated, uncultivated, barren, and national lands": [
+        "تشخیص اراضی دایر، بایر، موات و منابع ملی"
+      ],
+      "Clause 1 of Article 20": [
+        "بند ۱ ماده ۲۰"
+      ],
+      "Clause 1 of Article 20 with the twofold increase": [
+        "بند ۱ ماده ۲۰ با افزایش دوبرابری"
+      ],
+      "Clause 1 of Article 22": [
+        "بند ۱ ماده ۲۲"
+      ],
+      "Clause 1 of Article 26": [
+        "بند ۱ ماده ۲۶"
+      ],
+      "Clause 1 of Article 31": [
+        "بند ۱ ماده ۳۱"
+      ],
+      "Clause 1 of Article 32": [
+        "بند ۱ ماده ۳۲"
+      ],
+      "Clause 1 of Article 36": [
+        "بند ۱ ماده ۳۶"
+      ],
+      "Clause 1 of Article 39": [
+        "بند ۱ ماده ۳۹"
+      ],
+      "Clause 1 of Article 44": [
+        "بند ۱ ماده ۴۴"
+      ],
+      "Clause 2 of Article 20": [
+        "بند ۲ ماده ۲۰"
+      ],
+      "Clause 2 of Article 20 with the twofold increase": [
+        "بند ۲ ماده ۲۰ با افزایش دوبرابری"
+      ],
+      "Clause 2 of Article 22": [
+        "بند ۲ ماده ۲۲"
+      ],
+      "Clause 2 of Article 26": [
+        "بند ۲ ماده ۲۶"
+      ],
+      "Clause 2 of Article 31": [
+        "بند ۲ ماده ۳۱"
+      ],
+      "Clause 2 of Article 32": [
+        "بند ۲ ماده ۳۲"
+      ],
+      "Clause 2 of Article 36": [
+        "بند ۲ ماده ۳۶"
+      ],
+      "Clause 2 of Article 39": [
+        "بند ۲ ماده ۳۹"
+      ],
+      "Clause 2 of Article 44": [
+        "بند ۲ ماده ۴۴"
+      ],
+      "Clause 3 of Article 22": [
+        "بند ۳ ماده ۲۲"
+      ],
+      "Clause 3 of Article 26": [
+        "بند ۳ ماده ۲۶"
+      ],
+      "Clause 3 of Article 31": [
+        "بند ۳ ماده ۳۱"
+      ],
+      "Clause 3 of Article 36": [
+        "بند ۳ ماده ۳۶"
+      ],
+      "Clause 3 of Article 44": [
+        "بند ۳ ماده ۴۴"
+      ],
+      "Clause 3-A of Article 32": [
+        "بند ۳-الف ماده ۳۲"
+      ],
+      "Clause 3-B of Article 32": [
+        "بند ۳-ب ماده ۳۲"
+      ],
+      "Clause 4 of Article 32": [
+        "بند ۴ ماده ۳۲"
+      ],
+      "Clause 4 of Article 36": [
+        "بند ۴ ماده ۳۶"
+      ],
+      "Clause A of Article 47": [
+        "بند الف ماده ۴۷"
+      ],
+      "Clause B-1 of Article 47": [
+        "بند ب-۱ ماده ۴۷"
+      ],
+      "Clause B-2 of Article 47": [
+        "بند ب-۲ ماده ۴۷"
+      ],
+      "Clause C of Article 47": [
+        "بند پ ماده ۴۷"
+      ],
+      "Clause E of Article 47": [
+        "بند ث ماده ۴۷"
+      ],
+      "Clause F of Article 47": [
+        "بند ج ماده ۴۷"
+      ],
+      "Clause G of Article 47": [
+        "بند چ ماده ۴۷"
+      ],
+      "Collision of a marine vessel with a capacity below 500 tons": [
+        "تصادم شناور دریایی با ظرفیت کمتر از ۵۰۰ تن"
+      ],
+      "Collision of a marine vessel with a capacity of 500 tons or more": [
+        "تصادم شناور دریایی با ظرفیت ۵۰۰ تن یا بیشتر"
+      ],
+      "Collision of a vessel with a capacity below 500 tons": [
+        "تصادم شناور با ظرفیت کمتر از ۵۰۰ تن"
+      ],
+      "Collision of a vessel with a capacity of 500 tons or more": [
+        "تصادم شناور با ظرفیت ۵۰۰ تن یا بیشتر"
+      ],
+      "Collision of recreational or passenger boats in inland waters": [
+        "تصادم قایق تفریحی یا مسافربری در آب داخلی"
+      ],
+      "Comparison of architectural or structural plans with site conditions": [
+        "تطبیق نقشه معماری یا سازه با وضعیت محل"
+      ],
+      "Comparison of construction contract specifications with site conditions": [
+        "تطبیق مشخصات قرارداد ساختمانی با محل"
+      ],
+      "Computer software expert assessment": [
+        "کارشناسی نرم‌افزار رایانه‌ای"
+      ],
+      "Concurrent review of multiple non-damage subjects for one vehicle": [
+        "بررسی همزمان چند موضوع غیرخسارتی یک خودرو"
+      ],
+      "Confirmation of building structural safety for other fields": [
+        "تأیید استحکام بنا برای سایر رشته‌ها"
+      ],
+      "Contract amount": [
+        "مبلغ قرارداد"
+      ],
+      "Contract dispute, review, and determination of progress statements": [
+        "اختلاف قرارداد، کنترل و تعیین صورت‌وضعیت"
+      ],
+      "Coordinate determination with handheld single-frequency GPS": [
+        "تعیین مختصات با GPS دستی تک‌فرکانسه"
+      ],
+      "Coordinate determination with multi-frequency GPS": [
+        "تعیین مختصات با GPS چندفرکانسه"
+      ],
+      "Current machinery value": [
+        "ارزش روز ماشین‌آلات"
+      ],
+      "Damage amount": [
+        "میزان خسارت"
+      ],
+      "Design or review of structural calculations for an existing building": [
+        "طراحی یا کنترل محاسبات سازه ساختمان موجود"
+      ],
+      "Design or review of the overall architecture of an existing building": [
+        "طراحی یا کنترل معماری کلی ساختمان موجود"
+      ],
+      "Determination of canal and stream boundaries with a bed width up to 12 meters": [
+        "تعیین حریم کانال و نهر با عرض بستر تا ۱۲ متر"
+      ],
+      "Determination of canal and stream boundaries with a width up to 12 meters": [
+        "تعیین حریم کانال و نهر با عرض تا ۱۲ متر"
+      ],
+      "Determination of each person water right": [
+        "تعیین میزان حقابه هر فرد"
+      ],
+      "Determination of land and national resources": [
+        "تشخیص اراضی و منابع ملی"
+      ],
+      "Determination of machinery specifications and useful life": [
+        "تعیین مشخصات فنی و عمر مفید ماشین‌آلات"
+      ],
+      "Determination of machinery specifications, depreciation, and useful life": [
+        "تعیین مشخصات فنی، استهلاک و عمر مفید ماشین‌آلات"
+      ],
+      "Determination of previously developed land": [
+        "تشخیص زمین مسبوق به احیا"
+      ],
+      "Determination of previously developed land from a construction perspective": [
+        "تشخیص زمین مسبوق به احیا از نظر ساختمانی"
+      ],
+      "Determination of qualitative and performance characteristics of metals": [
+        "تشخیص مشخصات کیفی و عملکردی فلزات"
+      ],
+      "Determination of registered boundaries and disputes over agricultural property": [
+        "تشخیص حدود ثبتی و اختلاف املاک مزروعی"
+      ],
+      "Determination of registered boundaries and property disputes": [
+        "تشخیص حدود ثبتی و اختلاف املاک"
+      ],
+      "Determination of rent, overdue rent, or fair rental value": [
+        "تعیین اجاره‌بها، اجور معوقه یا اجرت‌المثل"
+      ],
+      "Determination of river or canal boundaries wider than 12 meters": [
+        "تعیین حریم رودخانه یا کانال با عرض بیش از ۱۲ متر"
+      ],
+      "Determination of share and partnership interest value": [
+        "تعیین ارزش سهام و سهم‌الشرکه"
+      ],
+      "Determination of the accident cause and responsible party": [
+        "تعیین علت تصادف و مقصر"
+      ],
+      "Determination of the age of water resources": [
+        "تعیین قدمت منابع آبی"
+      ],
+      "Determination of the cause, origin, and amount of damage": [
+        "تعیین سبب، علت و میزان خسارت"
+      ],
+      "Determination of the cost of goods": [
+        "تعیین قیمت تمام‌شده کالا"
+      ],
+      "Determination of water chemistry and pollution": [
+        "تعیین کیفیت شیمیایی و آلودگی آب"
+      ],
+      "Determination of watercraft value": [
+        "تعیین ارزش وسیله نقلیه آبی"
+      ],
+      "Determined subject amount": [
+        "مبلغ تعیین‌شده موضوع"
+      ],
+      "Digital document authenticity and network security": [
+        "اصالت اسناد دیجیتال و امنیت شبکه"
+      ],
+      "Digital document authenticity, network security, and cyberattacks": [
+        "اصالت اسناد دیجیتال، امنیت شبکه و حملات سایبری"
+      ],
+      "Disputes involving feature-length cinema programs": [
+        "اختلافات برنامه سینمایی بلند"
+      ],
+      "Disputes involving short programs or documentaries": [
+        "اختلافات برنامه کوتاه یا مستند"
+      ],
+      "Disputes involving short programs, documentaries, or animation": [
+        "اختلافات برنامه کوتاه، مستند یا انیمیشن"
+      ],
+      "Diving and underwater operations": [
+        "غواصی و عملیات زیرآبی"
+      ],
+      "Documented maximum": [
+        "حداکثر قابل استناد"
+      ],
+      "Documented minimum": [
+        "حداقل قابل استناد"
+      ],
+      "documents": [
+        "مستند"
+      ],
+      "Each expert share after the 30% reduction": [
+        "سهم هر کارشناس پس از کسر ۳۰٪"
+      ],
+      "Each expert share including mission allowance": [
+        "سهم هر کارشناس با مأموریت"
+      ],
+      "Effective from the notification date of 1405/05/20": [
+        "لازم‌الاجرا از تاریخ ابلاغ ۱۴۰۵/۰۵/۲۰"
+      ],
+      "Estimated total": [
+        "جمع قابل برآورد"
+      ],
+      "Exact tariff estimate based on the calculation formula": [
+        "برآورد محاسباتی قطعی بر اساس فرمول تعرفه"
+      ],
+      "Expert subject value": [
+        "ارزش موضوع کارشناسی"
+      ],
+      "experts": [
+        "نفر"
+      ],
+      "Financial matters": [
+        "امور مالی"
+      ],
+      "For a parcel outside the designated area, an increase of up to 20% may be applied at the authority discretion.": [
+        "برای پلاک خارج از محدوده، تا ۲۰٪ افزایش با نظر مرجع قابل اعمال است."
+      ],
+      "General and valuation": [
+        "عمومی و ارزیابی"
+      ],
+      "Image age": [
+        "قدمت تصویر"
+      ],
+      "Industry and technology": [
+        "صنعت و فن"
+      ],
+      "Interior architecture and other technical matters": [
+        "امور معماری داخلی و موارد فنی دیگر"
+      ],
+      "Interpretation of aerial photographs or satellite imagery": [
+        "تفسیر عکس هوایی یا تصویر ماهواره‌ای"
+      ],
+      "item": [
+        "مورد"
+      ],
+      "kilometers": [
+        "کیلومتر"
+      ],
+      "Land surveying and profile preparation": [
+        "نقشه‌برداری اراضی و تهیه پروفیل"
+      ],
+      "liters per second": [
+        "لیتر در ثانیه"
+      ],
+      "Location map of qanats, streams, and canals": [
+        "نقشه موقعیت قنوات، انهار و کانال‌ها"
+      ],
+      "Location map of qanats, streams, canals, and rivers": [
+        "نقشه موقعیت قنوات، انهار، کانال‌ها و رودخانه‌ها"
+      ],
+      "Maintenance, compensation for services, marital gift, and customary dowry": [
+        "نفقه، اجرت‌المثل، نحله و مهرالمثل"
+      ],
+      "Measurement of water and water rights": [
+        "اندازه‌گیری آب و حقابه"
+      ],
+      "Medical and food matters": [
+        "امور پزشکی و غذایی"
+      ],
+      "Medical, pharmaceutical, or food expert assessment": [
+        "کارشناسی پزشکی، داروسازی یا مواد غذایی"
+      ],
+      "Mining review without discovery of minerals": [
+        "بررسی معدنی بدون کشف ماده معدنی"
+      ],
+      "Mining review without valuation": [
+        "بررسی معدنی بدون ارزیابی"
+      ],
+      "Mission allowance": [
+        "فوق‌العاده مأموریت"
+      ],
+      "Mission allowance for each expert": [
+        "فوق‌العاده مأموریت هر کارشناس"
+      ],
+      "Mission days inside the province": [
+        "روز مأموریت داخل استان"
+      ],
+      "Mission days outside the province": [
+        "روز مأموریت خارج استان"
+      ],
+      "Monthly rent": [
+        "اجاره ماهانه"
+      ],
+      "Movable property": [
+        "اموال منقول"
+      ],
+      "No additional numeric input is required for this subject.": [
+        "برای این موضوع ورودی عددی دیگری لازم نیست."
+      ],
+      "No calculation rule is defined for this subject.": [
+        "قاعده محاسبه این موضوع تعریف نشده است."
+      ],
+      "No subject was found.": [
+        "موضوعی پیدا نشد."
+      ],
+      "Non-final estimate; the final amount requires authority approval": [
+        "برآورد غیرقطعی؛ مبلغ نهایی نیازمند تأیید مرجع است"
+      ],
+      "Not determined": [
+        "تعیین نشده"
+      ],
+      "Note 1 of Article 31": [
+        "تبصره ۱ ماده ۳۱"
+      ],
+      "Note 1 of Article 45": [
+        "تبصره ۱ ماده ۴۵"
+      ],
+      "Note 2 of Article 31": [
+        "تبصره ۲ ماده ۳۱"
+      ],
+      "Note 2 of Article 39": [
+        "تبصره ۲ ماده ۳۹"
+      ],
+      "Note 2 of Article 45": [
+        "تبصره ۲ ماده ۴۵"
+      ],
+      "Note 2 of Article 52": [
+        "تبصره ۲ ماده ۵۲"
+      ],
+      "Note 3 of Article 11": [
+        "تبصره ۳ ماده ۱۱"
+      ],
+      "Note 3 of Article 45": [
+        "تبصره ۳ ماده ۴۵"
+      ],
+      "Note 4 of Article 11": [
+        "تبصره ۴ ماده ۱۱"
+      ],
+      "Note to Article 18": [
+        "تبصره ماده ۱۸"
+      ],
+      "Note to Article 43": [
+        "تبصره ماده ۴۳"
+      ],
+      "Note to Article 46": [
+        "تبصره ماده ۴۶"
+      ],
+      "Note to Article 52": [
+        "تبصره ماده ۵۲"
+      ],
+      "Note to Group 12": [
+        "تبصره گروه ۱۲"
+      ],
+      "Note to the biotechnology and nanotechnology group": [
+        "تبصره گروه بیو و نانو"
+      ],
+      "Number of documents": [
+        "تعداد مستندات"
+      ],
+      "Number of panel members": [
+        "تعداد اعضای هیئت"
+      ],
+      "Number of parcels": [
+        "تعداد قطعات"
+      ],
+      "Number of points": [
+        "تعداد نقاط"
+      ],
+      "Number of units": [
+        "تعداد واحدها"
+      ],
+      "Number of vehicles": [
+        "تعداد خودرو"
+      ],
+      "Number of years under review": [
+        "تعداد سال‌های مورد رسیدگی"
+      ],
+      "Other commercial matters": [
+        "سایر امور بازرگانی"
+      ],
+      "Other industry and technology expert assessments": [
+        "سایر کارشناسی‌های صنعت و فن"
+      ],
+      "Other investment, banking, or insurance matters": [
+        "سایر امور سرمایه‌گذاری، بانک یا بیمه"
+      ],
+      "Other investment, banking, securities, or insurance matters": [
+        "سایر امور سرمایه‌گذاری، بانک، بورس یا بیمه"
+      ],
+      "parcels": [
+        "پلاک"
+      ],
+      "Partition of agricultural property": [
+        "افراز املاک کشاورزی"
+      ],
+      "Partition of property, real estate, or an estate": [
+        "افراز املاک، مستغلات یا تقسیم ترکه"
+      ],
+      "points": [
+        "نقطه"
+      ],
+      "Preparation of the overall architectural plan of an existing building": [
+        "تهیه نقشه معماری کلی ساختمان موجود"
+      ],
+      "Preparation or review of the structure of an existing building": [
+        "تهیه یا کنترل سازه ساختمان موجود"
+      ],
+      "Preservation of evidence": [
+        "تأمین دلیل"
+      ],
+      "Printing and print-shop expert assessment": [
+        "کارشناسی چاپ و چاپخانه"
+      ],
+      "Quantity": [
+        "تعداد"
+      ],
+      "Rent determination": [
+        "تعیین اجاره‌بها"
+      ],
+      "Review of balance sheets, profit and loss, or bankruptcy": [
+        "رسیدگی به ترازنامه، سود و زیان یا ورشکستگی"
+      ],
+      "Review of building compliance with urban regulations": [
+        "بررسی انطباق شهری ساختمان"
+      ],
+      "Review of compliance of an urban land subdivision plan": [
+        "بررسی انطباق طرح تفکیک اراضی شهری"
+      ],
+      "Review of part of a contract or delay": [
+        "رسیدگی به بخشی از قرارداد یا تأخیر"
+      ],
+      "Review of registration records and parcel location": [
+        "مطالعه پرونده ثبتی و تعیین محل پلاک"
+      ],
+      "Review of urban land-use compliance": [
+        "بررسی انطباق کاربری اراضی شهری"
+      ],
+      "Review of wastewater conditions": [
+        "رسیدگی به وضع پساب"
+      ],
+      "Review of wastewater conditions and pollution load": [
+        "رسیدگی به وضع پساب و بار آلودگی"
+      ],
+      "Review of well and qanat drilling quality": [
+        "بررسی کیفیت حفاری چاه و قنات"
+      ],
+      "Review of well and qanat drilling quality and spring rehabilitation": [
+        "بررسی کیفیت حفاری چاه، قنات و بهسازی چشمه"
+      ],
+      "rials": [
+        "ریال"
+      ],
+      "Roads, buildings, surveying, and registration matters": [
+        "راه، ساختمان، نقشه‌برداری و امور ثبتی"
+      ],
+      "Root, cultivation, development, and planting rights": [
+        "حق ریشه، نسق، آبادانی و حق غارسی"
+      ],
+      "Root, cultivation, development, farming, and planting rights": [
+        "حق ریشه، نسق، آبادانی، زراعت و حق غارسی"
+      ],
+      "Route length": [
+        "طول مسیر"
+      ],
+      "Safety and accident expert assessment": [
+        "کارشناسی ایمنی و حوادث"
+      ],
+      "Safety and accidents": [
+        "ایمنی و حوادث"
+      ],
+      "Sampling of agricultural and livestock products": [
+        "نمونه‌برداری محصولات کشاورزی و دامی"
+      ],
+      "Setting out parcel boundaries with known control points": [
+        "پیاده‌کردن محدوده پلاک با گذربند مشخص"
+      ],
+      "Setting out parcel boundaries with unknown control points": [
+        "پیاده‌کردن محدوده پلاک با گذربند نامشخص"
+      ],
+      "Sports expert assessment involving injury or death": [
+        "کارشناسی ورزشی دارای جرح یا فوت"
+      ],
+      "Sports expert assessment without injury or death": [
+        "کارشناسی ورزشی بدون جرح یا فوت"
+      ],
+      "square meters": [
+        "متر مربع"
+      ],
+      "Statistical expert assessment": [
+        "کارشناسی آمار"
+      ],
+      "Subject value": [
+        "ارزش موضوع"
+      ],
+      "Technical certification of design and graphics": [
+        "گواهی فنی طراحی و گرافیک"
+      ],
+      "Technical issues involving photographs and video": [
+        "مسائل فنی عکس و فیلم"
+      ],
+      "Technical opinion and determination of vehicle tonnage and model": [
+        "اظهارنظر فنی، تعیین تناژ و مدل خودرو"
+      ],
+      "Technical review of surface water and groundwater aquifers": [
+        "بررسی فنی سفره‌های سطحی و زیرزمینی"
+      ],
+      "Technical structural-safety report": [
+        "گزارش فنی استحکام بنا"
+      ],
+      "The calculation could not be completed. Check the entered values.": [
+        "محاسبه انجام نشد. ورودی‌ها را بررسی کنید."
+      ],
+      "The calculation denominator is invalid.": [
+        "مخرج محاسبه معتبر نیست."
+      ],
+      "The cost of preparing a map, when required, is calculated separately.": [
+        "هزینه تهیه نقشه، در صورت نیاز، جداگانه محاسبه می‌شود."
+      ],
+      "The exact amount is determined according to the quantity and quality of the work and requires approval by the referring authority.": [
+        "مبلغ دقیق با توجه به کمیت و کیفیت کار و تأیید مرجع ارجاع‌کننده تعیین می‌شود."
+      ],
+      "The expert panel cannot contain more than 50 members.": [
+        "تعداد اعضای هیئت نمی‌تواند بیشتر از ۵۰ نفر باشد."
+      ],
+      "The expert panel must contain at least 2 members.": [
+        "تعداد اعضای هیئت باید حداقل ۲ نفر باشد."
+      ],
+      "The expert subject was not found for the selected year.": [
+        "موضوع کارشناسی برای سال انتخابی یافت نشد."
+      ],
+      "The referring authority determines the final amount according to the quantity and quality of the services.": [
+        "مبلغ نهایی متناسب با کمیت و کیفیت خدمات توسط مقام ارجاع‌کننده تعیین می‌شود."
+      ],
+      "The referring authority determines the number of subjects that may be reviewed.": [
+        "تعداد موضوعات قابل بررسی با نظر مقام ارجاع‌دهنده تعیین می‌شود."
+      ],
+      "The selected tariff year is not supported.": [
+        "سال تعرفه انتخاب‌شده پشتیبانی نمی‌شود."
+      ],
+      "Total for the %s-member panel": [
+        "جمع کل هیئت %s نفره"
+      ],
+      "Transportation claim based on the claimed amount": [
+        "دعوای حمل‌ونقل بر مبنای مبلغ خواسته"
+      ],
+      "units": [
+        "واحد"
+      ],
+      "Unspecified subject or specialist technical review": [
+        "موضوع پیش‌بینی‌نشده یا بررسی فنی تخصصی"
+      ],
+      "Unspecified technical opinion on roads and buildings": [
+        "اظهارنظر فنی پیش‌بینی‌نشده راه و ساختمان"
+      ],
+      "Valuation and damage assessment for administrative services": [
+        "ارزیابی و تعیین خسارت خدمات اداری"
+      ],
+      "Valuation in all fields": [
+        "ارزیابی کلیه رشته‌ها"
+      ],
+      "Valuation in industry and technology fields": [
+        "ارزیابی رشته‌های صنعت و فن"
+      ],
+      "Valuation in medical and food matters": [
+        "ارزیابی در امور پزشکی و غذایی"
+      ],
+      "Valuation of agricultural equipment and products": [
+        "ارزیابی تجهیزات و فرآورده‌های کشاورزی"
+      ],
+      "Valuation of commercial matters": [
+        "ارزیابی امور بازرگانی"
+      ],
+      "Valuation of films and photographic and cinematographic equipment": [
+        "ارزیابی فیلم و تجهیزات عکاسی و سینمایی"
+      ],
+      "Valuation of films and photographic equipment": [
+        "ارزیابی فیلم و تجهیزات عکاسی"
+      ],
+      "Valuation of household and office equipment": [
+        "ارزیابی لوازم خانگی و اداری"
+      ],
+      "Valuation of intangible assets and brands": [
+        "ارزش‌گذاری دارایی نامشهود و برند"
+      ],
+      "Valuation of investments, banking, or insurance": [
+        "ارزیابی سرمایه‌گذاری، بانک یا بیمه"
+      ],
+      "Valuation of investments, banking, securities, or insurance": [
+        "ارزیابی سرمایه‌گذاری، بانک، بورس یا بیمه"
+      ],
+      "Valuation of metals": [
+        "ارزیابی فلزات"
+      ],
+      "Valuation of movable property": [
+        "ارزیابی اموال منقول"
+      ],
+      "Valuation of non-agricultural land, buildings, and goodwill rights": [
+        "ارزیابی اراضی غیرمزروعی، ابنیه و سرقفلی"
+      ],
+      "Valuation of non-agricultural land, buildings, materials, and goodwill rights": [
+        "ارزیابی اراضی غیرمزروعی، ابنیه، مصالح و سرقفلی"
+      ],
+      "Valuation of open-pit mineral reserves": [
+        "ارزیابی ذخایر معدنی روباز"
+      ],
+      "Valuation of parts, used goods, and scrap": [
+        "ارزیابی قطعات، کالای مستعمل و ضایعات"
+      ],
+      "Valuation of qanats, wells, and water and wastewater networks": [
+        "ارزیابی قنوات، چاه‌ها و شبکه‌های آب و فاضلاب"
+      ],
+      "Valuation of underground mineral reserves": [
+        "ارزیابی ذخایر معدنی زیرزمینی"
+      ],
+      "Value": [
+        "مقدار"
+      ],
+      "Vehicle authenticity review": [
+        "رسیدگی به اصالت خودرو"
+      ],
+      "Vehicle matters": [
+        "امور وسایل نقلیه"
+      ],
+      "Vehicle valuation or damage assessment": [
+        "ارزیابی یا تعیین خسارت وسیله نقلیه"
+      ],
+      "vehicles": [
+        "خودرو"
+      ],
+      "Water and mining engineering": [
+        "مهندسی آب و معادن"
+      ],
+      "Water flow rate": [
+        "دبی آب"
+      ],
+      "years": [
+        "سال"
+      ]
+    }
+  }
+}

@@ -1,0 +1,1480 @@
+# Copyright (C) 2026 Ali Rashid Nahal
+# This file is distributed under the GPL-2.0-or-later license.
+msgid ""
+msgstr "Project-Id-Version: Expert Wage Calculator 1.1.0\\nReport-Msgid-Bugs-To: https://github.com/alirashidnahal\\nPOT-Creation-Date: 2026-08-23 00:00+0330\\nPO-Revision-Date: 2026-08-23 00:00+0330\\nLast-Translator: Ali Rashid Nahal <https://alirashidnahal.com/>\\nLanguage-Team: English\\nLanguage: \\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\nPlural-Forms: nplurals=2; plural=(n != 1);\\nX-Generator: Expert Wage Calculator translation builder\\n"
+
+#: assets/js/expert-wage-i18n.js:370
+msgid " — "
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:355
+msgid " (optional)"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:369
+msgid ", "
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:341
+msgid "%1$s cannot be greater than %2$s."
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:342
+msgid "%1$s cannot be less than %2$s."
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:338
+msgid "%s must be greater than zero."
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:339
+msgid "%s must contain numbers only."
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:33 templates/calculator.php:46
+msgid "1402 tariff until the 1405 tariff took effect"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:31 templates/calculator.php:45
+msgid "1405 tariff"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:285
+msgid "Accident review"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:286
+msgid "Added clause to Article 31"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:265
+msgid "Added note to Article 18"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:56
+msgid "Additional connected items"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:258
+msgid "Additional connected parcels"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:182
+msgid "Additional fee for locating Article 43 property on aerial imagery"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:35
+msgid "Additional similar unit, floor, or block"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:28
+msgid "Administrative and public services"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:239
+msgid "Administrative and public services expert assessment"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:109
+msgid "Aggregate figures forming the price"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:101
+msgid "Aggregate figures under review"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:235
+msgid "Agricultural rent valuation"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:27
+msgid "Agriculture and natural resources"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:225
+msgid "Agriculture and natural resources valuation"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:247
+msgid "Amended Article 11, 1402"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:256
+msgid "Amended Article 13, 1402"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:279
+msgid "Amended Article 28"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:308
+msgid "Amended Article 43"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:323
+msgid "Amended Article 51"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:248
+msgid "Amended Note 3 of Article 11"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:313
+msgid "Amended Note 3 of Article 45"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:250
+msgid "Amended Note 4 of Article 11"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:253
+msgid "Amended Note 5 of Article 11"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:254
+msgid "Amended Note 7 of Article 11"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:309
+msgid "Amended note to Article 43"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:34
+msgid "Amendment approved on 1402/08/20 to the base 1398 tariff"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:356
+msgid "Amount in rials"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:38
+msgid "Area"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:42
+msgid "Article 11"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:50
+msgid "Article 13"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:53
+msgid "Article 14"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:257
+msgid "Article 14 with the twofold increase"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:63
+msgid "Article 15"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:262
+msgid "Article 15 with the twofold increase"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:67
+msgid "Article 16"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:263
+msgid "Article 16 with the twofold increase"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:69
+msgid "Article 17"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:264
+msgid "Article 17 with the twofold increase"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:71
+msgid "Article 18"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:76
+msgid "Article 19"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:267
+msgid "Article 19 with the twofold increase"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:84
+msgid "Article 21"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:272
+msgid "Article 21 with the twofold increase"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:273
+msgid "Article 22"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:274
+msgid "Article 22 with the twofold increase"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:94
+msgid "Article 23"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:97
+msgid "Article 24"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:276
+msgid "Article 24 with the twofold increase"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:100
+msgid "Article 25"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:277
+msgid "Article 26"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:111
+msgid "Article 27"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:278
+msgid "Article 27 with the twofold increase"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:114
+msgid "Article 28"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:117
+msgid "Article 29"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:282
+msgid "Article 29 with the twofold increase"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:120
+msgid "Article 30"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:283
+msgid "Article 30 with the twofold increase"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:284
+msgid "Article 31 with the twofold increase"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:287
+msgid "Article 32"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:289
+msgid "Article 32 with the twofold increase"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:146
+msgid "Article 33"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:149
+msgid "Article 34"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:294
+msgid "Article 34 with the twofold increase"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:151
+msgid "Article 35"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:295
+msgid "Article 35 with the twofold increase"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:297
+msgid "Article 36 with the twofold increase"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:161
+msgid "Article 37"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:164
+msgid "Article 38"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:300
+msgid "Article 38 with the twofold increase"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:301
+msgid "Article 39 with the twofold increase"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:175
+msgid "Article 40"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:302
+msgid "Article 40 with the twofold increase"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:177
+msgid "Article 41"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:303
+msgid "Article 41 with the twofold increase"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:179
+msgid "Article 42"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:306
+msgid "Article 42 with the twofold increase"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:181
+msgid "Article 43"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:310
+msgid "Article 44 with the twofold increase"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:195
+msgid "Article 45"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:205
+msgid "Article 46"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:315
+msgid "Article 46 with the twofold increase"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:320
+msgid "Article 47"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:317
+msgid "Article 47 with the twofold increase"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:226
+msgid "Article 48"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:228
+msgid "Article 49"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:230
+msgid "Article 50"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:232
+msgid "Article 51"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:234
+msgid "Article 52"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:238
+msgid "Article 53"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:240
+msgid "Article 54"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:325
+msgid "Article 54 with the twofold increase"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:243
+msgid "Article 55"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:326
+msgid "Article 55 with the twofold increase"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:58
+msgid "Article 7"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:260
+msgid "Article 7 with the twofold increase"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:61
+msgid "Article 9"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:261
+msgid "Article 9 with the twofold increase"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:26
+msgid "Artistic disciplines"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:99
+msgid "Audit of aggregate account figures"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:316
+msgid "Authenticity of handwriting and signatures in a financial case"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:314
+msgid "Authenticity of handwriting and signatures in a non-financial case"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:208
+msgid "Authenticity of handwriting, signatures, and fingerprints in a financial case"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:204
+msgid "Authenticity of handwriting, signatures, and fingerprints in a non-financial case"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:331 assets/js/expert-wage-i18n.js:360
+msgid "Base wage for one expert"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:30
+msgid "Biotechnology and nanotechnology"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:245
+msgid "Biotechnology and nanotechnology expert assessment"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:288
+msgid "Boat collision in inland waters"
+msgstr ""
+
+#: templates/calculator.php:123
+msgid "Calculate wage"
+msgstr ""
+
+#: expert-wage-calculator.php:5
+msgid "Calculates Iranian official judicial expert wages for 1402 and 1405 with quick and full multilingual shortcodes."
+msgstr ""
+
+#: templates/calculator.php:134
+msgid "Calculation basis:"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:135
+msgid "Claimed amount"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:231
+msgid "Classification of cultivated, uncultivated, barren, and national lands"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:78
+msgid "Clause 1 of Article 20"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:269
+msgid "Clause 1 of Article 20 with the twofold increase"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:86
+msgid "Clause 1 of Article 22"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:103
+msgid "Clause 1 of Article 26"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:122
+msgid "Clause 1 of Article 31"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:134
+msgid "Clause 1 of Article 32"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:153
+msgid "Clause 1 of Article 36"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:166
+msgid "Clause 1 of Article 39"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:185
+msgid "Clause 1 of Article 44"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:82
+msgid "Clause 2 of Article 20"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:270
+msgid "Clause 2 of Article 20 with the twofold increase"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:89
+msgid "Clause 2 of Article 22"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:105
+msgid "Clause 2 of Article 26"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:126
+msgid "Clause 2 of Article 31"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:137
+msgid "Clause 2 of Article 32"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:155
+msgid "Clause 2 of Article 36"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:168
+msgid "Clause 2 of Article 39"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:189
+msgid "Clause 2 of Article 44"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:92
+msgid "Clause 3 of Article 22"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:108
+msgid "Clause 3 of Article 26"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:128
+msgid "Clause 3 of Article 31"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:157
+msgid "Clause 3 of Article 36"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:191
+msgid "Clause 3 of Article 44"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:139
+msgid "Clause 3-A of Article 32"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:141
+msgid "Clause 3-B of Article 32"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:144
+msgid "Clause 4 of Article 32"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:159
+msgid "Clause 4 of Article 36"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:211
+msgid "Clause A of Article 47"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:213
+msgid "Clause B-1 of Article 47"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:215
+msgid "Clause B-2 of Article 47"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:217
+msgid "Clause C of Article 47"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:219
+msgid "Clause E of Article 47"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:222
+msgid "Clause F of Article 47"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:224
+msgid "Clause G of Article 47"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:140
+msgid "Collision of a marine vessel with a capacity below 500 tons"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:142
+msgid "Collision of a marine vessel with a capacity of 500 tons or more"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:290
+msgid "Collision of a vessel with a capacity below 500 tons"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:291
+msgid "Collision of a vessel with a capacity of 500 tons or more"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:138
+msgid "Collision of recreational or passenger boats in inland waters"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:148
+msgid "Comparison of architectural or structural plans with site conditions"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:150
+msgid "Comparison of construction contract specifications with site conditions"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:200
+msgid "Computer software expert assessment"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:129
+msgid "Concurrent review of multiple non-damage subjects for one vehicle"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:158
+msgid "Confirmation of building structural safety for other fields"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:45
+msgid "Contract amount"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:43
+msgid "Contract dispute, review, and determination of progress statements"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:173
+msgid "Coordinate determination with handheld single-frequency GPS"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:169
+msgid "Coordinate determination with multi-frequency GPS"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:199
+msgid "Current machinery value"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:251
+msgid "Damage amount"
+msgstr ""
+
+#: templates/calculator.php:90 templates/calculator.php:97
+msgid "day"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:154
+msgid "Design or review of structural calculations for an existing building"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:152
+msgid "Design or review of the overall architecture of an existing building"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:77
+msgid "Determination of canal and stream boundaries with a bed width up to 12 meters"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:268
+msgid "Determination of canal and stream boundaries with a width up to 12 meters"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:72
+msgid "Determination of each person water right"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:322
+msgid "Determination of land and national resources"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:311
+msgid "Determination of machinery specifications and useful life"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:197
+msgid "Determination of machinery specifications, depreciation, and useful life"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:299
+msgid "Determination of previously developed land"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:163
+msgid "Determination of previously developed land from a construction perspective"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:87
+msgid "Determination of qualitative and performance characteristics of metals"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:180
+msgid "Determination of registered boundaries and disputes over agricultural property"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:307
+msgid "Determination of registered boundaries and property disputes"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:49
+msgid "Determination of rent, overdue rent, or fair rental value"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:81
+msgid "Determination of river or canal boundaries wider than 12 meters"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:102
+msgid "Determination of share and partnership interest value"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:125
+msgid "Determination of the accident cause and responsible party"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:74
+msgid "Determination of the age of water resources"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:249
+msgid "Determination of the cause, origin, and amount of damage"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:107
+msgid "Determination of the cost of goods"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:66
+msgid "Determination of water chemistry and pollution"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:136
+msgid "Determination of watercraft value"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:115
+msgid "Determined subject amount"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:312
+msgid "Digital document authenticity and network security"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:202
+msgid "Digital document authenticity, network security, and cyberattacks"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:214
+msgid "Disputes involving feature-length cinema programs"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:318
+msgid "Disputes involving short programs or documentaries"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:212
+msgid "Disputes involving short programs, documentaries, or animation"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:143
+msgid "Diving and underwater operations"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:366
+msgid "Documented maximum"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:365
+msgid "Documented minimum"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:207
+msgid "documents"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:332
+msgid "Each expert share after the 30% reduction"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:361
+msgid "Each expert share including mission allowance"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:32
+msgid "Effective from the notification date of 1405/05/20"
+msgstr ""
+
+#: templates/calculator.php:33
+msgid "Enter the amount in rials. Tariff bands, the statutory cap, and the same-field panel reduction are applied for the selected year."
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:364
+msgid "Estimated total"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:358
+msgid "Exact tariff estimate based on the calculation formula"
+msgstr ""
+
+#: templates/calculator.php:69
+msgid "Expert group *"
+msgstr ""
+
+#: templates/calculator.php:106
+msgid "Expert panel"
+msgstr ""
+
+#: templates/calculator.php:74
+msgid "Expert subject *"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:37
+msgid "Expert subject value"
+msgstr ""
+
+#: expert-wage-calculator.php:3
+msgid "Expert Wage Calculator"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:368 templates/calculator.php:115
+msgid "experts"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:22
+msgid "Financial matters"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:304
+msgid "For a parcel outside the designated area, an increase of up to 20% may be applied at the authority discretion."
+msgstr ""
+
+#: templates/calculator.php:59
+msgid "For example: rent, surveying, or Article 39"
+msgstr ""
+
+#: templates/calculator.php:125
+msgid "Full calculator for all fields"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:18
+msgid "General and valuation"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:54
+msgid "Image age"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:25
+msgid "Industry and technology"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:293
+msgid "Interior architecture and other technical matters"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:52
+msgid "Interpretation of aerial photographs or satellite imagery"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:36
+msgid "item"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:80
+msgid "kilometers"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:174
+msgid "Land surveying and profile preparation"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:65
+msgid "liters per second"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:305
+msgid "Location map of qanats, streams, and canals"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:178
+msgid "Location map of qanats, streams, canals, and rivers"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:113
+msgid "Maintenance, compensation for services, marital gift, and customary dowry"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:62
+msgid "Measurement of water and water rights"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:21
+msgid "Medical and food matters"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:96
+msgid "Medical, pharmaceutical, or food expert assessment"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:91
+msgid "Mining review without discovery of minerals"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:275
+msgid "Mining review without valuation"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:363
+msgid "Mission allowance"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:333
+msgid "Mission allowance for each expert"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:329
+msgid "Mission days inside the province"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:330
+msgid "Mission days outside the province"
+msgstr ""
+
+#: templates/calculator.php:87
+msgid "Mission inside the province"
+msgstr ""
+
+#: templates/calculator.php:94
+msgid "Mission outside the province"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:51
+msgid "Monthly rent"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:20
+msgid "Movable property"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:354
+msgid "No additional numeric input is required for this subject."
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:343
+msgid "No calculation rule is defined for this subject."
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:357
+msgid "No subject was found."
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:359
+msgid "Non-final estimate; the final amount requires authority approval"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:352
+msgid "Not determined"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:130
+msgid "Note 1 of Article 31"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:198
+msgid "Note 1 of Article 45"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:132
+msgid "Note 2 of Article 31"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:170
+msgid "Note 2 of Article 39"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:201
+msgid "Note 2 of Article 45"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:236
+msgid "Note 2 of Article 52"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:44
+msgid "Note 3 of Article 11"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:203
+msgid "Note 3 of Article 45"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:48
+msgid "Note 4 of Article 11"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:73
+msgid "Note to Article 18"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:183
+msgid "Note to Article 43"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:209
+msgid "Note to Article 46"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:324
+msgid "Note to Article 52"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:246
+msgid "Note to Group 12"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:327
+msgid "Note to the biotechnology and nanotechnology group"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:206
+msgid "Number of documents"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:328 assets/js/expert-wage-i18n.js:367 templates/calculator.php:112
+msgid "Number of panel members"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:186
+msgid "Number of parcels"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:171
+msgid "Number of points"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:192
+msgid "Number of units"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:123
+msgid "Number of vehicles"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:106
+msgid "Number of years under review"
+msgstr ""
+
+#: templates/calculator.php:32
+msgid "Official Expert Valuation Wage"
+msgstr ""
+
+#: includes/class-expert-wage-calculator.php:63 templates/calculator.php:35
+msgid "Official Expert Wage Calculator"
+msgstr ""
+
+#: includes/class-expert-wage-calculator.php:298
+msgid "Open calculator"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:112
+msgid "Other commercial matters"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:196
+msgid "Other industry and technology expert assessments"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:281
+msgid "Other investment, banking, or insurance matters"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:118
+msgid "Other investment, banking, securities, or insurance matters"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:187 assets/js/expert-wage-i18n.js:259
+msgid "parcels"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:233
+msgid "Partition of agricultural property"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:160
+msgid "Partition of property, real estate, or an estate"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:172
+msgid "points"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:296
+msgid "Preparation of the overall architectural plan of an existing building"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:298
+msgid "Preparation or review of the structure of an existing building"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:57
+msgid "Preservation of evidence"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:221
+msgid "Printing and print-shop expert assessment"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:40
+msgid "Quantity"
+msgstr ""
+
+#: templates/calculator.php:53
+msgid "Quick subject search"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:255
+msgid "Rent determination"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:104
+msgid "Review of balance sheets, profit and loss, or bankruptcy"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:190
+msgid "Review of building compliance with urban regulations"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:184
+msgid "Review of compliance of an urban land subdivision plan"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:46
+msgid "Review of part of a contract or delay"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:176
+msgid "Review of registration records and parcel location"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:188
+msgid "Review of urban land-use compliance"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:271
+msgid "Review of wastewater conditions"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:83
+msgid "Review of wastewater conditions and pollution load"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:266
+msgid "Review of well and qanat drilling quality"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:75
+msgid "Review of well and qanat drilling quality and spring rehabilitation"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:17 assets/js/expert-wage-i18n.js:353
+msgid "rials"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:24
+msgid "Roads, buildings, surveying, and registration matters"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:321
+msgid "Root, cultivation, development, and planting rights"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:227
+msgid "Root, cultivation, development, farming, and planting rights"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:79
+msgid "Route length"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:242
+msgid "Safety and accident expert assessment"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:29
+msgid "Safety and accidents"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:229
+msgid "Sampling of agricultural and livestock products"
+msgstr ""
+
+#: templates/calculator.php:36
+msgid "Select an expert field or subject to display the inputs required by its tariff article. Calculate each independent subject separately."
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:165
+msgid "Setting out parcel boundaries with known control points"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:167
+msgid "Setting out parcel boundaries with unknown control points"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:220
+msgid "Sports expert assessment involving injury or death"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:218
+msgid "Sports expert assessment without injury or death"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:39
+msgid "square meters"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:119
+msgid "Statistical expert assessment"
+msgstr ""
+
+#: templates/calculator.php:84
+msgid "Statutory additional fees"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:16
+msgid "Subject value"
+msgstr ""
+
+#: templates/calculator.php:43
+msgid "Tariff year *"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:223
+msgid "Technical certification of design and graphics"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:210
+msgid "Technical issues involving photographs and video"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:127
+msgid "Technical opinion and determination of vehicle tonnage and model"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:68
+msgid "Technical review of surface water and groundwater aquifers"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:156
+msgid "Technical structural-safety report"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:348
+msgid "The calculation could not be completed. Check the entered values."
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:340
+msgid "The calculation denominator is invalid."
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:162
+msgid "The cost of preparing a map, when required, is calculated separately."
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:334
+msgid "The exact amount is determined according to the quantity and quality of the work and requires approval by the referring authority."
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:346
+msgid "The expert panel cannot contain more than 50 members."
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:347
+msgid "The expert panel must contain at least 2 members."
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:345
+msgid "The expert subject was not found for the selected year."
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:59
+msgid "The referring authority determines the final amount according to the quantity and quality of the services."
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:244
+msgid "The referring authority determines the number of subjects that may be reviewed."
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:344
+msgid "The selected tariff year is not supported."
+msgstr ""
+
+#: templates/calculator.php:109
+msgid "The subject is handled by multiple official experts in the same field."
+msgstr ""
+
+#: templates/calculator.php:140
+msgid "This result is only a tariff estimate and does not replace the final wage determined by the judicial authority, association, or center."
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:362
+msgid "Total for the %s-member panel"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:133
+msgid "Transportation claim based on the claimed amount"
+msgstr ""
+
+#: templates/calculator.php:101
+msgid "Transportation, accommodation, meals, laboratory work, translation, and equipment rental are not included in this total."
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:193
+msgid "units"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:60
+msgid "Unspecified subject or specialist technical review"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:147
+msgid "Unspecified technical opinion on roads and buildings"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:241
+msgid "Valuation and damage assessment for administrative services"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:41
+msgid "Valuation in all fields"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:194
+msgid "Valuation in industry and technology fields"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:98
+msgid "Valuation in medical and food matters"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:237
+msgid "Valuation of agricultural equipment and products"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:110
+msgid "Valuation of commercial matters"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:216
+msgid "Valuation of films and photographic and cinematographic equipment"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:319
+msgid "Valuation of films and photographic equipment"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:95
+msgid "Valuation of household and office equipment"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:47
+msgid "Valuation of intangible assets and brands"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:280
+msgid "Valuation of investments, banking, or insurance"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:116
+msgid "Valuation of investments, banking, securities, or insurance"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:85
+msgid "Valuation of metals"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:93
+msgid "Valuation of movable property"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:292
+msgid "Valuation of non-agricultural land, buildings, and goodwill rights"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:145
+msgid "Valuation of non-agricultural land, buildings, materials, and goodwill rights"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:88
+msgid "Valuation of open-pit mineral reserves"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:252
+msgid "Valuation of parts, used goods, and scrap"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:70
+msgid "Valuation of qanats, wells, and water and wastewater networks"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:90
+msgid "Valuation of underground mineral reserves"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:15
+msgid "Value"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:121
+msgid "Vehicle authenticity review"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:23
+msgid "Vehicle matters"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:131
+msgid "Vehicle valuation or damage assessment"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:124
+msgid "vehicles"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:19
+msgid "Water and mining engineering"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:64
+msgid "Water flow rate"
+msgstr ""
+
+#: assets/js/expert-wage-i18n.js:55
+msgid "years"
+msgstr ""
