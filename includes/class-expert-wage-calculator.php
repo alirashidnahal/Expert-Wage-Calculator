@@ -38,7 +38,6 @@ final class Expert_Wage_Calculator
 
     private function __construct()
     {
-        add_action('init', array($this, 'load_textdomain'));
         add_action('init', array($this, 'register_shortcodes'));
         add_action('wp_enqueue_scripts', array($this, 'register_assets'), 5);
         add_action('wp_enqueue_scripts', array($this, 'maybe_enqueue_assets'), 20);
@@ -52,12 +51,6 @@ final class Expert_Wage_Calculator
      */
     public static function activate()
     {
-        load_plugin_textdomain(
-            'expert-wage-calculator',
-            false,
-            dirname(plugin_basename(EXPERT_WAGE_CALCULATOR_FILE)) . '/languages'
-        );
-
         $page = get_page_by_path(self::PAGE_SLUG, OBJECT, 'page');
         $shortcode = '[' . self::FULL_SHORTCODE . ']';
         $page_title = __('Official Expert Wage Calculator', 'expert-wage-calculator');
@@ -99,20 +92,6 @@ final class Expert_Wage_Calculator
         }
         update_option(self::PAGE_OPTION, $page_id, false);
         flush_rewrite_rules();
-    }
-
-    /**
-     * Load translations.
-     *
-     * @return void
-     */
-    public function load_textdomain()
-    {
-        load_plugin_textdomain(
-            'expert-wage-calculator',
-            false,
-            dirname(plugin_basename(EXPERT_WAGE_CALCULATOR_FILE)) . '/languages'
-        );
     }
 
     /**

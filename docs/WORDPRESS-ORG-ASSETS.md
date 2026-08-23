@@ -2,10 +2,15 @@
 
 Directory artwork is recommended but not required for the initial plugin review. Store finished files in `.wordpress-org/`; the deployment workflow moves them to the top-level WordPress.org SVN `assets` directory.
 
-Recommended files:
+Available icon files:
 
 - `icon-128x128.png`
 - `icon-256x256.png`
+
+The editable high-resolution raster master is stored at `docs/artwork/expert-wage-calculator-icon-master.png`. The published icon uses a transparent background, contains no text, and is designed to remain recognizable at thumbnail size.
+
+Remaining recommended files:
+
 - `banner-772x250.png`
 - `banner-1544x500.png`
 - `screenshot-1.png` — quick calculator on a WordPress page

@@ -81,6 +81,9 @@ publicFiles.forEach((file) => {
     if (/[A-Z]:\\(?:Users|Program Files)\\/i.test(content)) {
         throw new Error(`Local Windows path found in ${file}.`);
     }
+    if (/\bload_plugin_textdomain\s*\(/.test(content)) {
+        throw new Error(`Discouraged load_plugin_textdomain() call found in ${file}.`);
+    }
 });
 
 console.log(`Release metadata valid for Expert Wage Calculator ${pluginVersion}.`);

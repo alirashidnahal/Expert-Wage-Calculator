@@ -1,7 +1,7 @@
-# Copyright (C) 2026 Ali Rashid Nahal
+# Copyright (C) 2026 Ali Rashidnahal
 # This file is distributed under the GPL-2.0-or-later license.
 msgid ""
-msgstr "Project-Id-Version: Expert Wage Calculator 1.1.0\\nReport-Msgid-Bugs-To: https://github.com/alirashidnahal\\nPOT-Creation-Date: 2026-08-23 00:00+0330\\nPO-Revision-Date: 2026-08-23 00:00+0330\\nLast-Translator: Ali Rashid Nahal <https://alirashidnahal.com/>\\nLanguage-Team: English\\nLanguage: en_US\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\nPlural-Forms: nplurals=2; plural=(n != 1);\\nX-Generator: Expert Wage Calculator translation builder\\n"
+msgstr "Project-Id-Version: Expert Wage Calculator 1.1.0\\nReport-Msgid-Bugs-To: https://github.com/alirashidnahal\\nPOT-Creation-Date: 2026-08-23 00:00+0330\\nPO-Revision-Date: 2026-08-23 00:00+0330\\nLast-Translator: Ali Rashidnahal <https://alirashidnahal.com/>\\nLanguage-Team: English\\nLanguage: en_US\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\nPlural-Forms: nplurals=2; plural=(n != 1);\\nX-Generator: Expert Wage Calculator translation builder\\n"
 
 #: assets/js/expert-wage-i18n.js:370
 msgid " — "
@@ -1095,11 +1095,11 @@ msgstr "Number of years under review"
 msgid "Official Expert Valuation Wage"
 msgstr "Official Expert Valuation Wage"
 
-#: includes/class-expert-wage-calculator.php:63 templates/calculator.php:35
+#: includes/class-expert-wage-calculator.php:56 templates/calculator.php:35
 msgid "Official Expert Wage Calculator"
 msgstr "Official Expert Wage Calculator"
 
-#: includes/class-expert-wage-calculator.php:298
+#: includes/class-expert-wage-calculator.php:277
 msgid "Open calculator"
 msgstr "Open calculator"
 
