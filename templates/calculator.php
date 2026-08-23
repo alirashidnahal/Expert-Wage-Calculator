@@ -14,25 +14,25 @@ if (! defined('ABSPATH')) {
     exit;
 }
 
-$is_quick = 'quick' === $mode;
-$heading_id = $calculator_id . '-heading';
-$root_classes = array_merge(
-    array('ik-wage-calculator', $is_quick ? 'is-quick' : 'is-full'),
+$expert_wage_calculator_is_quick = 'quick' === $mode;
+$expert_wage_calculator_heading_id = $calculator_id . '-heading';
+$expert_wage_calculator_root_classes = array_merge(
+    array('ik-wage-calculator', $expert_wage_calculator_is_quick ? 'is-quick' : 'is-full'),
     $extra_classes
 );
 ?>
 <div id="<?php echo esc_attr($calculator_id); ?>"
-     class="<?php echo esc_attr(implode(' ', $root_classes)); ?>"
+     class="<?php echo esc_attr(implode(' ', $expert_wage_calculator_root_classes)); ?>"
      data-ik-wage
      data-mode="<?php echo esc_attr($mode); ?>"
      dir="<?php echo is_rtl() ? 'rtl' : 'ltr'; ?>"
-     aria-labelledby="<?php echo esc_attr($heading_id); ?>">
+     aria-labelledby="<?php echo esc_attr($expert_wage_calculator_heading_id); ?>">
     <div class="ik-wage-intro">
-        <?php if ($is_quick) : ?>
-            <h3 id="<?php echo esc_attr($heading_id); ?>"><?php esc_html_e('Official Expert Valuation Wage', 'expert-wage-calculator'); ?></h3>
+        <?php if ($expert_wage_calculator_is_quick) : ?>
+            <h3 id="<?php echo esc_attr($expert_wage_calculator_heading_id); ?>"><?php esc_html_e('Official Expert Valuation Wage', 'expert-wage-calculator'); ?></h3>
             <p><?php esc_html_e('Enter the amount in rials. Tariff bands, the statutory cap, and the same-field panel reduction are applied for the selected year.', 'expert-wage-calculator'); ?></p>
         <?php else : ?>
-            <h2 id="<?php echo esc_attr($heading_id); ?>"><?php esc_html_e('Official Expert Wage Calculator', 'expert-wage-calculator'); ?></h2>
+            <h2 id="<?php echo esc_attr($expert_wage_calculator_heading_id); ?>"><?php esc_html_e('Official Expert Wage Calculator', 'expert-wage-calculator'); ?></h2>
             <p><?php esc_html_e('Select an expert field or subject to display the inputs required by its tariff article. Calculate each independent subject separately.', 'expert-wage-calculator'); ?></p>
         <?php endif; ?>
     </div>
@@ -48,7 +48,7 @@ $root_classes = array_merge(
                 <small data-role="effective" class="ik-wage-help"></small>
             </div>
 
-            <?php if (! $is_quick) : ?>
+            <?php if (! $expert_wage_calculator_is_quick) : ?>
                 <div class="ik-wage-field ik-wage-field-half ik-wage-search-field">
                     <label for="<?php echo esc_attr($calculator_id); ?>-search"><?php esc_html_e('Quick subject search', 'expert-wage-calculator'); ?></label>
                     <input id="<?php echo esc_attr($calculator_id); ?>-search"
@@ -79,7 +79,7 @@ $root_classes = array_merge(
 
         <div data-role="fields" class="ik-wage-grid ik-wage-dynamic-fields"></div>
 
-        <?php if (! $is_quick) : ?>
+        <?php if (! $expert_wage_calculator_is_quick) : ?>
             <fieldset class="ik-wage-options">
                 <legend><?php esc_html_e('Statutory additional fees', 'expert-wage-calculator'); ?></legend>
                 <div class="ik-wage-grid">
@@ -121,7 +121,7 @@ $root_classes = array_merge(
 
         <div class="ik-wage-actions">
             <button type="submit" class="ik-wage-button ik-wage-button-primary"><?php esc_html_e('Calculate wage', 'expert-wage-calculator'); ?></button>
-            <?php if ($is_quick) : ?>
+            <?php if ($expert_wage_calculator_is_quick) : ?>
                 <a class="ik-wage-button ik-wage-button-secondary" href="<?php echo esc_url($full_page_url); ?>"><?php esc_html_e('Full calculator for all fields', 'expert-wage-calculator'); ?></a>
             <?php endif; ?>
         </div>

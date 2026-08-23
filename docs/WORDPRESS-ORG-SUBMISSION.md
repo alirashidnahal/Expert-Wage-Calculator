@@ -8,6 +8,7 @@
 4. Run the complete test suite and install the production ZIP on a clean WordPress site.
 5. Confirm that the plugin version, `Stable Tag`, package version, and Git tag are identical.
 6. Confirm that no credentials, personal case data, development ZIP files, or local paths are included.
+7. Run Plugin Check on a clean installation made from the production ZIP. Do not run the release check against the GitHub development checkout, which intentionally contains `.github`, `.gitignore`, and repository documentation.
 
 ## Submission title
 
@@ -22,6 +23,8 @@ Use this text in the submission form:
 ## Submission ZIP
 
 Upload `expert-wage-calculator.zip`. The archive must contain one top-level directory named `expert-wage-calculator` and must be under 10 MB.
+
+Build this archive with `tools/build-package.ps1`. Do not submit GitHub's automatically generated source archive.
 
 Submit at:
 

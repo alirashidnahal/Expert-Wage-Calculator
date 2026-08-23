@@ -33,13 +33,18 @@ A standalone WordPress plugin for calculating Iranian official judicial expert w
 
 The plugin creates or migrates the full calculator page on activation. Uninstalling the plugin preserves that page because it may contain user-authored content.
 
+Do not install GitHub's automatically generated **Source code** archive. It contains repository-only files such as `.github` and development documentation. Use the attached `expert-wage-calculator.zip` release asset, which contains only production plugin files.
+
 ## Development
 
 ```bash
 npm test
 npm run check:js
 npm run build:translations
+npm run validate:release
 ```
+
+On Windows, `tools/build-package.ps1` creates the production ZIP. Run Plugin Check against an installation made from that ZIP, not against a development checkout.
 
 The calculation engine exposes:
 

@@ -4,6 +4,12 @@ All notable changes to Expert Wage Calculator are documented here. The project f
 
 ## [Unreleased]
 
+### Fixed
+
+- Removed unnecessary manual text-domain loading flagged by Plugin Check.
+- Prefixed template variables according to WordPress naming conventions.
+- Clarified the difference between the GitHub development source and the production plugin ZIP.
+
 ### Planned
 
 - Continue validating future tariff catalogs against published legal sources.
