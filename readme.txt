@@ -25,7 +25,7 @@ Features include:
 * WordPress-standard PHP and JavaScript internationalization.
 * No dependency on Bootstrap or the active theme.
 
-Developed by [Ali Rashid Nahal](https://alirashidnahal.com/). Source and developer profile: [GitHub](https://github.com/alirashidnahal).
+Developed by [Ali Rashidnahal](https://alirashidnahal.com/). Source and developer profile: [GitHub](https://github.com/alirashidnahal).
 
 == Privacy ==
 
@@ -77,7 +77,7 @@ The source language is English. Complete Persian (`fa_IR`) and English (`en_US`)
 * Renamed the plugin to Expert Wage Calculator.
 * Added complete WordPress-standard PHP and JavaScript internationalization.
 * Added detailed Persian and English translation catalogs.
-* Added author metadata for Ali Rashid Nahal.
+* Added author metadata for Ali Rashidnahal.
 
 = 1.0.0 =
 

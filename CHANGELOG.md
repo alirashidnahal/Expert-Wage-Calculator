@@ -21,7 +21,7 @@ All notable changes to Expert Wage Calculator are documented here. The project f
 ### Changed
 
 - Renamed the plugin to Expert Wage Calculator.
-- Updated plugin author metadata to Ali Rashid Nahal.
+- Updated plugin author metadata to Ali Rashidnahal.
 - Standardized the plugin slug and text domain as `expert-wage-calculator`.
 
 ## [1.0.0] - 2026-08-23

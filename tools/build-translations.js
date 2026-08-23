@@ -114,7 +114,7 @@ function poFile(locale, translations, entries, template) {
         'Report-Msgid-Bugs-To: https://github.com/alirashidnahal',
         'POT-Creation-Date: 2026-08-23 00:00+0330',
         'PO-Revision-Date: 2026-08-23 00:00+0330',
-        'Last-Translator: Ali Rashid Nahal <https://alirashidnahal.com/>',
+        'Last-Translator: Ali Rashidnahal <https://alirashidnahal.com/>',
         'Language-Team: ' + (locale === 'fa_IR' ? 'Persian' : 'English'),
         'Language: ' + (template ? '' : locale),
         'MIME-Version: 1.0',
@@ -125,7 +125,7 @@ function poFile(locale, translations, entries, template) {
     ].join('\\n') + '\\n';
 
     const output = [
-        '# Copyright (C) 2026 Ali Rashid Nahal',
+        '# Copyright (C) 2026 Ali Rashidnahal',
         '# This file is distributed under the GPL-2.0-or-later license.',
         'msgid ""',
         'msgstr "' + poEscape(headers) + '"',

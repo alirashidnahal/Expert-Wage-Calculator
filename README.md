@@ -64,7 +64,7 @@ Results are tariff estimates and do not replace the final wage determined by a j
 
 ## Author
 
-Developed by [Ali Rashid Nahal](https://alirashidnahal.com/) — [GitHub](https://github.com/alirashidnahal).
+Developed by [Ali Rashidnahal](https://alirashidnahal.com/) — [GitHub](https://github.com/alirashidnahal).
 
 ## License
 
