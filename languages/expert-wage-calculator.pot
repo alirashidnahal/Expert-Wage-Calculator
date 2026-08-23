@@ -1095,11 +1095,11 @@ msgstr ""
 msgid "Official Expert Valuation Wage"
 msgstr ""
 
-#: includes/class-expert-wage-calculator.php:63 templates/calculator.php:35
+#: includes/class-expert-wage-calculator.php:56 templates/calculator.php:35
 msgid "Official Expert Wage Calculator"
 msgstr ""
 
-#: includes/class-expert-wage-calculator.php:298
+#: includes/class-expert-wage-calculator.php:277
 msgid "Open calculator"
 msgstr ""
 
