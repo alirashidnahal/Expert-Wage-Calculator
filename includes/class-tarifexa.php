@@ -20,17 +20,17 @@ final class Tarifexa
     const PAGE_SLUG = 'محاسبه-دستمزد-کارشناس-رسمی';
 
     /** @var Tarifexa|null */
-    private static $instance = null;
+    private static ?Tarifexa $instance = null;
 
     /** @var int */
-    private $instance_count = 0;
+    private int $instance_count = 0;
 
     /**
      * Return the plugin singleton.
      *
      * @return Tarifexa
      */
-    public static function instance()
+    public static function instance(): ?Tarifexa
     {
         if (null === self::$instance) {
             self::$instance = new self();
@@ -206,7 +206,7 @@ final class Tarifexa
      * @param array|string $atts Shortcode attributes.
      * @return string
      */
-    public function render_full_shortcode($atts = array())
+    public function render_full_shortcode($atts = array()): string
     {
         return $this->render_calculator('full', $atts);
     }
@@ -217,7 +217,7 @@ final class Tarifexa
      * @param array|string $atts Shortcode attributes.
      * @return string
      */
-    public function render_quick_shortcode($atts = array())
+    public function render_quick_shortcode($atts = array()): string
     {
         return $this->render_calculator('quick', $atts);
     }
@@ -225,11 +225,11 @@ final class Tarifexa
     /**
      * Render a calculator instance.
      *
-     * @param string       $mode Calculator mode.
+     * @param string $mode Calculator mode.
      * @param array|string $atts Shortcode attributes.
      * @return string
      */
-    private function render_calculator($mode, $atts)
+    private function render_calculator(string $mode, $atts): string
     {
         $this->enqueue_assets();
         $atts = shortcode_atts(
@@ -260,7 +260,7 @@ final class Tarifexa
      *
      * @return string
      */
-    private function get_full_page_url()
+    private function get_full_page_url(): string
     {
         $page_id = (int) get_option(self::PAGE_OPTION, 0);
         if ($page_id <= 0) {
@@ -279,7 +279,7 @@ final class Tarifexa
      * @param array $links Existing links.
      * @return array
      */
-    public function plugin_action_links($links)
+    public function plugin_action_links(array $links): array
     {
         $page_link = sprintf(
             '<a href="%s">%s</a>',
