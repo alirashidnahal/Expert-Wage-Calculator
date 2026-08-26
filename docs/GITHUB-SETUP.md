@@ -69,9 +69,9 @@ Review `git status` and verify that no ZIP file, credential, local path, databas
 
 ## First release timing
 
-Create the GitHub repository immediately, but wait to publish release `1.1.0` until either:
+Create the GitHub repository immediately, but wait to promote GitHub Release `v1.2.0` from prerelease to latest until either:
 
 - the WordPress.org plugin is approved and the SVN secrets are configured; or
 - the WordPress.org deploy workflow is temporarily disabled for a GitHub-only release.
 
-This prevents the release workflow from failing before the WordPress.org SVN repository exists.
+This prevents the SVN deploy workflow from failing before the WordPress.org SVN repository exists.

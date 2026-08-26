@@ -37,17 +37,18 @@ https://wordpress.org/plugins/developers/add/
 1. WordPress.org will provide an SVN repository for the approved slug (requested: `tarifexa`). Final slug assignment is determined by the Plugin Review Team.
 2. Add `SVN_USERNAME` and `SVN_PASSWORD` to GitHub Actions secrets.
 3. Add optional banner, icon, and screenshot files under `.wordpress-org/` before the first automated deployment.
-4. Create an annotated Git tag matching the plugin version, for example `1.2.0` or `v1.2.0`. The configured deploy action uses the tag name as the SVN tag, so the recommended release tag is `1.2.0` to match `Stable Tag` exactly.
-5. Publish a GitHub Release from that tag. The workflow deploys the production files to WordPress.org and attaches an installable ZIP to the release.
+4. Use a GitHub tag with a leading `v`, for example `v1.2.0`. Merges to `main`/`master` create that tag as a prerelease automatically; promote it to the latest non-prerelease release when ready.
+5. The deploy action strips the leading `v`, so WordPress.org SVN receives tag `1.2.0` to match `Stable Tag`.
 
-Do not deploy routine development commits to SVN. WordPress.org SVN is a release repository.
+Do not deploy routine development commits or prereleases to SVN. WordPress.org SVN is a release repository.
 
 ## Release consistency checklist
 
 - Main plugin header `Version`: `1.2.0`
 - `readme.txt` `Stable Tag`: `1.2.0`
 - `package.json` version: `1.2.0`
-- Git tag: `1.2.0`
+- GitHub tag / Release: `v1.2.0`
+- SVN / Stable Tag: `1.2.0`
 - Changelog entry: `1.2.0`
 - Translation catalogs regenerated and committed
 - CI green on PHP 7.4 and PHP 8.4

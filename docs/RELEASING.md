@@ -1,5 +1,18 @@
 # Release process
 
+## Versioning
+
+Follow [GitHub tagging suggestions](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository) and [Semantic Versioning](https://semver.org/):
+
+| Kind | GitHub tag | Plugin header / Stable Tag |
+| --- | --- | --- |
+| Production | `v1.2.0` | `1.2.0` |
+| Pre-release channel | `v1.2.0` while still marked prerelease | `1.2.0` |
+| Post-production dev build | `v1.2.0-dev` | keep bumping toward the next SemVer |
+| Explicit alpha/beta in the plugin version | `v1.3.0-beta.1` | `1.3.0-beta.1` |
+
+WordPress.org SVN receives the version **without** the leading `v` (the deploy action strips it), so Stable Tag `1.2.0` matches SVN tag `1.2.0`.
+
 ## 1. Prepare the version
 
 Update the same semantic version in:
@@ -34,34 +47,40 @@ Pushing or merging to `main` or `master` runs `.github/workflows/release-zips.ym
    - `tarifexa-wordpress-org-{version}.zip` — production-only package for WordPress.org / SVN trunk submission.
    - `tarifexa-install-{version}.zip` — customer upload package (same production files plus `readme-fa_IR.txt` and `CHANGELOG.md`).
 3. Uploads both ZIP files as workflow artifacts.
-4. Publishes or updates a **prerelease** GitHub Release tagged `build-main` or `build-master`.
+4. Creates or updates a GitHub Release tagged `v{version}` (for example `v1.2.0`) as a **prerelease**, and keeps that tag pointed at the latest build commit.
 
 Both ZIPs contain a single top-level `tarifexa/` directory and exclude development paths such as `.github`, `docs`, `tests`, and `tools`.
 
-The prerelease build does **not** deploy to WordPress.org SVN.
+The automated prerelease does **not** deploy to WordPress.org SVN.
 
-## 4. Commit and tag a public version
+If `v{version}` was already promoted to a production release, the workflow publishes `v{version}-dev` instead. Bump the plugin version before the next production tag.
+
+You can delete obsolete tags such as `build-master` from the repository tags page; they are no longer used.
+
+## 4. Promote a production release
+
+When the prerelease assets for `v1.2.0` are ready:
+
+1. Open the GitHub Release `v1.2.0`.
+2. Edit the release.
+3. Uncheck **Set as a pre-release**.
+4. Check **Set as the latest release**.
+5. Update the release notes from `CHANGELOG.md` if needed, then save.
+
+That promotion triggers `.github/workflows/deploy-wordpress-org.yml` for tags matching `vMAJOR.MINOR.PATCH` (no `-dev` / `-beta` suffix).
+
+Alternatively, create a non-prerelease release from an annotated tag:
 
 ```bash
-git add --all
-git commit -m "Release 1.2.0"
-git tag -a 1.2.0 -m "Tarifexa 1.2.0"
-git push origin main
-git push origin 1.2.0
+git tag -a v1.2.0 -m "Tarifexa v1.2.0"
+git push origin v1.2.0
+gh release create v1.2.0 --title "Tarifexa v1.2.0" --notes-file CHANGELOG.md --latest
 ```
 
-## 5. Publish the GitHub Release
+## 5. Verify publication
 
-Create a **non-prerelease** GitHub Release from tag `1.2.0`, copy the relevant changelog section into the release notes, and publish it.
-
-After WordPress.org approval and repository-secret configuration, publishing that release triggers `.github/workflows/deploy-wordpress-org.yml`. It deploys the tag to SVN and attaches the generated production ZIP to the GitHub Release.
-
-Prereleases and tags that start with `build-` are ignored by the SVN deploy workflow.
-
-## 6. Verify publication
-
-- Confirm the WordPress.org page shows the expected version and Stable Tag.
+- Confirm the WordPress.org page shows Stable Tag `1.2.0` (without the `v` prefix).
 - Confirm the update is available from a clean WordPress installation.
-- Download and inspect both the WordPress.org and GitHub ZIP files.
+- Download and inspect both the WordPress.org and install ZIP files on the GitHub Release.
 - Re-run a representative 1402 and 1405 calculation.
 - Confirm English and Persian translations load.
