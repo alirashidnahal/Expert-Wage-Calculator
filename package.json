@@ -1,8 +1,8 @@
 {
-  "name": "expert-wage-calculator",
-  "version": "1.1.0",
+  "name": "tarifexa",
+  "version": "1.2.0",
   "private": true,
-  "description": "Development scripts for the Expert Wage Calculator WordPress plugin.",
+  "description": "Development scripts for the Tarifexa WordPress plugin.",
   "license": "GPL-2.0-or-later",
   "author": {
     "name": "Ali Rashidnahal",
@@ -17,9 +17,10 @@
   },
   "homepage": "https://github.com/alirashidnahal/expert-wage-calculator#readme",
   "scripts": {
-    "test": "node --test tests/expert-wage-engine.test.js tests/expert-wage-i18n.test.js",
-    "check:js": "node --check assets/js/expert-wage-i18n.js && node --check assets/js/expert-wage-engine.js && node --check assets/js/expert-wage-ui.js && node --check tools/build-translations.js && node --check tools/validate-release.js",
+    "test": "node --test tests/tarifexa-engine.test.js tests/tarifexa-i18n.test.js",
+    "check:js": "node --check assets/js/tarifexa-i18n.js && node --check assets/js/tarifexa-engine.js && node --check assets/js/tarifexa-ui.js && node --check tools/build-translations.js && node --check tools/build-packages.js && node --check tools/validate-release.js",
     "build:translations": "node tools/build-translations.js",
+    "build:packages": "node tools/build-packages.js",
     "validate:release": "node tools/validate-release.js"
   },
   "engines": {

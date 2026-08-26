@@ -1,7 +1,7 @@
 (function (root) {
     'use strict';
 
-    const domain = 'expert-wage-calculator';
+    const domain = 'tarifexa';
     const wpI18n = root.wp && root.wp.i18n ? root.wp.i18n : null;
     const translate = wpI18n ? wpI18n.__ : function (message) { return message; };
     const format = wpI18n ? wpI18n.sprintf : function (template) {
@@ -370,7 +370,7 @@
         referenceSeparator: __(' — ')
     };
 
-    root.ExpertWageCalculatorI18n = {
+    root.TarifexaI18n = {
         text: text,
         messages: messages,
         ui: ui,

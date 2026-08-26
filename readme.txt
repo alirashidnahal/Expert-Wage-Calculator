@@ -1,18 +1,18 @@
-=== Expert Wage Calculator ===
+=== Tarifexa – Judicial Expert Wage Calculator ===
 Contributors: alirashidnahal
-Tags: expert wage, official expert, tariff, valuation, calculator
+Tags: expert wage, judicial expert, tariff, valuation, calculator
 Requires at least: 5.6
 Tested up to: 7.1
-Stable tag: 1.1.0
+Stable tag: 1.2.0
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Calculate Iranian official judicial expert wages for 1402 and 1405 with quick and full multilingual shortcodes.
+Estimate Iranian judicial expert wages for 1402 and 1405 with quick and full multilingual shortcodes.
 
 == Description ==
 
-Expert Wage Calculator provides a standalone, versioned calculation engine for official expert wages.
+Tarifexa provides a standalone, versioned calculation engine for judicial expert wage estimates based on the applicable tariff catalogs.
 
 Features include:
 
@@ -37,8 +37,8 @@ The complete human-readable source, tests, translation tools, and release docume
 
 == Installation ==
 
-1. Upload the `expert-wage-calculator` directory to `/wp-content/plugins/`, or install its ZIP package from the WordPress Plugins screen.
-2. Activate **Expert Wage Calculator**.
+1. Upload the `tarifexa` directory to `/wp-content/plugins/`, or install its ZIP package from the WordPress Plugins screen.
+2. Activate **Tarifexa**.
 3. The plugin creates the full calculator page or migrates an existing page that uses the supported calculator slug.
 4. Place either shortcode in a page, post, widget, or template.
 
@@ -46,15 +46,15 @@ The complete human-readable source, tests, translation tools, and release docume
 
 Quick general valuation calculator:
 
-`[ik_expert_wage_quick]`
+`[tarifexa_quick]`
 
 Full calculator for all fields:
 
-`[ik_expert_wage_calculator]`
+`[tarifexa]`
 
 Optional custom CSS class:
 
-`[ik_expert_wage_quick class="my-custom-class"]`
+`[tarifexa_quick class="my-custom-class"]`
 
 == Frequently Asked Questions ==
 
@@ -71,6 +71,12 @@ No. All required PHP, JavaScript, and CSS assets are included in the plugin.
 The source language is English. Complete Persian (`fa_IR`) and English (`en_US`) translation catalogs are included.
 
 == Changelog ==
+
+= 1.2.0 =
+
+* Rebranded the plugin to Tarifexa – Judicial Expert Wage Calculator.
+* Standardized the plugin slug and text domain as `tarifexa`.
+* Updated shortcodes to `[tarifexa]` and `[tarifexa_quick]` (legacy shortcodes remain as aliases).
 
 = 1.1.0 =
 

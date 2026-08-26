@@ -20,7 +20,7 @@ gh repo create alirashidnahal/expert-wage-calculator \
   --source=. \
   --remote=origin \
   --push \
-  --description="A multilingual WordPress plugin for calculating Iranian official judicial expert wages from the 1402 and 1405 tariff catalogs." \
+  --description="A multilingual WordPress plugin for estimating Iranian judicial expert wages from the 1402 and 1405 tariff catalogs." \
   --homepage="https://alirashidnahal.com/"
 
 gh repo edit alirashidnahal/expert-wage-calculator \

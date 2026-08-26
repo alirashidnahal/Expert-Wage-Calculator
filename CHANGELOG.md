@@ -1,18 +1,21 @@
 # Changelog
 
-All notable changes to Expert Wage Calculator are documented here. The project follows [Semantic Versioning](https://semver.org/).
+All notable changes to Tarifexa are documented here. The project follows [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
-
-### Fixed
-
-- Removed unnecessary manual text-domain loading flagged by Plugin Check.
-- Prefixed template variables according to WordPress naming conventions.
-- Clarified the difference between the GitHub development source and the production plugin ZIP.
 
 ### Planned
 
 - Continue validating future tariff catalogs against published legal sources.
+
+## [1.2.0] - 2026-08-26
+
+### Changed
+
+- Rebranded the plugin to Tarifexa – Judicial Expert Wage Calculator.
+- Standardized the plugin slug and text domain as `tarifexa`.
+- Updated shortcodes to `[tarifexa]` and `[tarifexa_quick]`; legacy shortcodes remain registered as aliases.
+- Renamed internal PHP, JavaScript, CSS, and translation identifiers to the Tarifexa prefix.
 
 ## [1.1.0] - 2026-08-23
 
@@ -30,6 +33,12 @@ All notable changes to Expert Wage Calculator are documented here. The project f
 - Updated plugin author metadata to Ali Rashidnahal.
 - Standardized the plugin slug and text domain as `expert-wage-calculator`.
 
+### Fixed
+
+- Removed unnecessary manual text-domain loading flagged by Plugin Check.
+- Prefixed template variables according to WordPress naming conventions.
+- Clarified the difference between the GitHub development source and the production plugin ZIP.
+
 ## [1.0.0] - 2026-08-23
 
 ### Added
@@ -40,6 +49,7 @@ All notable changes to Expert Wage Calculator are documented here. The project f
 - Mission and same-field expert panel calculations.
 - Responsive accessible interface and live Persian thousands grouping.
 
-[Unreleased]: https://github.com/alirashidnahal/expert-wage-calculator/compare/v1.1.0...HEAD
+[Unreleased]: https://github.com/alirashidnahal/expert-wage-calculator/compare/v1.2.0...HEAD
+[1.2.0]: https://github.com/alirashidnahal/expert-wage-calculator/releases/tag/v1.2.0
 [1.1.0]: https://github.com/alirashidnahal/expert-wage-calculator/releases/tag/v1.1.0
 [1.0.0]: https://github.com/alirashidnahal/expert-wage-calculator/releases/tag/v1.0.0

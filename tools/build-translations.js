@@ -8,21 +8,20 @@ const vm = require('vm');
 
 const pluginDir = path.resolve(__dirname, '..');
 const languagesDir = path.join(pluginDir, 'languages');
-const domain = 'expert-wage-calculator';
-const scriptRelativePath = 'assets/js/expert-wage-i18n.js';
+const domain = 'tarifexa';
+const scriptRelativePath = 'assets/js/tarifexa-i18n.js';
 const scriptPath = path.join(pluginDir, scriptRelativePath);
 
 const phpFiles = [
-    'includes/class-expert-wage-calculator.php',
+    'includes/class-tarifexa.php',
     'templates/calculator.php'
 ];
 
 const manualFa = {
-    'Expert Wage Calculator': 'Expert Wage Calculator',
-    'Official Expert Wage Calculator': 'محاسبه دستمزد کارشناس رسمی',
-    'Calculates Iranian official judicial expert wages for 1402 and 1405 with quick and full multilingual shortcodes.': 'محاسبه دستمزد کارشناسان رسمی دادگستری ایران برای تعرفه‌های ۱۴۰۲ و ۱۴۰۵ با شورت‌کدهای سریع و جامع چندزبانه.',
+    'Tarifexa – Judicial Expert Wage Calculator': 'Tarifexa – محاسبه دستمزد کارشناس رسمی دادگستری',
+    'Estimates Iranian judicial expert wages for the 1402 and 1405 tariff catalogs with quick and full multilingual shortcodes.': 'برآورد دستمزد کارشناسان رسمی دادگستری ایران برای تعرفه‌های ۱۴۰۲ و ۱۴۰۵ با شورت‌کدهای سریع و جامع چندزبانه.',
     'Open calculator': 'مشاهده ماشین‌حساب',
-    'Official Expert Valuation Wage': 'دستمزد ارزیابی کارشناس رسمی',
+    'Judicial Expert Valuation Wage': 'دستمزد ارزیابی کارشناس رسمی',
     'Enter the amount in rials. Tariff bands, the statutory cap, and the same-field panel reduction are applied for the selected year.': 'مبلغ را به ریال وارد کنید. پلکان‌ها، سقف قانونی و کسر هیئت هم‌رشته بر اساس سال انتخابی اعمال می‌شود.',
     'Select an expert field or subject to display the inputs required by its tariff article. Calculate each independent subject separately.': 'رشته یا موضوع کارشناسی را انتخاب کنید تا ورودی‌های متناسب با ماده قانونی نمایش داده شوند. هر موضوع مستقل را جداگانه محاسبه کنید.',
     'Tariff year *': 'سال تعرفه *',
@@ -86,7 +85,7 @@ function evaluateScript() {
     };
     context.globalThis = context;
     vm.runInNewContext(fs.readFileSync(scriptPath, 'utf8'), context, { filename: scriptPath });
-    return context.ExpertWageCalculatorI18n;
+    return context.TarifexaI18n;
 }
 
 function unescapeJs(value) {
@@ -110,10 +109,10 @@ function poEscape(value) {
 
 function poFile(locale, translations, entries, template) {
     const headers = [
-        'Project-Id-Version: Expert Wage Calculator 1.1.0',
+        'Project-Id-Version: Tarifexa 1.2.0',
         'Report-Msgid-Bugs-To: https://github.com/alirashidnahal',
-        'POT-Creation-Date: 2026-08-23 00:00+0330',
-        'PO-Revision-Date: 2026-08-23 00:00+0330',
+        'POT-Creation-Date: 2026-08-26 00:00+0330',
+        'PO-Revision-Date: 2026-08-26 00:00+0330',
         'Last-Translator: Ali Rashidnahal <https://alirashidnahal.com/>',
         'Language-Team: ' + (locale === 'fa_IR' ? 'Persian' : 'English'),
         'Language: ' + (template ? '' : locale),
@@ -121,7 +120,7 @@ function poFile(locale, translations, entries, template) {
         'Content-Type: text/plain; charset=UTF-8',
         'Content-Transfer-Encoding: 8bit',
         'Plural-Forms: ' + (locale === 'fa_IR' ? 'nplurals=2; plural=(n > 1);' : 'nplurals=2; plural=(n != 1);'),
-        'X-Generator: Expert Wage Calculator translation builder'
+        'X-Generator: Tarifexa translation builder'
     ].join('\\n') + '\\n';
 
     const output = [
@@ -145,7 +144,7 @@ function poFile(locale, translations, entries, template) {
 
 function moFile(locale, translations, entries) {
     const header = [
-        'Project-Id-Version: Expert Wage Calculator 1.1.0',
+        'Project-Id-Version: Tarifexa 1.2.0',
         'Language: ' + locale,
         'Content-Type: text/plain; charset=UTF-8',
         'Content-Transfer-Encoding: 8bit',
@@ -197,8 +196,8 @@ found.push(...collectMessages(scriptPath, /__\('((?:\\.|[^'])*)'\)/g));
 phpFiles.forEach((relative) => {
     found.push(...collectMessages(path.join(pluginDir, relative), /(?:__|_e|esc_html__|esc_html_e|esc_attr__)\(\s*'((?:\\.|[^'])*)'/g));
 });
-found.push({ id: 'Expert Wage Calculator', ref: 'expert-wage-calculator.php:3' });
-found.push({ id: 'Calculates Iranian official judicial expert wages for 1402 and 1405 with quick and full multilingual shortcodes.', ref: 'expert-wage-calculator.php:5' });
+found.push({ id: 'Tarifexa – Judicial Expert Wage Calculator', ref: 'tarifexa.php:3' });
+found.push({ id: 'Estimates Iranian judicial expert wages for the 1402 and 1405 tariff catalogs with quick and full multilingual shortcodes.', ref: 'tarifexa.php:5' });
 
 const byId = new Map();
 found.forEach((item) => {
@@ -212,6 +211,12 @@ const missingFa = entries.filter((entry) => fa[entry.id] == null).map((entry) =>
 if (missingFa.length) {
     throw new Error('Missing Persian translations:\n' + missingFa.join('\n'));
 }
+
+fs.readdirSync(languagesDir).forEach((file) => {
+    if (file.startsWith('expert-wage-calculator')) {
+        fs.unlinkSync(path.join(languagesDir, file));
+    }
+});
 
 fs.writeFileSync(path.join(languagesDir, domain + '.pot'), poFile('en_US', {}, entries, true), 'utf8');
 fs.writeFileSync(path.join(languagesDir, domain + '-en_US.po'), poFile('en_US', en, entries, false), 'utf8');
@@ -235,8 +240,8 @@ const hash = crypto.createHash('md5').update(scriptRelativePath.replace(/\\/g, '
     };
     uniqueScriptMessages.forEach((id) => { messages[id] = [translations[id]]; });
     const json = {
-        'translation-revision-date': '2026-08-23 00:00+0330',
-        generator: 'Expert Wage Calculator translation builder',
+        'translation-revision-date': '2026-08-26 00:00+0330',
+        generator: 'Tarifexa translation builder',
         source: scriptRelativePath,
         domain: 'messages',
         locale_data: { messages: messages }

@@ -2,21 +2,24 @@
 /**
  * Main plugin class.
  *
- * @package Expert_Wage_Calculator
+ * @package Tarifexa
  */
 
 if (! defined('ABSPATH')) {
     exit;
 }
 
-final class Expert_Wage_Calculator
+final class Tarifexa
 {
-    const FULL_SHORTCODE = 'ik_expert_wage_calculator';
-    const QUICK_SHORTCODE = 'ik_expert_wage_quick';
-    const PAGE_OPTION = 'ik_expert_wage_page_id';
+    const FULL_SHORTCODE = 'tarifexa';
+    const QUICK_SHORTCODE = 'tarifexa_quick';
+    const LEGACY_FULL_SHORTCODE = 'ik_expert_wage_calculator';
+    const LEGACY_QUICK_SHORTCODE = 'ik_expert_wage_quick';
+    const PAGE_OPTION = 'tarifexa_page_id';
+    const LEGACY_PAGE_OPTION = 'ik_expert_wage_page_id';
     const PAGE_SLUG = 'محاسبه-دستمزد-کارشناس-رسمی';
 
-    /** @var Expert_Wage_Calculator|null */
+    /** @var Tarifexa|null */
     private static $instance = null;
 
     /** @var int */
@@ -25,7 +28,7 @@ final class Expert_Wage_Calculator
     /**
      * Return the plugin singleton.
      *
-     * @return Expert_Wage_Calculator
+     * @return Tarifexa
      */
     public static function instance()
     {
@@ -41,7 +44,7 @@ final class Expert_Wage_Calculator
         add_action('init', array($this, 'register_shortcodes'));
         add_action('wp_enqueue_scripts', array($this, 'register_assets'), 5);
         add_action('wp_enqueue_scripts', array($this, 'maybe_enqueue_assets'), 20);
-        add_filter('plugin_action_links_' . plugin_basename(EXPERT_WAGE_CALCULATOR_FILE), array($this, 'plugin_action_links'));
+        add_filter('plugin_action_links_' . plugin_basename(TARIFEXA_FILE), array($this, 'plugin_action_links'));
     }
 
     /**
@@ -53,7 +56,7 @@ final class Expert_Wage_Calculator
     {
         $page = get_page_by_path(self::PAGE_SLUG, OBJECT, 'page');
         $shortcode = '[' . self::FULL_SHORTCODE . ']';
-        $page_title = __('Official Expert Wage Calculator', 'expert-wage-calculator');
+        $page_title = __('Tarifexa – Judicial Expert Wage Calculator', 'tarifexa');
 
         if ($page instanceof WP_Post) {
             $page_id = (int) $page->ID;
@@ -103,6 +106,8 @@ final class Expert_Wage_Calculator
     {
         add_shortcode(self::FULL_SHORTCODE, array($this, 'render_full_shortcode'));
         add_shortcode(self::QUICK_SHORTCODE, array($this, 'render_quick_shortcode'));
+        add_shortcode(self::LEGACY_FULL_SHORTCODE, array($this, 'render_full_shortcode'));
+        add_shortcode(self::LEGACY_QUICK_SHORTCODE, array($this, 'render_quick_shortcode'));
     }
 
     /**
@@ -112,43 +117,43 @@ final class Expert_Wage_Calculator
      */
     public function register_assets()
     {
-        $css_path = EXPERT_WAGE_CALCULATOR_DIR . 'assets/css/expert-wage.css';
-        $i18n_path = EXPERT_WAGE_CALCULATOR_DIR . 'assets/js/expert-wage-i18n.js';
-        $engine_path = EXPERT_WAGE_CALCULATOR_DIR . 'assets/js/expert-wage-engine.js';
-        $ui_path = EXPERT_WAGE_CALCULATOR_DIR . 'assets/js/expert-wage-ui.js';
+        $css_path = TARIFEXA_DIR . 'assets/css/tarifexa.css';
+        $i18n_path = TARIFEXA_DIR . 'assets/js/tarifexa-i18n.js';
+        $engine_path = TARIFEXA_DIR . 'assets/js/tarifexa-engine.js';
+        $ui_path = TARIFEXA_DIR . 'assets/js/tarifexa-ui.js';
 
         wp_register_style(
-            'expert-wage-calculator',
-            EXPERT_WAGE_CALCULATOR_URL . 'assets/css/expert-wage.css',
+            'tarifexa',
+            TARIFEXA_URL . 'assets/css/tarifexa.css',
             array(),
-            is_file($css_path) ? (string) filemtime($css_path) : EXPERT_WAGE_CALCULATOR_VERSION
+            is_file($css_path) ? (string) filemtime($css_path) : TARIFEXA_VERSION
         );
         wp_register_script(
-            'expert-wage-calculator-i18n',
-            EXPERT_WAGE_CALCULATOR_URL . 'assets/js/expert-wage-i18n.js',
+            'tarifexa-i18n',
+            TARIFEXA_URL . 'assets/js/tarifexa-i18n.js',
             array('wp-i18n'),
-            is_file($i18n_path) ? (string) filemtime($i18n_path) : EXPERT_WAGE_CALCULATOR_VERSION,
+            is_file($i18n_path) ? (string) filemtime($i18n_path) : TARIFEXA_VERSION,
             true
         );
         wp_register_script(
-            'expert-wage-calculator-engine',
-            EXPERT_WAGE_CALCULATOR_URL . 'assets/js/expert-wage-engine.js',
-            array('expert-wage-calculator-i18n'),
-            is_file($engine_path) ? (string) filemtime($engine_path) : EXPERT_WAGE_CALCULATOR_VERSION,
+            'tarifexa-engine',
+            TARIFEXA_URL . 'assets/js/tarifexa-engine.js',
+            array('tarifexa-i18n'),
+            is_file($engine_path) ? (string) filemtime($engine_path) : TARIFEXA_VERSION,
             true
         );
         wp_register_script(
-            'expert-wage-calculator-ui',
-            EXPERT_WAGE_CALCULATOR_URL . 'assets/js/expert-wage-ui.js',
-            array('expert-wage-calculator-engine'),
-            is_file($ui_path) ? (string) filemtime($ui_path) : EXPERT_WAGE_CALCULATOR_VERSION,
+            'tarifexa-ui',
+            TARIFEXA_URL . 'assets/js/tarifexa-ui.js',
+            array('tarifexa-engine'),
+            is_file($ui_path) ? (string) filemtime($ui_path) : TARIFEXA_VERSION,
             true
         );
 
         wp_set_script_translations(
-            'expert-wage-calculator-i18n',
-            'expert-wage-calculator',
-            EXPERT_WAGE_CALCULATOR_DIR . 'languages'
+            'tarifexa-i18n',
+            'tarifexa',
+            TARIFEXA_DIR . 'languages'
         );
     }
 
@@ -171,6 +176,8 @@ final class Expert_Wage_Calculator
         if (
             has_shortcode($post->post_content, self::FULL_SHORTCODE)
             || has_shortcode($post->post_content, self::QUICK_SHORTCODE)
+            || has_shortcode($post->post_content, self::LEGACY_FULL_SHORTCODE)
+            || has_shortcode($post->post_content, self::LEGACY_QUICK_SHORTCODE)
         ) {
             $this->enqueue_assets();
         }
@@ -183,14 +190,14 @@ final class Expert_Wage_Calculator
      */
     private function enqueue_assets()
     {
-        if (! wp_style_is('expert-wage-calculator', 'registered')) {
+        if (! wp_style_is('tarifexa', 'registered')) {
             $this->register_assets();
         }
 
-        wp_enqueue_style('expert-wage-calculator');
-        wp_enqueue_script('expert-wage-calculator-i18n');
-        wp_enqueue_script('expert-wage-calculator-engine');
-        wp_enqueue_script('expert-wage-calculator-ui');
+        wp_enqueue_style('tarifexa');
+        wp_enqueue_script('tarifexa-i18n');
+        wp_enqueue_script('tarifexa-engine');
+        wp_enqueue_script('tarifexa-ui');
     }
 
     /**
@@ -244,7 +251,7 @@ final class Expert_Wage_Calculator
         $full_page_url = $this->get_full_page_url();
 
         ob_start();
-        include EXPERT_WAGE_CALCULATOR_DIR . 'templates/calculator.php';
+        include TARIFEXA_DIR . 'templates/calculator.php';
         return (string) ob_get_clean();
     }
 
@@ -256,6 +263,9 @@ final class Expert_Wage_Calculator
     private function get_full_page_url()
     {
         $page_id = (int) get_option(self::PAGE_OPTION, 0);
+        if ($page_id <= 0) {
+            $page_id = (int) get_option(self::LEGACY_PAGE_OPTION, 0);
+        }
         if ($page_id > 0 && 'publish' === get_post_status($page_id)) {
             return get_permalink($page_id);
         }
@@ -274,7 +284,7 @@ final class Expert_Wage_Calculator
         $page_link = sprintf(
             '<a href="%s">%s</a>',
             esc_url($this->get_full_page_url()),
-            esc_html__('Open calculator', 'expert-wage-calculator')
+            esc_html__('Open calculator', 'tarifexa')
         );
         array_unshift($links, $page_link);
         return $links;

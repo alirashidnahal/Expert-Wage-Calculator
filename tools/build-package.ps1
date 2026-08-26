@@ -5,48 +5,32 @@ param(
 
 $ErrorActionPreference = 'Stop'
 $pluginRoot = (Resolve-Path -LiteralPath (Join-Path $PSScriptRoot '..')).Path
-$pluginName = Split-Path -Leaf $pluginRoot
 
-if ([string]::IsNullOrWhiteSpace($Destination)) {
-    $Destination = Join-Path (Split-Path -Parent $pluginRoot) ($pluginName + '.zip')
-}
-$destinationPath = [System.IO.Path]::GetFullPath($Destination)
-$temporaryParent = [System.IO.Path]::GetFullPath([System.IO.Path]::GetTempPath())
-$temporaryRoot = Join-Path $temporaryParent ('expert-wage-calculator-package-' + [guid]::NewGuid().ToString('N'))
-$stagedPlugin = Join-Path $temporaryRoot $pluginName
-
-$directories = @('assets', 'includes', 'languages', 'templates')
-$files = @(
-    'expert-wage-calculator.php',
-    'readme.txt',
-    'uninstall.php',
-    'LICENSE'
-)
-
-New-Item -ItemType Directory -Path $stagedPlugin | Out-Null
-
+Push-Location -LiteralPath $pluginRoot
 try {
-    foreach ($directory in $directories) {
-        Copy-Item -LiteralPath (Join-Path $pluginRoot $directory) -Destination $stagedPlugin -Recurse
-    }
-    foreach ($file in $files) {
-        Copy-Item -LiteralPath (Join-Path $pluginRoot $file) -Destination $stagedPlugin
+    & node (Join-Path $PSScriptRoot 'build-packages.js')
+    if ($LASTEXITCODE -ne 0) {
+        throw "build-packages.js failed with exit code $LASTEXITCODE."
     }
 
-    if (Test-Path -LiteralPath $destinationPath) {
-        Remove-Item -LiteralPath $destinationPath
-    }
-    Compress-Archive -LiteralPath $stagedPlugin -DestinationPath $destinationPath
+    $manifestPath = Join-Path $pluginRoot 'dist\manifest.json'
+    $manifest = Get-Content -LiteralPath $manifestPath -Raw | ConvertFrom-Json
+    $wordpressOrgZip = Join-Path $pluginRoot ('dist\' + $manifest.packages.'wordpress-org'.file)
+    $installZip = Join-Path $pluginRoot ('dist\' + $manifest.packages.install.file)
 
-    $archive = Get-Item -LiteralPath $destinationPath
-    Write-Output ('Created {0} ({1} bytes)' -f $archive.FullName, $archive.Length)
+    if (-not [string]::IsNullOrWhiteSpace($Destination)) {
+        $destinationPath = [System.IO.Path]::GetFullPath($Destination)
+        $destinationDir = Split-Path -Parent $destinationPath
+        if (-not (Test-Path -LiteralPath $destinationDir)) {
+            New-Item -ItemType Directory -Path $destinationDir | Out-Null
+        }
+        Copy-Item -LiteralPath $wordpressOrgZip -Destination $destinationPath -Force
+        Write-Output ('Copied WordPress.org ZIP to {0}' -f $destinationPath)
+    }
+
+    Write-Output ('WordPress.org ZIP: {0}' -f $wordpressOrgZip)
+    Write-Output ('Install ZIP: {0}' -f $installZip)
 }
 finally {
-    if (Test-Path -LiteralPath $temporaryRoot) {
-        $resolvedTemporaryRoot = (Resolve-Path -LiteralPath $temporaryRoot).Path
-        if (-not $resolvedTemporaryRoot.StartsWith($temporaryParent, [System.StringComparison]::OrdinalIgnoreCase)) {
-            throw 'Refusing to remove a temporary directory outside the system temporary path.'
-        }
-        Remove-Item -LiteralPath $resolvedTemporaryRoot -Recurse
-    }
+    Pop-Location
 }

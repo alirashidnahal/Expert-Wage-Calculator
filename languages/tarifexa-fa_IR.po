@@ -1,469 +1,469 @@
 # Copyright (C) 2026 Ali Rashidnahal
 # This file is distributed under the GPL-2.0-or-later license.
 msgid ""
-msgstr "Project-Id-Version: Expert Wage Calculator 1.1.0\\nReport-Msgid-Bugs-To: https://github.com/alirashidnahal\\nPOT-Creation-Date: 2026-08-23 00:00+0330\\nPO-Revision-Date: 2026-08-23 00:00+0330\\nLast-Translator: Ali Rashidnahal <https://alirashidnahal.com/>\\nLanguage-Team: Persian\\nLanguage: fa_IR\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\nPlural-Forms: nplurals=2; plural=(n > 1);\\nX-Generator: Expert Wage Calculator translation builder\\n"
+msgstr "Project-Id-Version: Tarifexa 1.2.0\\nReport-Msgid-Bugs-To: https://github.com/alirashidnahal\\nPOT-Creation-Date: 2026-08-26 00:00+0330\\nPO-Revision-Date: 2026-08-26 00:00+0330\\nLast-Translator: Ali Rashidnahal <https://alirashidnahal.com/>\\nLanguage-Team: Persian\\nLanguage: fa_IR\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\nPlural-Forms: nplurals=2; plural=(n > 1);\\nX-Generator: Tarifexa translation builder\\n"
 
-#: assets/js/expert-wage-i18n.js:370
+#: assets/js/tarifexa-i18n.js:370
 msgid " — "
 msgstr " — "
 
-#: assets/js/expert-wage-i18n.js:355
+#: assets/js/tarifexa-i18n.js:355
 msgid " (optional)"
 msgstr " (اختیاری)"
 
-#: assets/js/expert-wage-i18n.js:369
+#: assets/js/tarifexa-i18n.js:369
 msgid ", "
 msgstr "، "
 
-#: assets/js/expert-wage-i18n.js:341
+#: assets/js/tarifexa-i18n.js:341
 msgid "%1$s cannot be greater than %2$s."
 msgstr "%1$s نمی‌تواند بیشتر از %2$s باشد."
 
-#: assets/js/expert-wage-i18n.js:342
+#: assets/js/tarifexa-i18n.js:342
 msgid "%1$s cannot be less than %2$s."
 msgstr "%1$s نمی‌تواند کمتر از %2$s باشد."
 
-#: assets/js/expert-wage-i18n.js:338
+#: assets/js/tarifexa-i18n.js:338
 msgid "%s must be greater than zero."
 msgstr "%s باید بزرگ‌تر از صفر باشد."
 
-#: assets/js/expert-wage-i18n.js:339
+#: assets/js/tarifexa-i18n.js:339
 msgid "%s must contain numbers only."
 msgstr "%s باید فقط شامل عدد باشد."
 
-#: assets/js/expert-wage-i18n.js:33 templates/calculator.php:46
+#: assets/js/tarifexa-i18n.js:33 templates/calculator.php:46
 msgid "1402 tariff until the 1405 tariff took effect"
 msgstr "تعرفه ۱۴۰۲ تا پیش از ابلاغ ۱۴۰۵"
 
-#: assets/js/expert-wage-i18n.js:31 templates/calculator.php:45
+#: assets/js/tarifexa-i18n.js:31 templates/calculator.php:45
 msgid "1405 tariff"
 msgstr "تعرفه ۱۴۰۵"
 
-#: assets/js/expert-wage-i18n.js:285
+#: assets/js/tarifexa-i18n.js:285
 msgid "Accident review"
 msgstr "رسیدگی به تصادف"
 
-#: assets/js/expert-wage-i18n.js:286
+#: assets/js/tarifexa-i18n.js:286
 msgid "Added clause to Article 31"
 msgstr "بند الحاقی ماده ۳۱"
 
-#: assets/js/expert-wage-i18n.js:265
+#: assets/js/tarifexa-i18n.js:265
 msgid "Added note to Article 18"
 msgstr "تبصره الحاقی ماده ۱۸"
 
-#: assets/js/expert-wage-i18n.js:56
+#: assets/js/tarifexa-i18n.js:56
 msgid "Additional connected items"
 msgstr "موارد متصل اضافی"
 
-#: assets/js/expert-wage-i18n.js:258
+#: assets/js/tarifexa-i18n.js:258
 msgid "Additional connected parcels"
 msgstr "پلاک‌های متصل اضافی"
 
-#: assets/js/expert-wage-i18n.js:182
+#: assets/js/tarifexa-i18n.js:182
 msgid "Additional fee for locating Article 43 property on aerial imagery"
 msgstr "هزینه افزوده جانمایی ماده ۴۳ روی عکس هوایی"
 
-#: assets/js/expert-wage-i18n.js:35
+#: assets/js/tarifexa-i18n.js:35
 msgid "Additional similar unit, floor, or block"
 msgstr "واحد، طبقه یا بلوک مشابه اضافی"
 
-#: assets/js/expert-wage-i18n.js:28
+#: assets/js/tarifexa-i18n.js:28
 msgid "Administrative and public services"
 msgstr "خدمات اداری و عمومی"
 
-#: assets/js/expert-wage-i18n.js:239
+#: assets/js/tarifexa-i18n.js:239
 msgid "Administrative and public services expert assessment"
 msgstr "کارشناسی خدمات اداری و عمومی"
 
-#: assets/js/expert-wage-i18n.js:109
+#: assets/js/tarifexa-i18n.js:109
 msgid "Aggregate figures forming the price"
 msgstr "جمع ارقام تشکیل‌دهنده قیمت"
 
-#: assets/js/expert-wage-i18n.js:101
+#: assets/js/tarifexa-i18n.js:101
 msgid "Aggregate figures under review"
 msgstr "جمع ارقام مورد رسیدگی"
 
-#: assets/js/expert-wage-i18n.js:235
+#: assets/js/tarifexa-i18n.js:235
 msgid "Agricultural rent valuation"
 msgstr "ارزیابی اجاره‌بهای کشاورزی"
 
-#: assets/js/expert-wage-i18n.js:27
+#: assets/js/tarifexa-i18n.js:27
 msgid "Agriculture and natural resources"
 msgstr "کشاورزی و منابع طبیعی"
 
-#: assets/js/expert-wage-i18n.js:225
+#: assets/js/tarifexa-i18n.js:225
 msgid "Agriculture and natural resources valuation"
 msgstr "ارزیابی کشاورزی و منابع طبیعی"
 
-#: assets/js/expert-wage-i18n.js:247
+#: assets/js/tarifexa-i18n.js:247
 msgid "Amended Article 11, 1402"
 msgstr "ماده ۱۱ اصلاحی ۱۴۰۲"
 
-#: assets/js/expert-wage-i18n.js:256
+#: assets/js/tarifexa-i18n.js:256
 msgid "Amended Article 13, 1402"
 msgstr "ماده ۱۳ اصلاحی ۱۴۰۲"
 
-#: assets/js/expert-wage-i18n.js:279
+#: assets/js/tarifexa-i18n.js:279
 msgid "Amended Article 28"
 msgstr "ماده ۲۸ اصلاحی"
 
-#: assets/js/expert-wage-i18n.js:308
+#: assets/js/tarifexa-i18n.js:308
 msgid "Amended Article 43"
 msgstr "ماده ۴۳ اصلاحی"
 
-#: assets/js/expert-wage-i18n.js:323
+#: assets/js/tarifexa-i18n.js:323
 msgid "Amended Article 51"
 msgstr "ماده ۵۱ اصلاحی"
 
-#: assets/js/expert-wage-i18n.js:248
+#: assets/js/tarifexa-i18n.js:248
 msgid "Amended Note 3 of Article 11"
 msgstr "تبصره ۳ ماده ۱۱ اصلاحی"
 
-#: assets/js/expert-wage-i18n.js:313
+#: assets/js/tarifexa-i18n.js:313
 msgid "Amended Note 3 of Article 45"
 msgstr "تبصره ۳ ماده ۴۵ اصلاحی"
 
-#: assets/js/expert-wage-i18n.js:250
+#: assets/js/tarifexa-i18n.js:250
 msgid "Amended Note 4 of Article 11"
 msgstr "تبصره ۴ ماده ۱۱ اصلاحی"
 
-#: assets/js/expert-wage-i18n.js:253
+#: assets/js/tarifexa-i18n.js:253
 msgid "Amended Note 5 of Article 11"
 msgstr "تبصره ۵ ماده ۱۱ اصلاحی"
 
-#: assets/js/expert-wage-i18n.js:254
+#: assets/js/tarifexa-i18n.js:254
 msgid "Amended Note 7 of Article 11"
 msgstr "تبصره ۷ ماده ۱۱ اصلاحی"
 
-#: assets/js/expert-wage-i18n.js:309
+#: assets/js/tarifexa-i18n.js:309
 msgid "Amended note to Article 43"
 msgstr "تبصره ماده ۴۳ اصلاحی"
 
-#: assets/js/expert-wage-i18n.js:34
+#: assets/js/tarifexa-i18n.js:34
 msgid "Amendment approved on 1402/08/20 to the base 1398 tariff"
 msgstr "اصلاحیه مصوب ۱۴۰۲/۰۸/۲۰ بر تعرفه پایه ۱۳۹۸"
 
-#: assets/js/expert-wage-i18n.js:356
+#: assets/js/tarifexa-i18n.js:356
 msgid "Amount in rials"
 msgstr "مبلغ به ریال"
 
-#: assets/js/expert-wage-i18n.js:38
+#: assets/js/tarifexa-i18n.js:38
 msgid "Area"
 msgstr "مساحت"
 
-#: assets/js/expert-wage-i18n.js:42
+#: assets/js/tarifexa-i18n.js:42
 msgid "Article 11"
 msgstr "ماده ۱۱"
 
-#: assets/js/expert-wage-i18n.js:50
+#: assets/js/tarifexa-i18n.js:50
 msgid "Article 13"
 msgstr "ماده ۱۳"
 
-#: assets/js/expert-wage-i18n.js:53
+#: assets/js/tarifexa-i18n.js:53
 msgid "Article 14"
 msgstr "ماده ۱۴"
 
-#: assets/js/expert-wage-i18n.js:257
+#: assets/js/tarifexa-i18n.js:257
 msgid "Article 14 with the twofold increase"
 msgstr "ماده ۱۴ با افزایش دوبرابری"
 
-#: assets/js/expert-wage-i18n.js:63
+#: assets/js/tarifexa-i18n.js:63
 msgid "Article 15"
 msgstr "ماده ۱۵"
 
-#: assets/js/expert-wage-i18n.js:262
+#: assets/js/tarifexa-i18n.js:262
 msgid "Article 15 with the twofold increase"
 msgstr "ماده ۱۵ با افزایش دوبرابری"
 
-#: assets/js/expert-wage-i18n.js:67
+#: assets/js/tarifexa-i18n.js:67
 msgid "Article 16"
 msgstr "ماده ۱۶"
 
-#: assets/js/expert-wage-i18n.js:263
+#: assets/js/tarifexa-i18n.js:263
 msgid "Article 16 with the twofold increase"
 msgstr "ماده ۱۶ با افزایش دوبرابری"
 
-#: assets/js/expert-wage-i18n.js:69
+#: assets/js/tarifexa-i18n.js:69
 msgid "Article 17"
 msgstr "ماده ۱۷"
 
-#: assets/js/expert-wage-i18n.js:264
+#: assets/js/tarifexa-i18n.js:264
 msgid "Article 17 with the twofold increase"
 msgstr "ماده ۱۷ با افزایش دوبرابری"
 
-#: assets/js/expert-wage-i18n.js:71
+#: assets/js/tarifexa-i18n.js:71
 msgid "Article 18"
 msgstr "ماده ۱۸"
 
-#: assets/js/expert-wage-i18n.js:76
+#: assets/js/tarifexa-i18n.js:76
 msgid "Article 19"
 msgstr "ماده ۱۹"
 
-#: assets/js/expert-wage-i18n.js:267
+#: assets/js/tarifexa-i18n.js:267
 msgid "Article 19 with the twofold increase"
 msgstr "ماده ۱۹ با افزایش دوبرابری"
 
-#: assets/js/expert-wage-i18n.js:84
+#: assets/js/tarifexa-i18n.js:84
 msgid "Article 21"
 msgstr "ماده ۲۱"
 
-#: assets/js/expert-wage-i18n.js:272
+#: assets/js/tarifexa-i18n.js:272
 msgid "Article 21 with the twofold increase"
 msgstr "ماده ۲۱ با افزایش دوبرابری"
 
-#: assets/js/expert-wage-i18n.js:273
+#: assets/js/tarifexa-i18n.js:273
 msgid "Article 22"
 msgstr "ماده ۲۲"
 
-#: assets/js/expert-wage-i18n.js:274
+#: assets/js/tarifexa-i18n.js:274
 msgid "Article 22 with the twofold increase"
 msgstr "ماده ۲۲ با افزایش دوبرابری"
 
-#: assets/js/expert-wage-i18n.js:94
+#: assets/js/tarifexa-i18n.js:94
 msgid "Article 23"
 msgstr "ماده ۲۳"
 
-#: assets/js/expert-wage-i18n.js:97
+#: assets/js/tarifexa-i18n.js:97
 msgid "Article 24"
 msgstr "ماده ۲۴"
 
-#: assets/js/expert-wage-i18n.js:276
+#: assets/js/tarifexa-i18n.js:276
 msgid "Article 24 with the twofold increase"
 msgstr "ماده ۲۴ با افزایش دوبرابری"
 
-#: assets/js/expert-wage-i18n.js:100
+#: assets/js/tarifexa-i18n.js:100
 msgid "Article 25"
 msgstr "ماده ۲۵"
 
-#: assets/js/expert-wage-i18n.js:277
+#: assets/js/tarifexa-i18n.js:277
 msgid "Article 26"
 msgstr "ماده ۲۶"
 
-#: assets/js/expert-wage-i18n.js:111
+#: assets/js/tarifexa-i18n.js:111
 msgid "Article 27"
 msgstr "ماده ۲۷"
 
-#: assets/js/expert-wage-i18n.js:278
+#: assets/js/tarifexa-i18n.js:278
 msgid "Article 27 with the twofold increase"
 msgstr "ماده ۲۷ با افزایش دوبرابری"
 
-#: assets/js/expert-wage-i18n.js:114
+#: assets/js/tarifexa-i18n.js:114
 msgid "Article 28"
 msgstr "ماده ۲۸"
 
-#: assets/js/expert-wage-i18n.js:117
+#: assets/js/tarifexa-i18n.js:117
 msgid "Article 29"
 msgstr "ماده ۲۹"
 
-#: assets/js/expert-wage-i18n.js:282
+#: assets/js/tarifexa-i18n.js:282
 msgid "Article 29 with the twofold increase"
 msgstr "ماده ۲۹ با افزایش دوبرابری"
 
-#: assets/js/expert-wage-i18n.js:120
+#: assets/js/tarifexa-i18n.js:120
 msgid "Article 30"
 msgstr "ماده ۳۰"
 
-#: assets/js/expert-wage-i18n.js:283
+#: assets/js/tarifexa-i18n.js:283
 msgid "Article 30 with the twofold increase"
 msgstr "ماده ۳۰ با افزایش دوبرابری"
 
-#: assets/js/expert-wage-i18n.js:284
+#: assets/js/tarifexa-i18n.js:284
 msgid "Article 31 with the twofold increase"
 msgstr "ماده ۳۱ با افزایش دوبرابری"
 
-#: assets/js/expert-wage-i18n.js:287
+#: assets/js/tarifexa-i18n.js:287
 msgid "Article 32"
 msgstr "ماده ۳۲"
 
-#: assets/js/expert-wage-i18n.js:289
+#: assets/js/tarifexa-i18n.js:289
 msgid "Article 32 with the twofold increase"
 msgstr "ماده ۳۲ با افزایش دوبرابری"
 
-#: assets/js/expert-wage-i18n.js:146
+#: assets/js/tarifexa-i18n.js:146
 msgid "Article 33"
 msgstr "ماده ۳۳"
 
-#: assets/js/expert-wage-i18n.js:149
+#: assets/js/tarifexa-i18n.js:149
 msgid "Article 34"
 msgstr "ماده ۳۴"
 
-#: assets/js/expert-wage-i18n.js:294
+#: assets/js/tarifexa-i18n.js:294
 msgid "Article 34 with the twofold increase"
 msgstr "ماده ۳۴ با افزایش دوبرابری"
 
-#: assets/js/expert-wage-i18n.js:151
+#: assets/js/tarifexa-i18n.js:151
 msgid "Article 35"
 msgstr "ماده ۳۵"
 
-#: assets/js/expert-wage-i18n.js:295
+#: assets/js/tarifexa-i18n.js:295
 msgid "Article 35 with the twofold increase"
 msgstr "ماده ۳۵ با افزایش دوبرابری"
 
-#: assets/js/expert-wage-i18n.js:297
+#: assets/js/tarifexa-i18n.js:297
 msgid "Article 36 with the twofold increase"
 msgstr "ماده ۳۶ با افزایش دوبرابری"
 
-#: assets/js/expert-wage-i18n.js:161
+#: assets/js/tarifexa-i18n.js:161
 msgid "Article 37"
 msgstr "ماده ۳۷"
 
-#: assets/js/expert-wage-i18n.js:164
+#: assets/js/tarifexa-i18n.js:164
 msgid "Article 38"
 msgstr "ماده ۳۸"
 
-#: assets/js/expert-wage-i18n.js:300
+#: assets/js/tarifexa-i18n.js:300
 msgid "Article 38 with the twofold increase"
 msgstr "ماده ۳۸ با افزایش دوبرابری"
 
-#: assets/js/expert-wage-i18n.js:301
+#: assets/js/tarifexa-i18n.js:301
 msgid "Article 39 with the twofold increase"
 msgstr "ماده ۳۹ با افزایش دوبرابری"
 
-#: assets/js/expert-wage-i18n.js:175
+#: assets/js/tarifexa-i18n.js:175
 msgid "Article 40"
 msgstr "ماده ۴۰"
 
-#: assets/js/expert-wage-i18n.js:302
+#: assets/js/tarifexa-i18n.js:302
 msgid "Article 40 with the twofold increase"
 msgstr "ماده ۴۰ با افزایش دوبرابری"
 
-#: assets/js/expert-wage-i18n.js:177
+#: assets/js/tarifexa-i18n.js:177
 msgid "Article 41"
 msgstr "ماده ۴۱"
 
-#: assets/js/expert-wage-i18n.js:303
+#: assets/js/tarifexa-i18n.js:303
 msgid "Article 41 with the twofold increase"
 msgstr "ماده ۴۱ با افزایش دوبرابری"
 
-#: assets/js/expert-wage-i18n.js:179
+#: assets/js/tarifexa-i18n.js:179
 msgid "Article 42"
 msgstr "ماده ۴۲"
 
-#: assets/js/expert-wage-i18n.js:306
+#: assets/js/tarifexa-i18n.js:306
 msgid "Article 42 with the twofold increase"
 msgstr "ماده ۴۲ با افزایش دوبرابری"
 
-#: assets/js/expert-wage-i18n.js:181
+#: assets/js/tarifexa-i18n.js:181
 msgid "Article 43"
 msgstr "ماده ۴۳"
 
-#: assets/js/expert-wage-i18n.js:310
+#: assets/js/tarifexa-i18n.js:310
 msgid "Article 44 with the twofold increase"
 msgstr "ماده ۴۴ با افزایش دوبرابری"
 
-#: assets/js/expert-wage-i18n.js:195
+#: assets/js/tarifexa-i18n.js:195
 msgid "Article 45"
 msgstr "ماده ۴۵"
 
-#: assets/js/expert-wage-i18n.js:205
+#: assets/js/tarifexa-i18n.js:205
 msgid "Article 46"
 msgstr "ماده ۴۶"
 
-#: assets/js/expert-wage-i18n.js:315
+#: assets/js/tarifexa-i18n.js:315
 msgid "Article 46 with the twofold increase"
 msgstr "ماده ۴۶ با افزایش دوبرابری"
 
-#: assets/js/expert-wage-i18n.js:320
+#: assets/js/tarifexa-i18n.js:320
 msgid "Article 47"
 msgstr "ماده ۴۷"
 
-#: assets/js/expert-wage-i18n.js:317
+#: assets/js/tarifexa-i18n.js:317
 msgid "Article 47 with the twofold increase"
 msgstr "ماده ۴۷ با افزایش دوبرابری"
 
-#: assets/js/expert-wage-i18n.js:226
+#: assets/js/tarifexa-i18n.js:226
 msgid "Article 48"
 msgstr "ماده ۴۸"
 
-#: assets/js/expert-wage-i18n.js:228
+#: assets/js/tarifexa-i18n.js:228
 msgid "Article 49"
 msgstr "ماده ۴۹"
 
-#: assets/js/expert-wage-i18n.js:230
+#: assets/js/tarifexa-i18n.js:230
 msgid "Article 50"
 msgstr "ماده ۵۰"
 
-#: assets/js/expert-wage-i18n.js:232
+#: assets/js/tarifexa-i18n.js:232
 msgid "Article 51"
 msgstr "ماده ۵۱"
 
-#: assets/js/expert-wage-i18n.js:234
+#: assets/js/tarifexa-i18n.js:234
 msgid "Article 52"
 msgstr "ماده ۵۲"
 
-#: assets/js/expert-wage-i18n.js:238
+#: assets/js/tarifexa-i18n.js:238
 msgid "Article 53"
 msgstr "ماده ۵۳"
 
-#: assets/js/expert-wage-i18n.js:240
+#: assets/js/tarifexa-i18n.js:240
 msgid "Article 54"
 msgstr "ماده ۵۴"
 
-#: assets/js/expert-wage-i18n.js:325
+#: assets/js/tarifexa-i18n.js:325
 msgid "Article 54 with the twofold increase"
 msgstr "ماده ۵۴ با افزایش دوبرابری"
 
-#: assets/js/expert-wage-i18n.js:243
+#: assets/js/tarifexa-i18n.js:243
 msgid "Article 55"
 msgstr "ماده ۵۵"
 
-#: assets/js/expert-wage-i18n.js:326
+#: assets/js/tarifexa-i18n.js:326
 msgid "Article 55 with the twofold increase"
 msgstr "ماده ۵۵ با افزایش دوبرابری"
 
-#: assets/js/expert-wage-i18n.js:58
+#: assets/js/tarifexa-i18n.js:58
 msgid "Article 7"
 msgstr "ماده ۷"
 
-#: assets/js/expert-wage-i18n.js:260
+#: assets/js/tarifexa-i18n.js:260
 msgid "Article 7 with the twofold increase"
 msgstr "ماده ۷ با افزایش دوبرابری"
 
-#: assets/js/expert-wage-i18n.js:61
+#: assets/js/tarifexa-i18n.js:61
 msgid "Article 9"
 msgstr "ماده ۹"
 
-#: assets/js/expert-wage-i18n.js:261
+#: assets/js/tarifexa-i18n.js:261
 msgid "Article 9 with the twofold increase"
 msgstr "ماده ۹ با افزایش دوبرابری"
 
-#: assets/js/expert-wage-i18n.js:26
+#: assets/js/tarifexa-i18n.js:26
 msgid "Artistic disciplines"
 msgstr "فنون هنری"
 
-#: assets/js/expert-wage-i18n.js:99
+#: assets/js/tarifexa-i18n.js:99
 msgid "Audit of aggregate account figures"
 msgstr "حسابرسی جمع ارقام حساب‌ها"
 
-#: assets/js/expert-wage-i18n.js:316
+#: assets/js/tarifexa-i18n.js:316
 msgid "Authenticity of handwriting and signatures in a financial case"
 msgstr "اصالت خط و امضا در پرونده مالی"
 
-#: assets/js/expert-wage-i18n.js:314
+#: assets/js/tarifexa-i18n.js:314
 msgid "Authenticity of handwriting and signatures in a non-financial case"
 msgstr "اصالت خط و امضا در پرونده غیرمالی"
 
-#: assets/js/expert-wage-i18n.js:208
+#: assets/js/tarifexa-i18n.js:208
 msgid "Authenticity of handwriting, signatures, and fingerprints in a financial case"
 msgstr "اصالت خط، امضا و اثر انگشت در پرونده مالی"
 
-#: assets/js/expert-wage-i18n.js:204
+#: assets/js/tarifexa-i18n.js:204
 msgid "Authenticity of handwriting, signatures, and fingerprints in a non-financial case"
 msgstr "اصالت خط، امضا و اثر انگشت در پرونده غیرمالی"
 
-#: assets/js/expert-wage-i18n.js:331 assets/js/expert-wage-i18n.js:360
+#: assets/js/tarifexa-i18n.js:331 assets/js/tarifexa-i18n.js:360
 msgid "Base wage for one expert"
 msgstr "دستمزد پایه تک‌نفره"
 
-#: assets/js/expert-wage-i18n.js:30
+#: assets/js/tarifexa-i18n.js:30
 msgid "Biotechnology and nanotechnology"
 msgstr "بیو و نانوتکنولوژی"
 
-#: assets/js/expert-wage-i18n.js:245
+#: assets/js/tarifexa-i18n.js:245
 msgid "Biotechnology and nanotechnology expert assessment"
 msgstr "کارشناسی بیو و نانوتکنولوژی"
 
-#: assets/js/expert-wage-i18n.js:288
+#: assets/js/tarifexa-i18n.js:288
 msgid "Boat collision in inland waters"
 msgstr "تصادم قایق در آب داخلی"
 
@@ -471,219 +471,215 @@ msgstr "تصادم قایق در آب داخلی"
 msgid "Calculate wage"
 msgstr "محاسبه دستمزد"
 
-#: expert-wage-calculator.php:5
-msgid "Calculates Iranian official judicial expert wages for 1402 and 1405 with quick and full multilingual shortcodes."
-msgstr "محاسبه دستمزد کارشناسان رسمی دادگستری ایران برای تعرفه‌های ۱۴۰۲ و ۱۴۰۵ با شورت‌کدهای سریع و جامع چندزبانه."
-
 #: templates/calculator.php:134
 msgid "Calculation basis:"
 msgstr "مبنای محاسبه:"
 
-#: assets/js/expert-wage-i18n.js:135
+#: assets/js/tarifexa-i18n.js:135
 msgid "Claimed amount"
 msgstr "مبلغ خواسته"
 
-#: assets/js/expert-wage-i18n.js:231
+#: assets/js/tarifexa-i18n.js:231
 msgid "Classification of cultivated, uncultivated, barren, and national lands"
 msgstr "تشخیص اراضی دایر، بایر، موات و منابع ملی"
 
-#: assets/js/expert-wage-i18n.js:78
+#: assets/js/tarifexa-i18n.js:78
 msgid "Clause 1 of Article 20"
 msgstr "بند ۱ ماده ۲۰"
 
-#: assets/js/expert-wage-i18n.js:269
+#: assets/js/tarifexa-i18n.js:269
 msgid "Clause 1 of Article 20 with the twofold increase"
 msgstr "بند ۱ ماده ۲۰ با افزایش دوبرابری"
 
-#: assets/js/expert-wage-i18n.js:86
+#: assets/js/tarifexa-i18n.js:86
 msgid "Clause 1 of Article 22"
 msgstr "بند ۱ ماده ۲۲"
 
-#: assets/js/expert-wage-i18n.js:103
+#: assets/js/tarifexa-i18n.js:103
 msgid "Clause 1 of Article 26"
 msgstr "بند ۱ ماده ۲۶"
 
-#: assets/js/expert-wage-i18n.js:122
+#: assets/js/tarifexa-i18n.js:122
 msgid "Clause 1 of Article 31"
 msgstr "بند ۱ ماده ۳۱"
 
-#: assets/js/expert-wage-i18n.js:134
+#: assets/js/tarifexa-i18n.js:134
 msgid "Clause 1 of Article 32"
 msgstr "بند ۱ ماده ۳۲"
 
-#: assets/js/expert-wage-i18n.js:153
+#: assets/js/tarifexa-i18n.js:153
 msgid "Clause 1 of Article 36"
 msgstr "بند ۱ ماده ۳۶"
 
-#: assets/js/expert-wage-i18n.js:166
+#: assets/js/tarifexa-i18n.js:166
 msgid "Clause 1 of Article 39"
 msgstr "بند ۱ ماده ۳۹"
 
-#: assets/js/expert-wage-i18n.js:185
+#: assets/js/tarifexa-i18n.js:185
 msgid "Clause 1 of Article 44"
 msgstr "بند ۱ ماده ۴۴"
 
-#: assets/js/expert-wage-i18n.js:82
+#: assets/js/tarifexa-i18n.js:82
 msgid "Clause 2 of Article 20"
 msgstr "بند ۲ ماده ۲۰"
 
-#: assets/js/expert-wage-i18n.js:270
+#: assets/js/tarifexa-i18n.js:270
 msgid "Clause 2 of Article 20 with the twofold increase"
 msgstr "بند ۲ ماده ۲۰ با افزایش دوبرابری"
 
-#: assets/js/expert-wage-i18n.js:89
+#: assets/js/tarifexa-i18n.js:89
 msgid "Clause 2 of Article 22"
 msgstr "بند ۲ ماده ۲۲"
 
-#: assets/js/expert-wage-i18n.js:105
+#: assets/js/tarifexa-i18n.js:105
 msgid "Clause 2 of Article 26"
 msgstr "بند ۲ ماده ۲۶"
 
-#: assets/js/expert-wage-i18n.js:126
+#: assets/js/tarifexa-i18n.js:126
 msgid "Clause 2 of Article 31"
 msgstr "بند ۲ ماده ۳۱"
 
-#: assets/js/expert-wage-i18n.js:137
+#: assets/js/tarifexa-i18n.js:137
 msgid "Clause 2 of Article 32"
 msgstr "بند ۲ ماده ۳۲"
 
-#: assets/js/expert-wage-i18n.js:155
+#: assets/js/tarifexa-i18n.js:155
 msgid "Clause 2 of Article 36"
 msgstr "بند ۲ ماده ۳۶"
 
-#: assets/js/expert-wage-i18n.js:168
+#: assets/js/tarifexa-i18n.js:168
 msgid "Clause 2 of Article 39"
 msgstr "بند ۲ ماده ۳۹"
 
-#: assets/js/expert-wage-i18n.js:189
+#: assets/js/tarifexa-i18n.js:189
 msgid "Clause 2 of Article 44"
 msgstr "بند ۲ ماده ۴۴"
 
-#: assets/js/expert-wage-i18n.js:92
+#: assets/js/tarifexa-i18n.js:92
 msgid "Clause 3 of Article 22"
 msgstr "بند ۳ ماده ۲۲"
 
-#: assets/js/expert-wage-i18n.js:108
+#: assets/js/tarifexa-i18n.js:108
 msgid "Clause 3 of Article 26"
 msgstr "بند ۳ ماده ۲۶"
 
-#: assets/js/expert-wage-i18n.js:128
+#: assets/js/tarifexa-i18n.js:128
 msgid "Clause 3 of Article 31"
 msgstr "بند ۳ ماده ۳۱"
 
-#: assets/js/expert-wage-i18n.js:157
+#: assets/js/tarifexa-i18n.js:157
 msgid "Clause 3 of Article 36"
 msgstr "بند ۳ ماده ۳۶"
 
-#: assets/js/expert-wage-i18n.js:191
+#: assets/js/tarifexa-i18n.js:191
 msgid "Clause 3 of Article 44"
 msgstr "بند ۳ ماده ۴۴"
 
-#: assets/js/expert-wage-i18n.js:139
+#: assets/js/tarifexa-i18n.js:139
 msgid "Clause 3-A of Article 32"
 msgstr "بند ۳-الف ماده ۳۲"
 
-#: assets/js/expert-wage-i18n.js:141
+#: assets/js/tarifexa-i18n.js:141
 msgid "Clause 3-B of Article 32"
 msgstr "بند ۳-ب ماده ۳۲"
 
-#: assets/js/expert-wage-i18n.js:144
+#: assets/js/tarifexa-i18n.js:144
 msgid "Clause 4 of Article 32"
 msgstr "بند ۴ ماده ۳۲"
 
-#: assets/js/expert-wage-i18n.js:159
+#: assets/js/tarifexa-i18n.js:159
 msgid "Clause 4 of Article 36"
 msgstr "بند ۴ ماده ۳۶"
 
-#: assets/js/expert-wage-i18n.js:211
+#: assets/js/tarifexa-i18n.js:211
 msgid "Clause A of Article 47"
 msgstr "بند الف ماده ۴۷"
 
-#: assets/js/expert-wage-i18n.js:213
+#: assets/js/tarifexa-i18n.js:213
 msgid "Clause B-1 of Article 47"
 msgstr "بند ب-۱ ماده ۴۷"
 
-#: assets/js/expert-wage-i18n.js:215
+#: assets/js/tarifexa-i18n.js:215
 msgid "Clause B-2 of Article 47"
 msgstr "بند ب-۲ ماده ۴۷"
 
-#: assets/js/expert-wage-i18n.js:217
+#: assets/js/tarifexa-i18n.js:217
 msgid "Clause C of Article 47"
 msgstr "بند پ ماده ۴۷"
 
-#: assets/js/expert-wage-i18n.js:219
+#: assets/js/tarifexa-i18n.js:219
 msgid "Clause E of Article 47"
 msgstr "بند ث ماده ۴۷"
 
-#: assets/js/expert-wage-i18n.js:222
+#: assets/js/tarifexa-i18n.js:222
 msgid "Clause F of Article 47"
 msgstr "بند ج ماده ۴۷"
 
-#: assets/js/expert-wage-i18n.js:224
+#: assets/js/tarifexa-i18n.js:224
 msgid "Clause G of Article 47"
 msgstr "بند چ ماده ۴۷"
 
-#: assets/js/expert-wage-i18n.js:140
+#: assets/js/tarifexa-i18n.js:140
 msgid "Collision of a marine vessel with a capacity below 500 tons"
 msgstr "تصادم شناور دریایی با ظرفیت کمتر از ۵۰۰ تن"
 
-#: assets/js/expert-wage-i18n.js:142
+#: assets/js/tarifexa-i18n.js:142
 msgid "Collision of a marine vessel with a capacity of 500 tons or more"
 msgstr "تصادم شناور دریایی با ظرفیت ۵۰۰ تن یا بیشتر"
 
-#: assets/js/expert-wage-i18n.js:290
+#: assets/js/tarifexa-i18n.js:290
 msgid "Collision of a vessel with a capacity below 500 tons"
 msgstr "تصادم شناور با ظرفیت کمتر از ۵۰۰ تن"
 
-#: assets/js/expert-wage-i18n.js:291
+#: assets/js/tarifexa-i18n.js:291
 msgid "Collision of a vessel with a capacity of 500 tons or more"
 msgstr "تصادم شناور با ظرفیت ۵۰۰ تن یا بیشتر"
 
-#: assets/js/expert-wage-i18n.js:138
+#: assets/js/tarifexa-i18n.js:138
 msgid "Collision of recreational or passenger boats in inland waters"
 msgstr "تصادم قایق تفریحی یا مسافربری در آب داخلی"
 
-#: assets/js/expert-wage-i18n.js:148
+#: assets/js/tarifexa-i18n.js:148
 msgid "Comparison of architectural or structural plans with site conditions"
 msgstr "تطبیق نقشه معماری یا سازه با وضعیت محل"
 
-#: assets/js/expert-wage-i18n.js:150
+#: assets/js/tarifexa-i18n.js:150
 msgid "Comparison of construction contract specifications with site conditions"
 msgstr "تطبیق مشخصات قرارداد ساختمانی با محل"
 
-#: assets/js/expert-wage-i18n.js:200
+#: assets/js/tarifexa-i18n.js:200
 msgid "Computer software expert assessment"
 msgstr "کارشناسی نرم‌افزار رایانه‌ای"
 
-#: assets/js/expert-wage-i18n.js:129
+#: assets/js/tarifexa-i18n.js:129
 msgid "Concurrent review of multiple non-damage subjects for one vehicle"
 msgstr "بررسی همزمان چند موضوع غیرخسارتی یک خودرو"
 
-#: assets/js/expert-wage-i18n.js:158
+#: assets/js/tarifexa-i18n.js:158
 msgid "Confirmation of building structural safety for other fields"
 msgstr "تأیید استحکام بنا برای سایر رشته‌ها"
 
-#: assets/js/expert-wage-i18n.js:45
+#: assets/js/tarifexa-i18n.js:45
 msgid "Contract amount"
 msgstr "مبلغ قرارداد"
 
-#: assets/js/expert-wage-i18n.js:43
+#: assets/js/tarifexa-i18n.js:43
 msgid "Contract dispute, review, and determination of progress statements"
 msgstr "اختلاف قرارداد، کنترل و تعیین صورت‌وضعیت"
 
-#: assets/js/expert-wage-i18n.js:173
+#: assets/js/tarifexa-i18n.js:173
 msgid "Coordinate determination with handheld single-frequency GPS"
 msgstr "تعیین مختصات با GPS دستی تک‌فرکانسه"
 
-#: assets/js/expert-wage-i18n.js:169
+#: assets/js/tarifexa-i18n.js:169
 msgid "Coordinate determination with multi-frequency GPS"
 msgstr "تعیین مختصات با GPS چندفرکانسه"
 
-#: assets/js/expert-wage-i18n.js:199
+#: assets/js/tarifexa-i18n.js:199
 msgid "Current machinery value"
 msgstr "ارزش روز ماشین‌آلات"
 
-#: assets/js/expert-wage-i18n.js:251
+#: assets/js/tarifexa-i18n.js:251
 msgid "Damage amount"
 msgstr "میزان خسارت"
 
@@ -691,143 +687,143 @@ msgstr "میزان خسارت"
 msgid "day"
 msgstr "روز"
 
-#: assets/js/expert-wage-i18n.js:154
+#: assets/js/tarifexa-i18n.js:154
 msgid "Design or review of structural calculations for an existing building"
 msgstr "طراحی یا کنترل محاسبات سازه ساختمان موجود"
 
-#: assets/js/expert-wage-i18n.js:152
+#: assets/js/tarifexa-i18n.js:152
 msgid "Design or review of the overall architecture of an existing building"
 msgstr "طراحی یا کنترل معماری کلی ساختمان موجود"
 
-#: assets/js/expert-wage-i18n.js:77
+#: assets/js/tarifexa-i18n.js:77
 msgid "Determination of canal and stream boundaries with a bed width up to 12 meters"
 msgstr "تعیین حریم کانال و نهر با عرض بستر تا ۱۲ متر"
 
-#: assets/js/expert-wage-i18n.js:268
+#: assets/js/tarifexa-i18n.js:268
 msgid "Determination of canal and stream boundaries with a width up to 12 meters"
 msgstr "تعیین حریم کانال و نهر با عرض تا ۱۲ متر"
 
-#: assets/js/expert-wage-i18n.js:72
+#: assets/js/tarifexa-i18n.js:72
 msgid "Determination of each person water right"
 msgstr "تعیین میزان حقابه هر فرد"
 
-#: assets/js/expert-wage-i18n.js:322
+#: assets/js/tarifexa-i18n.js:322
 msgid "Determination of land and national resources"
 msgstr "تشخیص اراضی و منابع ملی"
 
-#: assets/js/expert-wage-i18n.js:311
+#: assets/js/tarifexa-i18n.js:311
 msgid "Determination of machinery specifications and useful life"
 msgstr "تعیین مشخصات فنی و عمر مفید ماشین‌آلات"
 
-#: assets/js/expert-wage-i18n.js:197
+#: assets/js/tarifexa-i18n.js:197
 msgid "Determination of machinery specifications, depreciation, and useful life"
 msgstr "تعیین مشخصات فنی، استهلاک و عمر مفید ماشین‌آلات"
 
-#: assets/js/expert-wage-i18n.js:299
+#: assets/js/tarifexa-i18n.js:299
 msgid "Determination of previously developed land"
 msgstr "تشخیص زمین مسبوق به احیا"
 
-#: assets/js/expert-wage-i18n.js:163
+#: assets/js/tarifexa-i18n.js:163
 msgid "Determination of previously developed land from a construction perspective"
 msgstr "تشخیص زمین مسبوق به احیا از نظر ساختمانی"
 
-#: assets/js/expert-wage-i18n.js:87
+#: assets/js/tarifexa-i18n.js:87
 msgid "Determination of qualitative and performance characteristics of metals"
 msgstr "تشخیص مشخصات کیفی و عملکردی فلزات"
 
-#: assets/js/expert-wage-i18n.js:180
+#: assets/js/tarifexa-i18n.js:180
 msgid "Determination of registered boundaries and disputes over agricultural property"
 msgstr "تشخیص حدود ثبتی و اختلاف املاک مزروعی"
 
-#: assets/js/expert-wage-i18n.js:307
+#: assets/js/tarifexa-i18n.js:307
 msgid "Determination of registered boundaries and property disputes"
 msgstr "تشخیص حدود ثبتی و اختلاف املاک"
 
-#: assets/js/expert-wage-i18n.js:49
+#: assets/js/tarifexa-i18n.js:49
 msgid "Determination of rent, overdue rent, or fair rental value"
 msgstr "تعیین اجاره‌بها، اجور معوقه یا اجرت‌المثل"
 
-#: assets/js/expert-wage-i18n.js:81
+#: assets/js/tarifexa-i18n.js:81
 msgid "Determination of river or canal boundaries wider than 12 meters"
 msgstr "تعیین حریم رودخانه یا کانال با عرض بیش از ۱۲ متر"
 
-#: assets/js/expert-wage-i18n.js:102
+#: assets/js/tarifexa-i18n.js:102
 msgid "Determination of share and partnership interest value"
 msgstr "تعیین ارزش سهام و سهم‌الشرکه"
 
-#: assets/js/expert-wage-i18n.js:125
+#: assets/js/tarifexa-i18n.js:125
 msgid "Determination of the accident cause and responsible party"
 msgstr "تعیین علت تصادف و مقصر"
 
-#: assets/js/expert-wage-i18n.js:74
+#: assets/js/tarifexa-i18n.js:74
 msgid "Determination of the age of water resources"
 msgstr "تعیین قدمت منابع آبی"
 
-#: assets/js/expert-wage-i18n.js:249
+#: assets/js/tarifexa-i18n.js:249
 msgid "Determination of the cause, origin, and amount of damage"
 msgstr "تعیین سبب، علت و میزان خسارت"
 
-#: assets/js/expert-wage-i18n.js:107
+#: assets/js/tarifexa-i18n.js:107
 msgid "Determination of the cost of goods"
 msgstr "تعیین قیمت تمام‌شده کالا"
 
-#: assets/js/expert-wage-i18n.js:66
+#: assets/js/tarifexa-i18n.js:66
 msgid "Determination of water chemistry and pollution"
 msgstr "تعیین کیفیت شیمیایی و آلودگی آب"
 
-#: assets/js/expert-wage-i18n.js:136
+#: assets/js/tarifexa-i18n.js:136
 msgid "Determination of watercraft value"
 msgstr "تعیین ارزش وسیله نقلیه آبی"
 
-#: assets/js/expert-wage-i18n.js:115
+#: assets/js/tarifexa-i18n.js:115
 msgid "Determined subject amount"
 msgstr "مبلغ تعیین‌شده موضوع"
 
-#: assets/js/expert-wage-i18n.js:312
+#: assets/js/tarifexa-i18n.js:312
 msgid "Digital document authenticity and network security"
 msgstr "اصالت اسناد دیجیتال و امنیت شبکه"
 
-#: assets/js/expert-wage-i18n.js:202
+#: assets/js/tarifexa-i18n.js:202
 msgid "Digital document authenticity, network security, and cyberattacks"
 msgstr "اصالت اسناد دیجیتال، امنیت شبکه و حملات سایبری"
 
-#: assets/js/expert-wage-i18n.js:214
+#: assets/js/tarifexa-i18n.js:214
 msgid "Disputes involving feature-length cinema programs"
 msgstr "اختلافات برنامه سینمایی بلند"
 
-#: assets/js/expert-wage-i18n.js:318
+#: assets/js/tarifexa-i18n.js:318
 msgid "Disputes involving short programs or documentaries"
 msgstr "اختلافات برنامه کوتاه یا مستند"
 
-#: assets/js/expert-wage-i18n.js:212
+#: assets/js/tarifexa-i18n.js:212
 msgid "Disputes involving short programs, documentaries, or animation"
 msgstr "اختلافات برنامه کوتاه، مستند یا انیمیشن"
 
-#: assets/js/expert-wage-i18n.js:143
+#: assets/js/tarifexa-i18n.js:143
 msgid "Diving and underwater operations"
 msgstr "غواصی و عملیات زیرآبی"
 
-#: assets/js/expert-wage-i18n.js:366
+#: assets/js/tarifexa-i18n.js:366
 msgid "Documented maximum"
 msgstr "حداکثر قابل استناد"
 
-#: assets/js/expert-wage-i18n.js:365
+#: assets/js/tarifexa-i18n.js:365
 msgid "Documented minimum"
 msgstr "حداقل قابل استناد"
 
-#: assets/js/expert-wage-i18n.js:207
+#: assets/js/tarifexa-i18n.js:207
 msgid "documents"
 msgstr "مستند"
 
-#: assets/js/expert-wage-i18n.js:332
+#: assets/js/tarifexa-i18n.js:332
 msgid "Each expert share after the 30% reduction"
 msgstr "سهم هر کارشناس پس از کسر ۳۰٪"
 
-#: assets/js/expert-wage-i18n.js:361
+#: assets/js/tarifexa-i18n.js:361
 msgid "Each expert share including mission allowance"
 msgstr "سهم هر کارشناس با مأموریت"
 
-#: assets/js/expert-wage-i18n.js:32
+#: assets/js/tarifexa-i18n.js:32
 msgid "Effective from the notification date of 1405/05/20"
 msgstr "لازم‌الاجرا از تاریخ ابلاغ ۱۴۰۵/۰۵/۲۰"
 
@@ -835,11 +831,15 @@ msgstr "لازم‌الاجرا از تاریخ ابلاغ ۱۴۰۵/۰۵/۲۰"
 msgid "Enter the amount in rials. Tariff bands, the statutory cap, and the same-field panel reduction are applied for the selected year."
 msgstr "مبلغ را به ریال وارد کنید. پلکان‌ها، سقف قانونی و کسر هیئت هم‌رشته بر اساس سال انتخابی اعمال می‌شود."
 
-#: assets/js/expert-wage-i18n.js:364
+#: assets/js/tarifexa-i18n.js:364
 msgid "Estimated total"
 msgstr "جمع قابل برآورد"
 
-#: assets/js/expert-wage-i18n.js:358
+#: tarifexa.php:5
+msgid "Estimates Iranian judicial expert wages for the 1402 and 1405 tariff catalogs with quick and full multilingual shortcodes."
+msgstr "برآورد دستمزد کارشناسان رسمی دادگستری ایران برای تعرفه‌های ۱۴۰۲ و ۱۴۰۵ با شورت‌کدهای سریع و جامع چندزبانه."
+
+#: assets/js/tarifexa-i18n.js:358
 msgid "Exact tariff estimate based on the calculation formula"
 msgstr "برآورد محاسباتی قطعی بر اساس فرمول تعرفه"
 
@@ -855,23 +855,19 @@ msgstr "هیئت کارشناسی"
 msgid "Expert subject *"
 msgstr "موضوع کارشناسی *"
 
-#: assets/js/expert-wage-i18n.js:37
+#: assets/js/tarifexa-i18n.js:37
 msgid "Expert subject value"
 msgstr "ارزش موضوع کارشناسی"
 
-#: expert-wage-calculator.php:3
-msgid "Expert Wage Calculator"
-msgstr "Expert Wage Calculator"
-
-#: assets/js/expert-wage-i18n.js:368 templates/calculator.php:115
+#: assets/js/tarifexa-i18n.js:368 templates/calculator.php:115
 msgid "experts"
 msgstr "نفر"
 
-#: assets/js/expert-wage-i18n.js:22
+#: assets/js/tarifexa-i18n.js:22
 msgid "Financial matters"
 msgstr "امور مالی"
 
-#: assets/js/expert-wage-i18n.js:304
+#: assets/js/tarifexa-i18n.js:304
 msgid "For a parcel outside the designated area, an increase of up to 20% may be applied at the authority discretion."
 msgstr "برای پلاک خارج از محدوده، تا ۲۰٪ افزایش با نظر مرجع قابل اعمال است."
 
@@ -883,87 +879,91 @@ msgstr "مثلاً اجاره‌بها، نقشه‌برداری یا ماده �
 msgid "Full calculator for all fields"
 msgstr "محاسبه تخصصی همه رشته‌ها"
 
-#: assets/js/expert-wage-i18n.js:18
+#: assets/js/tarifexa-i18n.js:18
 msgid "General and valuation"
 msgstr "عمومی و ارزیابی"
 
-#: assets/js/expert-wage-i18n.js:54
+#: assets/js/tarifexa-i18n.js:54
 msgid "Image age"
 msgstr "قدمت تصویر"
 
-#: assets/js/expert-wage-i18n.js:25
+#: assets/js/tarifexa-i18n.js:25
 msgid "Industry and technology"
 msgstr "صنعت و فن"
 
-#: assets/js/expert-wage-i18n.js:293
+#: assets/js/tarifexa-i18n.js:293
 msgid "Interior architecture and other technical matters"
 msgstr "امور معماری داخلی و موارد فنی دیگر"
 
-#: assets/js/expert-wage-i18n.js:52
+#: assets/js/tarifexa-i18n.js:52
 msgid "Interpretation of aerial photographs or satellite imagery"
 msgstr "تفسیر عکس هوایی یا تصویر ماهواره‌ای"
 
-#: assets/js/expert-wage-i18n.js:36
+#: assets/js/tarifexa-i18n.js:36
 msgid "item"
 msgstr "مورد"
 
-#: assets/js/expert-wage-i18n.js:80
+#: templates/calculator.php:32
+msgid "Judicial Expert Valuation Wage"
+msgstr "دستمزد ارزیابی کارشناس رسمی"
+
+#: assets/js/tarifexa-i18n.js:80
 msgid "kilometers"
 msgstr "کیلومتر"
 
-#: assets/js/expert-wage-i18n.js:174
+#: assets/js/tarifexa-i18n.js:174
 msgid "Land surveying and profile preparation"
 msgstr "نقشه‌برداری اراضی و تهیه پروفیل"
 
-#: assets/js/expert-wage-i18n.js:65
+#: assets/js/tarifexa-i18n.js:65
 msgid "liters per second"
 msgstr "لیتر در ثانیه"
 
-#: assets/js/expert-wage-i18n.js:305
+#: assets/js/tarifexa-i18n.js:305
 msgid "Location map of qanats, streams, and canals"
 msgstr "نقشه موقعیت قنوات، انهار و کانال‌ها"
 
-#: assets/js/expert-wage-i18n.js:178
+#: assets/js/tarifexa-i18n.js:178
 msgid "Location map of qanats, streams, canals, and rivers"
 msgstr "نقشه موقعیت قنوات، انهار، کانال‌ها و رودخانه‌ها"
 
-#: assets/js/expert-wage-i18n.js:113
+#: assets/js/tarifexa-i18n.js:113
 msgid "Maintenance, compensation for services, marital gift, and customary dowry"
 msgstr "نفقه، اجرت‌المثل، نحله و مهرالمثل"
 
-#: assets/js/expert-wage-i18n.js:62
+#: assets/js/tarifexa-i18n.js:62
 msgid "Measurement of water and water rights"
 msgstr "اندازه‌گیری آب و حقابه"
 
-#: assets/js/expert-wage-i18n.js:21
+#: assets/js/tarifexa-i18n.js:21
 msgid "Medical and food matters"
 msgstr "امور پزشکی و غذایی"
 
-#: assets/js/expert-wage-i18n.js:96
+#: assets/js/tarifexa-i18n.js:96
 msgid "Medical, pharmaceutical, or food expert assessment"
 msgstr "کارشناسی پزشکی، داروسازی یا مواد غذایی"
 
-#: assets/js/expert-wage-i18n.js:91
+#: assets/js/tarifexa-i18n.js:91
 msgid "Mining review without discovery of minerals"
 msgstr "بررسی معدنی بدون کشف ماده معدنی"
 
-#: assets/js/expert-wage-i18n.js:275
+#: assets/js/tarifexa-i18n.js:275
 msgid "Mining review without valuation"
 msgstr "بررسی معدنی بدون ارزیابی"
 
-#: assets/js/expert-wage-i18n.js:363
+#: assets/js/tarifexa-i18n.js:363
 msgid "Mission allowance"
 msgstr "فوق‌العاده مأموریت"
 
-#: assets/js/expert-wage-i18n.js:333
+#: assets/js/tarifexa-i18n.js:333
 msgid "Mission allowance for each expert"
 msgstr "فوق‌العاده مأموریت هر کارشناس"
 
-#: assets/js/expert-wage-i18n.js:329
+#: assets/js/tarifexa-i18n.js:329
 msgid "Mission days inside the province"
 msgstr "روز مأموریت داخل استان"
 
-#: assets/js/expert-wage-i18n.js:330
+#: assets/js/tarifexa-i18n.js:330
 msgid "Mission days outside the province"
 msgstr "روز مأموریت خارج استان"
 
@@ -975,183 +975,175 @@ msgstr "مأموریت داخل استان"
 msgid "Mission outside the province"
 msgstr "مأموریت خارج استان"
 
-#: assets/js/expert-wage-i18n.js:51
+#: assets/js/tarifexa-i18n.js:51
 msgid "Monthly rent"
 msgstr "اجاره ماهانه"
 
-#: assets/js/expert-wage-i18n.js:20
+#: assets/js/tarifexa-i18n.js:20
 msgid "Movable property"
 msgstr "اموال منقول"
 
-#: assets/js/expert-wage-i18n.js:354
+#: assets/js/tarifexa-i18n.js:354
 msgid "No additional numeric input is required for this subject."
 msgstr "برای این موضوع ورودی عددی دیگری لازم نیست."
 
-#: assets/js/expert-wage-i18n.js:343
+#: assets/js/tarifexa-i18n.js:343
 msgid "No calculation rule is defined for this subject."
 msgstr "قاعده محاسبه این موضوع تعریف نشده است."
 
-#: assets/js/expert-wage-i18n.js:357
+#: assets/js/tarifexa-i18n.js:357
 msgid "No subject was found."
 msgstr "موضوعی پیدا نشد."
 
-#: assets/js/expert-wage-i18n.js:359
+#: assets/js/tarifexa-i18n.js:359
 msgid "Non-final estimate; the final amount requires authority approval"
 msgstr "برآورد غیرقطعی؛ مبلغ نهایی نیازمند تأیید مرجع است"
 
-#: assets/js/expert-wage-i18n.js:352
+#: assets/js/tarifexa-i18n.js:352
 msgid "Not determined"
 msgstr "تعیین نشده"
 
-#: assets/js/expert-wage-i18n.js:130
+#: assets/js/tarifexa-i18n.js:130
 msgid "Note 1 of Article 31"
 msgstr "تبصره ۱ ماده ۳۱"
 
-#: assets/js/expert-wage-i18n.js:198
+#: assets/js/tarifexa-i18n.js:198
 msgid "Note 1 of Article 45"
 msgstr "تبصره ۱ ماده ۴۵"
 
-#: assets/js/expert-wage-i18n.js:132
+#: assets/js/tarifexa-i18n.js:132
 msgid "Note 2 of Article 31"
 msgstr "تبصره ۲ ماده ۳۱"
 
-#: assets/js/expert-wage-i18n.js:170
+#: assets/js/tarifexa-i18n.js:170
 msgid "Note 2 of Article 39"
 msgstr "تبصره ۲ ماده ۳۹"
 
-#: assets/js/expert-wage-i18n.js:201
+#: assets/js/tarifexa-i18n.js:201
 msgid "Note 2 of Article 45"
 msgstr "تبصره ۲ ماده ۴۵"
 
-#: assets/js/expert-wage-i18n.js:236
+#: assets/js/tarifexa-i18n.js:236
 msgid "Note 2 of Article 52"
 msgstr "تبصره ۲ ماده ۵۲"
 
-#: assets/js/expert-wage-i18n.js:44
+#: assets/js/tarifexa-i18n.js:44
 msgid "Note 3 of Article 11"
 msgstr "تبصره ۳ ماده ۱۱"
 
-#: assets/js/expert-wage-i18n.js:203
+#: assets/js/tarifexa-i18n.js:203
 msgid "Note 3 of Article 45"
 msgstr "تبصره ۳ ماده ۴۵"
 
-#: assets/js/expert-wage-i18n.js:48
+#: assets/js/tarifexa-i18n.js:48
 msgid "Note 4 of Article 11"
 msgstr "تبصره ۴ ماده ۱۱"
 
-#: assets/js/expert-wage-i18n.js:73
+#: assets/js/tarifexa-i18n.js:73
 msgid "Note to Article 18"
 msgstr "تبصره ماده ۱۸"
 
-#: assets/js/expert-wage-i18n.js:183
+#: assets/js/tarifexa-i18n.js:183
 msgid "Note to Article 43"
 msgstr "تبصره ماده ۴۳"
 
-#: assets/js/expert-wage-i18n.js:209
+#: assets/js/tarifexa-i18n.js:209
 msgid "Note to Article 46"
 msgstr "تبصره ماده ۴۶"
 
-#: assets/js/expert-wage-i18n.js:324
+#: assets/js/tarifexa-i18n.js:324
 msgid "Note to Article 52"
 msgstr "تبصره ماده ۵۲"
 
-#: assets/js/expert-wage-i18n.js:246
+#: assets/js/tarifexa-i18n.js:246
 msgid "Note to Group 12"
 msgstr "تبصره گروه ۱۲"
 
-#: assets/js/expert-wage-i18n.js:327
+#: assets/js/tarifexa-i18n.js:327
 msgid "Note to the biotechnology and nanotechnology group"
 msgstr "تبصره گروه بیو و نانو"
 
-#: assets/js/expert-wage-i18n.js:206
+#: assets/js/tarifexa-i18n.js:206
 msgid "Number of documents"
 msgstr "تعداد مستندات"
 
-#: assets/js/expert-wage-i18n.js:328 assets/js/expert-wage-i18n.js:367 templates/calculator.php:112
+#: assets/js/tarifexa-i18n.js:328 assets/js/tarifexa-i18n.js:367 templates/calculator.php:112
 msgid "Number of panel members"
 msgstr "تعداد اعضای هیئت"
 
-#: assets/js/expert-wage-i18n.js:186
+#: assets/js/tarifexa-i18n.js:186
 msgid "Number of parcels"
 msgstr "تعداد قطعات"
 
-#: assets/js/expert-wage-i18n.js:171
+#: assets/js/tarifexa-i18n.js:171
 msgid "Number of points"
 msgstr "تعداد نقاط"
 
-#: assets/js/expert-wage-i18n.js:192
+#: assets/js/tarifexa-i18n.js:192
 msgid "Number of units"
 msgstr "تعداد واحدها"
 
-#: assets/js/expert-wage-i18n.js:123
+#: assets/js/tarifexa-i18n.js:123
 msgid "Number of vehicles"
 msgstr "تعداد خودرو"
 
-#: assets/js/expert-wage-i18n.js:106
+#: assets/js/tarifexa-i18n.js:106
 msgid "Number of years under review"
 msgstr "تعداد سال‌های مورد رسیدگی"
 
-#: templates/calculator.php:32
-msgid "Official Expert Valuation Wage"
-msgstr "دستمزد ارزیابی کارشناس رسمی"
-
-#: includes/class-expert-wage-calculator.php:56 templates/calculator.php:35
-msgid "Official Expert Wage Calculator"
-msgstr "محاسبه دستمزد کارشناس رسمی"
-
-#: includes/class-expert-wage-calculator.php:277
+#: includes/class-tarifexa.php:287
 msgid "Open calculator"
 msgstr "مشاهده ماشین‌حساب"
 
-#: assets/js/expert-wage-i18n.js:112
+#: assets/js/tarifexa-i18n.js:112
 msgid "Other commercial matters"
 msgstr "سایر امور بازرگانی"
 
-#: assets/js/expert-wage-i18n.js:196
+#: assets/js/tarifexa-i18n.js:196
 msgid "Other industry and technology expert assessments"
 msgstr "سایر کارشناسی‌های صنعت و فن"
 
-#: assets/js/expert-wage-i18n.js:281
+#: assets/js/tarifexa-i18n.js:281
 msgid "Other investment, banking, or insurance matters"
 msgstr "سایر امور سرمایه‌گذاری، بانک یا بیمه"
 
-#: assets/js/expert-wage-i18n.js:118
+#: assets/js/tarifexa-i18n.js:118
 msgid "Other investment, banking, securities, or insurance matters"
 msgstr "سایر امور سرمایه‌گذاری، بانک، بورس یا بیمه"
 
-#: assets/js/expert-wage-i18n.js:187 assets/js/expert-wage-i18n.js:259
+#: assets/js/tarifexa-i18n.js:187 assets/js/tarifexa-i18n.js:259
 msgid "parcels"
 msgstr "پلاک"
 
-#: assets/js/expert-wage-i18n.js:233
+#: assets/js/tarifexa-i18n.js:233
 msgid "Partition of agricultural property"
 msgstr "افراز املاک کشاورزی"
 
-#: assets/js/expert-wage-i18n.js:160
+#: assets/js/tarifexa-i18n.js:160
 msgid "Partition of property, real estate, or an estate"
 msgstr "افراز املاک، مستغلات یا تقسیم ترکه"
 
-#: assets/js/expert-wage-i18n.js:172
+#: assets/js/tarifexa-i18n.js:172
 msgid "points"
 msgstr "نقطه"
 
-#: assets/js/expert-wage-i18n.js:296
+#: assets/js/tarifexa-i18n.js:296
 msgid "Preparation of the overall architectural plan of an existing building"
 msgstr "تهیه نقشه معماری کلی ساختمان موجود"
 
-#: assets/js/expert-wage-i18n.js:298
+#: assets/js/tarifexa-i18n.js:298
 msgid "Preparation or review of the structure of an existing building"
 msgstr "تهیه یا کنترل سازه ساختمان موجود"
 
-#: assets/js/expert-wage-i18n.js:57
+#: assets/js/tarifexa-i18n.js:57
 msgid "Preservation of evidence"
 msgstr "تأمین دلیل"
 
-#: assets/js/expert-wage-i18n.js:221
+#: assets/js/tarifexa-i18n.js:221
 msgid "Printing and print-shop expert assessment"
 msgstr "کارشناسی چاپ و چاپخانه"
 
-#: assets/js/expert-wage-i18n.js:40
+#: assets/js/tarifexa-i18n.js:40
 msgid "Quantity"
 msgstr "تعداد"
 
@@ -1159,79 +1151,79 @@ msgstr "تعداد"
 msgid "Quick subject search"
 msgstr "جست‌وجوی سریع موضوع"
 
-#: assets/js/expert-wage-i18n.js:255
+#: assets/js/tarifexa-i18n.js:255
 msgid "Rent determination"
 msgstr "تعیین اجاره‌بها"
 
-#: assets/js/expert-wage-i18n.js:104
+#: assets/js/tarifexa-i18n.js:104
 msgid "Review of balance sheets, profit and loss, or bankruptcy"
 msgstr "رسیدگی به ترازنامه، سود و زیان یا ورشکستگی"
 
-#: assets/js/expert-wage-i18n.js:190
+#: assets/js/tarifexa-i18n.js:190
 msgid "Review of building compliance with urban regulations"
 msgstr "بررسی انطباق شهری ساختمان"
 
-#: assets/js/expert-wage-i18n.js:184
+#: assets/js/tarifexa-i18n.js:184
 msgid "Review of compliance of an urban land subdivision plan"
 msgstr "بررسی انطباق طرح تفکیک اراضی شهری"
 
-#: assets/js/expert-wage-i18n.js:46
+#: assets/js/tarifexa-i18n.js:46
 msgid "Review of part of a contract or delay"
 msgstr "رسیدگی به بخشی از قرارداد یا تأخیر"
 
-#: assets/js/expert-wage-i18n.js:176
+#: assets/js/tarifexa-i18n.js:176
 msgid "Review of registration records and parcel location"
 msgstr "مطالعه پرونده ثبتی و تعیین محل پلاک"
 
-#: assets/js/expert-wage-i18n.js:188
+#: assets/js/tarifexa-i18n.js:188
 msgid "Review of urban land-use compliance"
 msgstr "بررسی انطباق کاربری اراضی شهری"
 
-#: assets/js/expert-wage-i18n.js:271
+#: assets/js/tarifexa-i18n.js:271
 msgid "Review of wastewater conditions"
 msgstr "رسیدگی به وضع پساب"
 
-#: assets/js/expert-wage-i18n.js:83
+#: assets/js/tarifexa-i18n.js:83
 msgid "Review of wastewater conditions and pollution load"
 msgstr "رسیدگی به وضع پساب و بار آلودگی"
 
-#: assets/js/expert-wage-i18n.js:266
+#: assets/js/tarifexa-i18n.js:266
 msgid "Review of well and qanat drilling quality"
 msgstr "بررسی کیفیت حفاری چاه و قنات"
 
-#: assets/js/expert-wage-i18n.js:75
+#: assets/js/tarifexa-i18n.js:75
 msgid "Review of well and qanat drilling quality and spring rehabilitation"
 msgstr "بررسی کیفیت حفاری چاه، قنات و بهسازی چشمه"
 
-#: assets/js/expert-wage-i18n.js:17 assets/js/expert-wage-i18n.js:353
+#: assets/js/tarifexa-i18n.js:17 assets/js/tarifexa-i18n.js:353
 msgid "rials"
 msgstr "ریال"
 
-#: assets/js/expert-wage-i18n.js:24
+#: assets/js/tarifexa-i18n.js:24
 msgid "Roads, buildings, surveying, and registration matters"
 msgstr "راه، ساختمان، نقشه‌برداری و امور ثبتی"
 
-#: assets/js/expert-wage-i18n.js:321
+#: assets/js/tarifexa-i18n.js:321
 msgid "Root, cultivation, development, and planting rights"
 msgstr "حق ریشه، نسق، آبادانی و حق غارسی"
 
-#: assets/js/expert-wage-i18n.js:227
+#: assets/js/tarifexa-i18n.js:227
 msgid "Root, cultivation, development, farming, and planting rights"
 msgstr "حق ریشه، نسق، آبادانی، زراعت و حق غارسی"
 
-#: assets/js/expert-wage-i18n.js:79
+#: assets/js/tarifexa-i18n.js:79
 msgid "Route length"
 msgstr "طول مسیر"
 
-#: assets/js/expert-wage-i18n.js:242
+#: assets/js/tarifexa-i18n.js:242
 msgid "Safety and accident expert assessment"
 msgstr "کارشناسی ایمنی و حوادث"
 
-#: assets/js/expert-wage-i18n.js:29
+#: assets/js/tarifexa-i18n.js:29
 msgid "Safety and accidents"
 msgstr "ایمنی و حوادث"
 
-#: assets/js/expert-wage-i18n.js:229
+#: assets/js/tarifexa-i18n.js:229
 msgid "Sampling of agricultural and livestock products"
 msgstr "نمونه‌برداری محصولات کشاورزی و دامی"
 
@@ -1239,27 +1231,27 @@ msgstr "نمونه‌برداری محصولات کشاورزی و دامی"
 msgid "Select an expert field or subject to display the inputs required by its tariff article. Calculate each independent subject separately."
 msgstr "رشته یا موضوع کارشناسی را انتخاب کنید تا ورودی‌های متناسب با ماده قانونی نمایش داده شوند. هر موضوع مستقل را جداگانه محاسبه کنید."
 
-#: assets/js/expert-wage-i18n.js:165
+#: assets/js/tarifexa-i18n.js:165
 msgid "Setting out parcel boundaries with known control points"
 msgstr "پیاده‌کردن محدوده پلاک با گذربند مشخص"
 
-#: assets/js/expert-wage-i18n.js:167
+#: assets/js/tarifexa-i18n.js:167
 msgid "Setting out parcel boundaries with unknown control points"
 msgstr "پیاده‌کردن محدوده پلاک با گذربند نامشخص"
 
-#: assets/js/expert-wage-i18n.js:220
+#: assets/js/tarifexa-i18n.js:220
 msgid "Sports expert assessment involving injury or death"
 msgstr "کارشناسی ورزشی دارای جرح یا فوت"
 
-#: assets/js/expert-wage-i18n.js:218
+#: assets/js/tarifexa-i18n.js:218
 msgid "Sports expert assessment without injury or death"
 msgstr "کارشناسی ورزشی بدون جرح یا فوت"
 
-#: assets/js/expert-wage-i18n.js:39
+#: assets/js/tarifexa-i18n.js:39
 msgid "square meters"
 msgstr "متر مربع"
 
-#: assets/js/expert-wage-i18n.js:119
+#: assets/js/tarifexa-i18n.js:119
 msgid "Statistical expert assessment"
 msgstr "کارشناسی آمار"
 
@@ -1267,71 +1259,75 @@ msgstr "کارشناسی آمار"
 msgid "Statutory additional fees"
 msgstr "هزینه‌های افزوده قانونی"
 
-#: assets/js/expert-wage-i18n.js:16
+#: assets/js/tarifexa-i18n.js:16
 msgid "Subject value"
 msgstr "ارزش موضوع"
+
+#: includes/class-tarifexa.php:59 tarifexa.php:3 templates/calculator.php:35
+msgid "Tarifexa – Judicial Expert Wage Calculator"
+msgstr "Tarifexa – محاسبه دستمزد کارشناس رسمی دادگستری"
 
 #: templates/calculator.php:43
 msgid "Tariff year *"
 msgstr "سال تعرفه *"
 
-#: assets/js/expert-wage-i18n.js:223
+#: assets/js/tarifexa-i18n.js:223
 msgid "Technical certification of design and graphics"
 msgstr "گواهی فنی طراحی و گرافیک"
 
-#: assets/js/expert-wage-i18n.js:210
+#: assets/js/tarifexa-i18n.js:210
 msgid "Technical issues involving photographs and video"
 msgstr "مسائل فنی عکس و فیلم"
 
-#: assets/js/expert-wage-i18n.js:127
+#: assets/js/tarifexa-i18n.js:127
 msgid "Technical opinion and determination of vehicle tonnage and model"
 msgstr "اظهارنظر فنی، تعیین تناژ و مدل خودرو"
 
-#: assets/js/expert-wage-i18n.js:68
+#: assets/js/tarifexa-i18n.js:68
 msgid "Technical review of surface water and groundwater aquifers"
 msgstr "بررسی فنی سفره‌های سطحی و زیرزمینی"
 
-#: assets/js/expert-wage-i18n.js:156
+#: assets/js/tarifexa-i18n.js:156
 msgid "Technical structural-safety report"
 msgstr "گزارش فنی استحکام بنا"
 
-#: assets/js/expert-wage-i18n.js:348
+#: assets/js/tarifexa-i18n.js:348
 msgid "The calculation could not be completed. Check the entered values."
 msgstr "محاسبه انجام نشد. ورودی‌ها را بررسی کنید."
 
-#: assets/js/expert-wage-i18n.js:340
+#: assets/js/tarifexa-i18n.js:340
 msgid "The calculation denominator is invalid."
 msgstr "مخرج محاسبه معتبر نیست."
 
-#: assets/js/expert-wage-i18n.js:162
+#: assets/js/tarifexa-i18n.js:162
 msgid "The cost of preparing a map, when required, is calculated separately."
 msgstr "هزینه تهیه نقشه، در صورت نیاز، جداگانه محاسبه می‌شود."
 
-#: assets/js/expert-wage-i18n.js:334
+#: assets/js/tarifexa-i18n.js:334
 msgid "The exact amount is determined according to the quantity and quality of the work and requires approval by the referring authority."
 msgstr "مبلغ دقیق با توجه به کمیت و کیفیت کار و تأیید مرجع ارجاع‌کننده تعیین می‌شود."
 
-#: assets/js/expert-wage-i18n.js:346
+#: assets/js/tarifexa-i18n.js:346
 msgid "The expert panel cannot contain more than 50 members."
 msgstr "تعداد اعضای هیئت نمی‌تواند بیشتر از ۵۰ نفر باشد."
 
-#: assets/js/expert-wage-i18n.js:347
+#: assets/js/tarifexa-i18n.js:347
 msgid "The expert panel must contain at least 2 members."
 msgstr "تعداد اعضای هیئت باید حداقل ۲ نفر باشد."
 
-#: assets/js/expert-wage-i18n.js:345
+#: assets/js/tarifexa-i18n.js:345
 msgid "The expert subject was not found for the selected year."
 msgstr "موضوع کارشناسی برای سال انتخابی یافت نشد."
 
-#: assets/js/expert-wage-i18n.js:59
+#: assets/js/tarifexa-i18n.js:59
 msgid "The referring authority determines the final amount according to the quantity and quality of the services."
 msgstr "مبلغ نهایی متناسب با کمیت و کیفیت خدمات توسط مقام ارجاع‌کننده تعیین می‌شود."
 
-#: assets/js/expert-wage-i18n.js:244
+#: assets/js/tarifexa-i18n.js:244
 msgid "The referring authority determines the number of subjects that may be reviewed."
 msgstr "تعداد موضوعات قابل بررسی با نظر مقام ارجاع‌دهنده تعیین می‌شود."
 
-#: assets/js/expert-wage-i18n.js:344
+#: assets/js/tarifexa-i18n.js:344
 msgid "The selected tariff year is not supported."
 msgstr "سال تعرفه انتخاب‌شده پشتیبانی نمی‌شود."
 
@@ -1343,11 +1339,11 @@ msgstr "موضوع توسط چند کارشناس رسمی هم‌رشته ان�
 msgid "This result is only a tariff estimate and does not replace the final wage determined by the judicial authority, association, or center."
 msgstr "این خروجی صرفاً برآورد تعرفه‌ای است و جایگزین تعیین نهایی دستمزد توسط مرجع قضایی، کانون یا مرکز نیست."
 
-#: assets/js/expert-wage-i18n.js:362
+#: assets/js/tarifexa-i18n.js:362
 msgid "Total for the %s-member panel"
 msgstr "جمع کل هیئت %s نفره"
 
-#: assets/js/expert-wage-i18n.js:133
+#: assets/js/tarifexa-i18n.js:133
 msgid "Transportation claim based on the claimed amount"
 msgstr "دعوای حمل‌ونقل بر مبنای مبلغ خواسته"
 
@@ -1355,126 +1351,126 @@ msgstr "دعوای حمل‌ونقل بر مبنای مبلغ خواسته"
 msgid "Transportation, accommodation, meals, laboratory work, translation, and equipment rental are not included in this total."
 msgstr "هزینه وسیله رفت‌وآمد، اقامت، غذا، آزمایش، ترجمه و اجاره تجهیزات در این جمع منظور نمی‌شود."
 
-#: assets/js/expert-wage-i18n.js:193
+#: assets/js/tarifexa-i18n.js:193
 msgid "units"
 msgstr "واحد"
 
-#: assets/js/expert-wage-i18n.js:60
+#: assets/js/tarifexa-i18n.js:60
 msgid "Unspecified subject or specialist technical review"
 msgstr "موضوع پیش‌بینی‌نشده یا بررسی فنی تخصصی"
 
-#: assets/js/expert-wage-i18n.js:147
+#: assets/js/tarifexa-i18n.js:147
 msgid "Unspecified technical opinion on roads and buildings"
 msgstr "اظهارنظر فنی پیش‌بینی‌نشده راه و ساختمان"
 
-#: assets/js/expert-wage-i18n.js:241
+#: assets/js/tarifexa-i18n.js:241
 msgid "Valuation and damage assessment for administrative services"
 msgstr "ارزیابی و تعیین خسارت خدمات اداری"
 
-#: assets/js/expert-wage-i18n.js:41
+#: assets/js/tarifexa-i18n.js:41
 msgid "Valuation in all fields"
 msgstr "ارزیابی کلیه رشته‌ها"
 
-#: assets/js/expert-wage-i18n.js:194
+#: assets/js/tarifexa-i18n.js:194
 msgid "Valuation in industry and technology fields"
 msgstr "ارزیابی رشته‌های صنعت و فن"
 
-#: assets/js/expert-wage-i18n.js:98
+#: assets/js/tarifexa-i18n.js:98
 msgid "Valuation in medical and food matters"
 msgstr "ارزیابی در امور پزشکی و غذایی"
 
-#: assets/js/expert-wage-i18n.js:237
+#: assets/js/tarifexa-i18n.js:237
 msgid "Valuation of agricultural equipment and products"
 msgstr "ارزیابی تجهیزات و فرآورده‌های کشاورزی"
 
-#: assets/js/expert-wage-i18n.js:110
+#: assets/js/tarifexa-i18n.js:110
 msgid "Valuation of commercial matters"
 msgstr "ارزیابی امور بازرگانی"
 
-#: assets/js/expert-wage-i18n.js:216
+#: assets/js/tarifexa-i18n.js:216
 msgid "Valuation of films and photographic and cinematographic equipment"
 msgstr "ارزیابی فیلم و تجهیزات عکاسی و سینمایی"
 
-#: assets/js/expert-wage-i18n.js:319
+#: assets/js/tarifexa-i18n.js:319
 msgid "Valuation of films and photographic equipment"
 msgstr "ارزیابی فیلم و تجهیزات عکاسی"
 
-#: assets/js/expert-wage-i18n.js:95
+#: assets/js/tarifexa-i18n.js:95
 msgid "Valuation of household and office equipment"
 msgstr "ارزیابی لوازم خانگی و اداری"
 
-#: assets/js/expert-wage-i18n.js:47
+#: assets/js/tarifexa-i18n.js:47
 msgid "Valuation of intangible assets and brands"
 msgstr "ارزش‌گذاری دارایی نامشهود و برند"
 
-#: assets/js/expert-wage-i18n.js:280
+#: assets/js/tarifexa-i18n.js:280
 msgid "Valuation of investments, banking, or insurance"
 msgstr "ارزیابی سرمایه‌گذاری، بانک یا بیمه"
 
-#: assets/js/expert-wage-i18n.js:116
+#: assets/js/tarifexa-i18n.js:116
 msgid "Valuation of investments, banking, securities, or insurance"
 msgstr "ارزیابی سرمایه‌گذاری، بانک، بورس یا بیمه"
 
-#: assets/js/expert-wage-i18n.js:85
+#: assets/js/tarifexa-i18n.js:85
 msgid "Valuation of metals"
 msgstr "ارزیابی فلزات"
 
-#: assets/js/expert-wage-i18n.js:93
+#: assets/js/tarifexa-i18n.js:93
 msgid "Valuation of movable property"
 msgstr "ارزیابی اموال منقول"
 
-#: assets/js/expert-wage-i18n.js:292
+#: assets/js/tarifexa-i18n.js:292
 msgid "Valuation of non-agricultural land, buildings, and goodwill rights"
 msgstr "ارزیابی اراضی غیرمزروعی، ابنیه و سرقفلی"
 
-#: assets/js/expert-wage-i18n.js:145
+#: assets/js/tarifexa-i18n.js:145
 msgid "Valuation of non-agricultural land, buildings, materials, and goodwill rights"
 msgstr "ارزیابی اراضی غیرمزروعی، ابنیه، مصالح و سرقفلی"
 
-#: assets/js/expert-wage-i18n.js:88
+#: assets/js/tarifexa-i18n.js:88
 msgid "Valuation of open-pit mineral reserves"
 msgstr "ارزیابی ذخایر معدنی روباز"
 
-#: assets/js/expert-wage-i18n.js:252
+#: assets/js/tarifexa-i18n.js:252
 msgid "Valuation of parts, used goods, and scrap"
 msgstr "ارزیابی قطعات، کالای مستعمل و ضایعات"
 
-#: assets/js/expert-wage-i18n.js:70
+#: assets/js/tarifexa-i18n.js:70
 msgid "Valuation of qanats, wells, and water and wastewater networks"
 msgstr "ارزیابی قنوات، چاه‌ها و شبکه‌های آب و فاضلاب"
 
-#: assets/js/expert-wage-i18n.js:90
+#: assets/js/tarifexa-i18n.js:90
 msgid "Valuation of underground mineral reserves"
 msgstr "ارزیابی ذخایر معدنی زیرزمینی"
 
-#: assets/js/expert-wage-i18n.js:15
+#: assets/js/tarifexa-i18n.js:15
 msgid "Value"
 msgstr "مقدار"
 
-#: assets/js/expert-wage-i18n.js:121
+#: assets/js/tarifexa-i18n.js:121
 msgid "Vehicle authenticity review"
 msgstr "رسیدگی به اصالت خودرو"
 
-#: assets/js/expert-wage-i18n.js:23
+#: assets/js/tarifexa-i18n.js:23
 msgid "Vehicle matters"
 msgstr "امور وسایل نقلیه"
 
-#: assets/js/expert-wage-i18n.js:131
+#: assets/js/tarifexa-i18n.js:131
 msgid "Vehicle valuation or damage assessment"
 msgstr "ارزیابی یا تعیین خسارت وسیله نقلیه"
 
-#: assets/js/expert-wage-i18n.js:124
+#: assets/js/tarifexa-i18n.js:124
 msgid "vehicles"
 msgstr "خودرو"
 
-#: assets/js/expert-wage-i18n.js:19
+#: assets/js/tarifexa-i18n.js:19
 msgid "Water and mining engineering"
 msgstr "مهندسی آب و معادن"
 
-#: assets/js/expert-wage-i18n.js:64
+#: assets/js/tarifexa-i18n.js:64
 msgid "Water flow rate"
 msgstr "دبی آب"
 
-#: assets/js/expert-wage-i18n.js:55
+#: assets/js/tarifexa-i18n.js:55
 msgid "years"
 msgstr "سال"

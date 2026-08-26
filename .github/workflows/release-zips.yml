@@ -1,0 +1,124 @@
+name: Release ZIPs
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release-zips-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  package:
+    name: Build WordPress.org and install ZIPs
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v7
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: "20"
+
+      - name: Set up PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: "8.4"
+          coverage: none
+
+      - name: Check PHP syntax
+        shell: bash
+        run: find . -type f -name "*.php" -not -path "./vendor/*" -print0 | xargs -0 -n1 php -l
+
+      - name: Verify release metadata
+        run: npm run validate:release
+
+      - name: Build WordPress.org and install packages
+        run: npm run build:packages
+
+      - name: Read package version
+        id: meta
+        shell: bash
+        run: |
+          VERSION="$(node -p "JSON.parse(require('fs').readFileSync('dist/manifest.json','utf8')).version")"
+          WPORG_ZIP="tarifexa-wordpress-org-${VERSION}.zip"
+          INSTALL_ZIP="tarifexa-install-${VERSION}.zip"
+          echo "version=${VERSION}" >> "$GITHUB_OUTPUT"
+          echo "wporg_zip=${WPORG_ZIP}" >> "$GITHUB_OUTPUT"
+          echo "install_zip=${INSTALL_ZIP}" >> "$GITHUB_OUTPUT"
+          test -f "dist/${WPORG_ZIP}"
+          test -f "dist/${INSTALL_ZIP}"
+          unzip -l "dist/${WPORG_ZIP}" | grep -q "tarifexa/tarifexa.php"
+          unzip -l "dist/${INSTALL_ZIP}" | grep -q "tarifexa/tarifexa.php"
+          ! unzip -l "dist/${WPORG_ZIP}" | grep -q "tarifexa/tarifexa/"
+          ! unzip -l "dist/${INSTALL_ZIP}" | grep -E "(\.github/|tests/|tools/|docs/|node_modules/)" 
+
+      - name: Upload ZIP artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: tarifexa-zips-${{ steps.meta.outputs.version }}
+          path: |
+            dist/tarifexa-wordpress-org-${{ steps.meta.outputs.version }}.zip
+            dist/tarifexa-install-${{ steps.meta.outputs.version }}.zip
+            dist/manifest.json
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Publish prerelease build on GitHub
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ steps.meta.outputs.version }}
+          WPORG_ZIP: ${{ steps.meta.outputs.wporg_zip }}
+          INSTALL_ZIP: ${{ steps.meta.outputs.install_zip }}
+          SHA: ${{ github.sha }}
+          BRANCH: ${{ github.ref_name }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          TAG="build-${BRANCH}"
+          TITLE="Tarifexa ${VERSION} (${BRANCH} build)"
+          NOTES="$(cat <<EOF
+          Automated package build from \`${BRANCH}\` @ \`${SHA}\`.
+
+          ## Downloads
+
+          | Package | Use |
+          | --- | --- |
+          | \`${WPORG_ZIP}\` | WordPress.org Plugins Directory / SVN trunk submission |
+          | \`${INSTALL_ZIP}\` | Direct install via Plugins → Add New → Upload Plugin |
+
+          Both archives contain a single top-level \`tarifexa/\` directory.
+
+          This is a **prerelease build**. It does **not** deploy to WordPress.org SVN.
+          Publish a non-prerelease GitHub Release from an annotated version tag (for example \`${VERSION}\`) when you want SVN deployment.
+          EOF
+          )"
+
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release edit "$TAG" \
+              --title "$TITLE" \
+              --notes "$NOTES" \
+              --prerelease \
+              --latest=false
+          else
+            gh release create "$TAG" \
+              --title "$TITLE" \
+              --notes "$NOTES" \
+              --prerelease \
+              --latest=false \
+              --target "$SHA"
+          fi
+
+          gh release upload "$TAG" \
+            "dist/${WPORG_ZIP}" \
+            "dist/${INSTALL_ZIP}" \
+            dist/manifest.json \
+            --clobber

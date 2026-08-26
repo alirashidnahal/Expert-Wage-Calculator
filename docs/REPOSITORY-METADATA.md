@@ -6,10 +6,10 @@ Use the following values when creating the public GitHub repository.
 
 - **Owner:** `alirashidnahal`
 - **Repository name:** `expert-wage-calculator`
-- **Display name:** Expert Wage Calculator
+- **Display name:** Tarifexa – Judicial Expert Wage Calculator
 - **Visibility:** Public
 - **Default branch:** `main`
-- **Description:** `A multilingual WordPress plugin for calculating Iranian official judicial expert wages from the 1402 and 1405 tariff catalogs.`
+- **Description:** `A multilingual WordPress plugin for estimating Iranian judicial expert wages from the 1402 and 1405 tariff catalogs.`
 - **Website:** `https://alirashidnahal.com/`
 - **License:** GNU General Public License v2.0 or later
 
@@ -41,16 +41,16 @@ Do not put either value in repository files, workflow logs, issues, or release n
 
 ## WordPress.org
 
-- **Requested slug:** `expert-wage-calculator`
-- **Plugin name:** Expert Wage Calculator
-- **Short description:** `Calculate Iranian official judicial expert wages for 1402 and 1405 with quick and full multilingual shortcodes.`
-- **Version:** `1.1.0`
-- **Stable tag:** `1.1.0`
+- **Requested slug:** `tarifexa`
+- **Plugin name:** Tarifexa – Judicial Expert Wage Calculator
+- **Short description:** `Estimate Iranian judicial expert wages for 1402 and 1405 with quick and full multilingual shortcodes.`
+- **Version:** `1.2.0`
+- **Stable tag:** `1.2.0`
 - **Requires WordPress:** `5.6`
 - **Tested up to:** `7.1`
 - **Requires PHP:** `7.4`
 - **License:** GPLv2 or later
-- **Text domain:** `expert-wage-calculator`
+- **Text domain:** `tarifexa`
 - **Domain path:** `/languages`
 - **Contributor:** `alirashidnahal` — verified against the public WordPress.org profile.
 
@@ -58,6 +58,6 @@ Do not put either value in repository files, workflow logs, issues, or release n
 
 Use the five tags already present in `readme.txt`:
 
-`expert wage`, `official expert`, `tariff`, `valuation`, `calculator`
+`expert wage`, `judicial expert`, `tariff`, `valuation`, `calculator`
 
-The requested slug appears unused in a public search as of 2026-08-23, but only the WordPress.org review and approval process can reserve it.
+The requested slug is subject to WordPress.org Plugin Review Team approval. Only that process can reserve it.

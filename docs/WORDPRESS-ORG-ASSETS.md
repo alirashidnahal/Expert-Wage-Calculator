@@ -7,7 +7,7 @@ Available icon files:
 - `icon-128x128.png`
 - `icon-256x256.png`
 
-The editable high-resolution raster master is stored at `docs/artwork/expert-wage-calculator-icon-master.png`. The published icon uses a transparent background, contains no text, and is designed to remain recognizable at thumbnail size.
+The editable high-resolution raster master is stored at `docs/artwork/tarifexa-icon-master.png`. The published icon uses a transparent background, contains no text, and is designed to remain recognizable at thumbnail size.
 
 Remaining recommended files:
 
