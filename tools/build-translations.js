@@ -18,7 +18,7 @@ const phpFiles = [
 ];
 
 const manualFa = {
-    'Tarifexa – Judicial Expert Wage Calculator': 'Tarifexa – محاسبه دستمزد کارشناس رسمی دادگستری',
+    'Tarifexa – Iranian Judicial Expert Fee Calculator': 'Tarifexa – محاسبه حق‌الزحمه کارشناس رسمی دادگستری ایران',
     'Estimates Iranian judicial expert wages for the 1402 and 1405 tariff catalogs with quick and full multilingual shortcodes.': 'برآورد دستمزد کارشناسان رسمی دادگستری ایران برای تعرفه‌های ۱۴۰۲ و ۱۴۰۵ با شورت‌کدهای سریع و جامع چندزبانه.',
     'Open calculator': 'مشاهده ماشین‌حساب',
     'Judicial Expert Valuation Wage': 'دستمزد ارزیابی کارشناس رسمی',
@@ -196,7 +196,7 @@ found.push(...collectMessages(scriptPath, /__\('((?:\\.|[^'])*)'\)/g));
 phpFiles.forEach((relative) => {
     found.push(...collectMessages(path.join(pluginDir, relative), /(?:__|_e|esc_html__|esc_html_e|esc_attr__)\(\s*'((?:\\.|[^'])*)'/g));
 });
-found.push({ id: 'Tarifexa – Judicial Expert Wage Calculator', ref: 'tarifexa.php:3' });
+found.push({ id: 'Tarifexa – Iranian Judicial Expert Fee Calculator', ref: 'tarifexa.php:3' });
 found.push({ id: 'Estimates Iranian judicial expert wages for the 1402 and 1405 tariff catalogs with quick and full multilingual shortcodes.', ref: 'tarifexa.php:5' });
 
 const byId = new Map();
@@ -211,12 +211,6 @@ const missingFa = entries.filter((entry) => fa[entry.id] == null).map((entry) =>
 if (missingFa.length) {
     throw new Error('Missing Persian translations:\n' + missingFa.join('\n'));
 }
-
-fs.readdirSync(languagesDir).forEach((file) => {
-    if (file.startsWith('expert-wage-calculator')) {
-        fs.unlinkSync(path.join(languagesDir, file));
-    }
-});
 
 fs.writeFileSync(path.join(languagesDir, domain + '.pot'), poFile('en_US', {}, entries, true), 'utf8');
 fs.writeFileSync(path.join(languagesDir, domain + '-en_US.po'), poFile('en_US', en, entries, false), 'utf8');

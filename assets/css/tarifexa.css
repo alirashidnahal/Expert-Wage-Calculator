@@ -1,11 +1,11 @@
-.ik-wage-calculator {
-    --ik-wage-blue: #005a8d;
-    --ik-wage-blue-dark: #003f64;
-    --ik-wage-gold: #f6aa04;
-    --ik-wage-border: #d7e1e8;
-    --ik-wage-muted: #5c6b76;
+.tarifexa-calculator {
+    --tarifexa-blue: #005a8d;
+    --tarifexa-blue-dark: #003f64;
+    --tarifexa-gold: #f6aa04;
+    --tarifexa-border: #d7e1e8;
+    --tarifexa-muted: #5c6b76;
     background: #fff;
-    border: 1px solid var(--ik-wage-border);
+    border: 1px solid var(--tarifexa-border);
     border-radius: 16px;
     box-shadow: 0 12px 32px rgba(0, 63, 100, .1);
     color: #1d2c35;
@@ -19,37 +19,37 @@
     text-align: start;
 }
 
-.ik-wage-calculator *,
-.ik-wage-calculator *::before,
-.ik-wage-calculator *::after {
+.tarifexa-calculator *,
+.tarifexa-calculator *::before,
+.tarifexa-calculator *::after {
     box-sizing: border-box;
 }
 
-.ik-wage-calculator [hidden] {
+.tarifexa-calculator [hidden] {
     display: none !important;
 }
 
-.ik-wage-calculator.is-quick {
+.tarifexa-calculator.is-quick {
     max-width: 960px;
 }
 
-.ik-wage-intro {
-    border-bottom: 1px solid var(--ik-wage-border);
+.tarifexa-intro {
+    border-bottom: 1px solid var(--tarifexa-border);
     margin-bottom: 1.5rem;
     padding-bottom: 1.25rem;
 }
 
-.ik-wage-intro h2,
-.ik-wage-intro h3 {
-    color: var(--ik-wage-blue-dark);
+.tarifexa-intro h2,
+.tarifexa-intro h3 {
+    color: var(--tarifexa-blue-dark);
     font-size: 1.5rem;
     font-weight: 700;
     line-height: 1.5;
     margin: 0 0 .5rem;
 }
 
-.ik-wage-intro p {
-    color: var(--ik-wage-muted);
+.tarifexa-intro p {
+    color: var(--tarifexa-muted);
     font-size: .9375rem;
     line-height: 1.8;
     margin: 0;
@@ -57,25 +57,25 @@
     text-align: start;
 }
 
-.ik-wage-grid {
+.tarifexa-grid {
     display: grid;
     gap: 0 1rem;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     margin-bottom: .25rem;
 }
 
-.ik-wage-field {
+.tarifexa-field {
     margin-bottom: 1rem;
     min-width: 0;
     position: relative;
 }
 
-.ik-wage-field-full {
+.tarifexa-field-full {
     grid-column: 1 / -1;
 }
 
-.ik-wage-field label,
-.ik-wage-options legend {
+.tarifexa-field label,
+.tarifexa-options legend {
     color: #253946;
     display: block;
     font-size: .875rem;
@@ -84,7 +84,7 @@
     margin: 0 0 .5rem;
 }
 
-.ik-wage-control {
+.tarifexa-control {
     background: #fff;
     border: 1px solid #ced4da;
     border-radius: .25rem;
@@ -101,33 +101,33 @@
     width: 100%;
 }
 
-.ik-wage-control:focus {
-    border-color: var(--ik-wage-blue);
+.tarifexa-control:focus {
+    border-color: var(--tarifexa-blue);
     box-shadow: 0 0 0 .2rem rgba(0, 90, 141, .12);
     outline: 0;
 }
 
-.ik-wage-field input[inputmode="numeric"],
-.ik-wage-numeric-text {
+.tarifexa-field input[inputmode="numeric"],
+.tarifexa-numeric-text {
     font-variant-numeric: tabular-nums;
     letter-spacing: 0;
     unicode-bidi: isolate;
 }
 
-.ik-wage-help {
-    color: var(--ik-wage-muted);
+.tarifexa-help {
+    color: var(--tarifexa-muted);
     display: block;
     font-size: .75rem;
     line-height: 1.8;
     margin: .375rem 0 0;
 }
 
-.ik-wage-input-wrap {
+.tarifexa-input-wrap {
     display: flex;
     width: 100%;
 }
 
-.ik-wage-input-wrap .ik-wage-control {
+.tarifexa-input-wrap .tarifexa-control {
     border-end-end-radius: 0;
     border-end-start-radius: .25rem;
     border-start-end-radius: 0;
@@ -136,7 +136,7 @@
     min-width: 0;
 }
 
-.ik-wage-unit {
+.tarifexa-unit {
     align-items: center;
     background: #e9ecef;
     border: 1px solid #ced4da;
@@ -154,9 +154,9 @@
     white-space: nowrap;
 }
 
-.ik-wage-search-results {
+.tarifexa-search-results {
     background: #fff;
-    border: 1px solid var(--ik-wage-border);
+    border: 1px solid var(--tarifexa-border);
     border-radius: .25rem;
     box-shadow: 0 .5rem 1rem rgba(18, 48, 68, .15);
     inset-inline: 0;
@@ -168,8 +168,8 @@
     z-index: 20;
 }
 
-.ik-wage-search-results button,
-.ik-wage-search-results > span {
+.tarifexa-search-results button,
+.tarifexa-search-results > span {
     background: none;
     border: 0;
     border-radius: .25rem;
@@ -183,23 +183,23 @@
     width: 100%;
 }
 
-.ik-wage-search-results button:hover,
-.ik-wage-search-results button:focus {
+.tarifexa-search-results button:hover,
+.tarifexa-search-results button:focus {
     background: #edf6fb;
-    color: var(--ik-wage-blue);
+    color: var(--tarifexa-blue);
     outline: 0;
 }
 
-.ik-wage-no-fields {
+.tarifexa-no-fields {
     background: #f8f9fa;
     border-radius: .25rem;
-    color: var(--ik-wage-muted);
+    color: var(--tarifexa-muted);
     grid-column: 1 / -1;
     margin: 0 0 1rem;
     padding: .875rem;
 }
 
-.ik-wage-options {
+.tarifexa-options {
     background: #f8f9fa;
     border: 1px solid #dee2e6;
     border-radius: .25rem;
@@ -208,18 +208,18 @@
     padding: 1rem;
 }
 
-.ik-wage-options legend {
+.tarifexa-options legend {
     float: none;
     margin: 0 0 .875rem;
     padding: 0;
     width: auto;
 }
 
-.ik-wage-options .ik-wage-grid {
+.tarifexa-options .tarifexa-grid {
     margin-bottom: 0;
 }
 
-.ik-wage-checkbox {
+.tarifexa-checkbox {
     align-items: flex-start;
     color: #263a46;
     cursor: pointer;
@@ -230,19 +230,19 @@
     margin: 0;
 }
 
-.ik-wage-checkbox input {
+.tarifexa-checkbox input {
     flex: 0 0 auto;
     height: 18px;
     margin-top: 4px;
     width: 18px;
 }
 
-.ik-wage-panel-size {
+.tarifexa-panel-size {
     margin-top: 1rem;
     max-width: 260px;
 }
 
-.ik-wage-actions {
+.tarifexa-actions {
     align-items: center;
     display: flex;
     flex-wrap: wrap;
@@ -250,8 +250,8 @@
     margin-top: 1.375rem;
 }
 
-.ik-wage-calculator .ik-wage-button,
-.ik-wage-calculator a.ik-wage-button {
+.tarifexa-calculator .tarifexa-button,
+.tarifexa-calculator a.tarifexa-button {
     align-items: center;
     border: 1px solid transparent;
     border-radius: .25rem;
@@ -269,32 +269,32 @@
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
 }
 
-.ik-wage-button-primary {
-    background: var(--ik-wage-gold);
-    border-color: var(--ik-wage-gold);
+.tarifexa-button-primary {
+    background: var(--tarifexa-gold);
+    border-color: var(--tarifexa-gold);
     color: #202a30;
 }
 
-.ik-wage-button-primary:hover,
-.ik-wage-button-primary:focus {
+.tarifexa-button-primary:hover,
+.tarifexa-button-primary:focus {
     background: #df9904;
     border-color: #df9904;
     color: #111;
 }
 
-.ik-wage-button-secondary {
+.tarifexa-button-secondary {
     background: transparent;
-    border-color: var(--ik-wage-blue) !important;
-    color: var(--ik-wage-blue);
+    border-color: var(--tarifexa-blue) !important;
+    color: var(--tarifexa-blue);
 }
 
-.ik-wage-button-secondary:hover,
-.ik-wage-button-secondary:focus {
-    background: var(--ik-wage-blue);
+.tarifexa-button-secondary:hover,
+.tarifexa-button-secondary:focus {
+    background: var(--tarifexa-blue);
     color: #fff !important;
 }
 
-.ik-wage-error {
+.tarifexa-error {
     background: #f8d7da;
     border: 1px solid #f5c2c7;
     border-radius: .25rem;
@@ -305,7 +305,7 @@
     padding: .75rem 1rem;
 }
 
-.ik-wage-result {
+.tarifexa-result {
     background: #f8fbfd;
     border: 1px solid #bdd3df;
     border-radius: .25rem;
@@ -314,11 +314,11 @@
     padding: 1.25rem;
 }
 
-.ik-wage-result:focus {
+.tarifexa-result:focus {
     box-shadow: 0 0 0 .2rem rgba(0, 90, 141, .12);
 }
 
-.ik-wage-status {
+.tarifexa-status {
     border-radius: .25rem;
     font-size: .875rem;
     font-weight: 700;
@@ -327,73 +327,73 @@
     padding: .625rem .75rem;
 }
 
-.ik-wage-status.is-exact {
+.tarifexa-status.is-exact {
     background: #e8f6ee;
     color: #167040;
 }
 
-.ik-wage-status.is-estimate {
+.tarifexa-status.is-estimate {
     background: #fff4d8;
     color: #7d5800;
 }
 
-.ik-wage-result-rows {
-    border: 1px solid var(--ik-wage-border);
+.tarifexa-result-rows {
+    border: 1px solid var(--tarifexa-border);
     border-radius: .5rem;
     overflow: hidden;
 }
 
-.ik-wage-result-row {
+.tarifexa-result-row {
     align-items: center;
     background: #fff;
-    border-bottom: 1px solid var(--ik-wage-border);
+    border-bottom: 1px solid var(--tarifexa-border);
     display: flex;
     gap: 1.25rem;
     justify-content: space-between;
     padding: .8125rem .9375rem;
 }
 
-.ik-wage-result-row:last-child {
+.tarifexa-result-row:last-child {
     border-bottom: 0;
 }
 
-.ik-wage-result-row span {
+.tarifexa-result-row span {
     color: #4b5f6b;
     font-size: .875rem;
     line-height: 1.7;
 }
 
-.ik-wage-result-row strong {
-    color: var(--ik-wage-blue-dark);
+.tarifexa-result-row strong {
+    color: var(--tarifexa-blue-dark);
     font-size: .9375rem;
     line-height: 1.7;
     text-align: end;
 }
 
-.ik-wage-result-row.is-total {
-    background: var(--ik-wage-blue);
+.tarifexa-result-row.is-total {
+    background: var(--tarifexa-blue);
     color: #fff;
 }
 
-.ik-wage-result-row.is-total span,
-.ik-wage-result-row.is-total strong {
+.tarifexa-result-row.is-total span,
+.tarifexa-result-row.is-total strong {
     color: #fff;
 }
 
-.ik-wage-result-source {
+.tarifexa-result-source {
     color: #526671;
     font-size: .8125rem;
     line-height: 1.8;
     margin-top: .875rem;
 }
 
-.ik-wage-result-source strong {
+.tarifexa-result-source strong {
     color: #203944;
 }
 
-.ik-wage-result-notes {
+.tarifexa-result-notes {
     background: #fff8e7;
-    border-inline-start: 3px solid var(--ik-wage-gold);
+    border-inline-start: 3px solid var(--tarifexa-gold);
     color: #624c17;
     font-size: .8125rem;
     line-height: 1.85;
@@ -402,7 +402,7 @@
     padding: .625rem .8125rem;
 }
 
-.ik-wage-disclaimer {
+.tarifexa-disclaimer {
     color: #677984;
     font-size: .75rem;
     line-height: 1.8;
@@ -410,49 +410,49 @@
 }
 
 @media (max-width: 767px) {
-    .ik-wage-calculator {
+    .tarifexa-calculator {
         border-radius: .75rem;
         padding: 1rem;
     }
 
-    .ik-wage-intro h2,
-    .ik-wage-intro h3 {
+    .tarifexa-intro h2,
+    .tarifexa-intro h3 {
         font-size: 1.375rem;
     }
 
-    .ik-wage-intro p {
+    .tarifexa-intro p {
         font-size: .875rem;
     }
 
-    .ik-wage-grid {
+    .tarifexa-grid {
         grid-template-columns: minmax(0, 1fr);
     }
 
-    .ik-wage-field-full {
+    .tarifexa-field-full {
         grid-column: auto;
     }
 
-    .ik-wage-control {
+    .tarifexa-control {
         font-size: 1rem;
     }
 
-    .ik-wage-actions {
+    .tarifexa-actions {
         align-items: stretch;
         flex-direction: column;
     }
 
-    .ik-wage-calculator .ik-wage-button,
-    .ik-wage-calculator a.ik-wage-button {
+    .tarifexa-calculator .tarifexa-button,
+    .tarifexa-calculator a.tarifexa-button {
         width: 100%;
     }
 
-    .ik-wage-result-row {
+    .tarifexa-result-row {
         align-items: flex-start;
         flex-direction: column;
         gap: .25rem;
     }
 
-    .ik-wage-result-row strong {
+    .tarifexa-result-row strong {
         text-align: start;
     }
 }

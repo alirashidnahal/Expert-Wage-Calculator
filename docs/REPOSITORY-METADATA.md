@@ -6,7 +6,7 @@ Use the following values when creating the public GitHub repository.
 
 - **Owner:** `alirashidnahal`
 - **Repository name:** `expert-wage-calculator`
-- **Display name:** Tarifexa – Judicial Expert Wage Calculator
+- **Display name:** Tarifexa – Iranian Judicial Expert Fee Calculator
 - **Visibility:** Public
 - **Default branch:** `main`
 - **Description:** `A multilingual WordPress plugin for estimating Iranian judicial expert wages from the 1402 and 1405 tariff catalogs.`
@@ -42,7 +42,7 @@ Do not put either value in repository files, workflow logs, issues, or release n
 ## WordPress.org
 
 - **Requested slug:** `tarifexa`
-- **Plugin name:** Tarifexa – Judicial Expert Wage Calculator
+- **Plugin name:** Tarifexa – Iranian Judicial Expert Fee Calculator
 - **Short description:** `Estimate Iranian judicial expert wages for 1402 and 1405 with quick and full multilingual shortcodes.`
 - **Version:** `1.2.0`
 - **Stable tag:** `1.2.0`

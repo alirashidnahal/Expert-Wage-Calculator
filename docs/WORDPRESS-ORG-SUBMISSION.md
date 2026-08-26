@@ -12,7 +12,7 @@
 
 ## Submission title
 
-`Tarifexa – Judicial Expert Wage Calculator`
+`Tarifexa – Iranian Judicial Expert Fee Calculator`
 
 ## Submission overview
 

@@ -1,6 +1,17 @@
 <?php
 /**
-
+ * Plugin Name: Tarifexa – Iranian Judicial Expert Fee Calculator
+ * Plugin URI:  https://github.com/alirashidnahal/expert-wage-calculator
+ * Description: Estimates Iranian judicial expert wages for the 1402 and 1405 tariff catalogs with quick and full multilingual shortcodes.
+ * Version:     1.2.0
+ * Requires at least: 5.6
+ * Tested up to: 7.1
+ * Requires PHP: 7.4
+ * Author:      Ali Rashidnahal
+ * Author URI:  https://alirashidnahal.com/
+ * License:     GPL-2.0-or-later
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
+ * Text Domain: tarifexa
  * Domain Path: /languages
  */
 

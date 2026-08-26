@@ -13,10 +13,7 @@ final class Tarifexa
 {
     const FULL_SHORTCODE = 'tarifexa';
     const QUICK_SHORTCODE = 'tarifexa_quick';
-    const LEGACY_FULL_SHORTCODE = 'ik_expert_wage_calculator';
-    const LEGACY_QUICK_SHORTCODE = 'ik_expert_wage_quick';
     const PAGE_OPTION = 'tarifexa_page_id';
-    const LEGACY_PAGE_OPTION = 'ik_expert_wage_page_id';
     const PAGE_SLUG = 'محاسبه-دستمزد-کارشناس-رسمی';
 
     /** @var Tarifexa|null */
@@ -56,14 +53,13 @@ final class Tarifexa
     {
         $page = get_page_by_path(self::PAGE_SLUG, OBJECT, 'page');
         $shortcode = '[' . self::FULL_SHORTCODE . ']';
-        $page_title = __('Tarifexa – Judicial Expert Wage Calculator', 'tarifexa');
+        $page_title = __('Tarifexa – Iranian Judicial Expert Fee Calculator', 'tarifexa');
 
         if ($page instanceof WP_Post) {
             $page_id = (int) $page->ID;
-            $old_template = get_page_template_slug($page_id);
             $content = trim((string) $page->post_content);
 
-            if ('' === $content || 'page-expert-wage.php' === $old_template) {
+            if ('' === $content) {
                 wp_update_post(
                     array(
                         'ID' => $page_id,
@@ -106,8 +102,6 @@ final class Tarifexa
     {
         add_shortcode(self::FULL_SHORTCODE, array($this, 'render_full_shortcode'));
         add_shortcode(self::QUICK_SHORTCODE, array($this, 'render_quick_shortcode'));
-        add_shortcode(self::LEGACY_FULL_SHORTCODE, array($this, 'render_full_shortcode'));
-        add_shortcode(self::LEGACY_QUICK_SHORTCODE, array($this, 'render_quick_shortcode'));
     }
 
     /**
@@ -176,8 +170,6 @@ final class Tarifexa
         if (
             has_shortcode($post->post_content, self::FULL_SHORTCODE)
             || has_shortcode($post->post_content, self::QUICK_SHORTCODE)
-            || has_shortcode($post->post_content, self::LEGACY_FULL_SHORTCODE)
-            || has_shortcode($post->post_content, self::LEGACY_QUICK_SHORTCODE)
         ) {
             $this->enqueue_assets();
         }
@@ -241,7 +233,7 @@ final class Tarifexa
         );
 
         $this->instance_count++;
-        $calculator_id = sprintf('ik-wage-%s-%d', $mode, $this->instance_count);
+        $calculator_id = sprintf('tarifexa-%s-%d', $mode, $this->instance_count);
         $extra_classes = array_filter(
             array_map(
                 'sanitize_html_class',
@@ -263,9 +255,6 @@ final class Tarifexa
     private function get_full_page_url(): string
     {
         $page_id = (int) get_option(self::PAGE_OPTION, 0);
-        if ($page_id <= 0) {
-            $page_id = (int) get_option(self::LEGACY_PAGE_OPTION, 0);
-        }
         if ($page_id > 0 && 'publish' === get_post_status($page_id)) {
             return get_permalink($page_id);
         }
