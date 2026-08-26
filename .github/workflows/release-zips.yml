@@ -22,6 +22,8 @@ jobs:
     steps:
       - name: Check out source
         uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
 
       - name: Set up Node.js
         uses: actions/setup-node@v7
@@ -48,23 +50,33 @@ jobs:
         id: meta
         shell: bash
         run: |
+          set -euo pipefail
           VERSION="$(node -p "JSON.parse(require('fs').readFileSync('dist/manifest.json','utf8')).version")"
+          if [[ ! "$VERSION" =~ ^[0-9]+\.[0-9]+\.[0-9]+([.-][0-9A-Za-z.-]+)?$ ]]; then
+            echo "Plugin version '$VERSION' is not valid SemVer."
+            exit 1
+          fi
+
+          TAG="v${VERSION}"
           WPORG_ZIP="tarifexa-wordpress-org-${VERSION}.zip"
           INSTALL_ZIP="tarifexa-install-${VERSION}.zip"
+
           echo "version=${VERSION}" >> "$GITHUB_OUTPUT"
+          echo "tag=${TAG}" >> "$GITHUB_OUTPUT"
           echo "wporg_zip=${WPORG_ZIP}" >> "$GITHUB_OUTPUT"
           echo "install_zip=${INSTALL_ZIP}" >> "$GITHUB_OUTPUT"
+
           test -f "dist/${WPORG_ZIP}"
           test -f "dist/${INSTALL_ZIP}"
           unzip -l "dist/${WPORG_ZIP}" | grep -q "tarifexa/tarifexa.php"
           unzip -l "dist/${INSTALL_ZIP}" | grep -q "tarifexa/tarifexa.php"
           ! unzip -l "dist/${WPORG_ZIP}" | grep -q "tarifexa/tarifexa/"
-          ! unzip -l "dist/${INSTALL_ZIP}" | grep -E "(\.github/|tests/|tools/|docs/|node_modules/)" 
+          ! unzip -l "dist/${INSTALL_ZIP}" | grep -E "(\.github/|tests/|tools/|docs/|node_modules/)"
 
       - name: Upload ZIP artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: tarifexa-zips-${{ steps.meta.outputs.version }}
+          name: tarifexa-zips-${{ steps.meta.outputs.tag }}
           path: |
             dist/tarifexa-wordpress-org-${{ steps.meta.outputs.version }}.zip
             dist/tarifexa-install-${{ steps.meta.outputs.version }}.zip
@@ -72,10 +84,11 @@ jobs:
           if-no-files-found: error
           retention-days: 30
 
-      - name: Publish prerelease build on GitHub
+      - name: Publish semantic GitHub Release
         env:
           GH_TOKEN: ${{ github.token }}
           VERSION: ${{ steps.meta.outputs.version }}
+          TAG: ${{ steps.meta.outputs.tag }}
           WPORG_ZIP: ${{ steps.meta.outputs.wporg_zip }}
           INSTALL_ZIP: ${{ steps.meta.outputs.install_zip }}
           SHA: ${{ github.sha }}
@@ -83,10 +96,10 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          TAG="build-${BRANCH}"
-          TITLE="Tarifexa ${VERSION} (${BRANCH} build)"
+
+          TITLE="Tarifexa ${TAG}"
           NOTES="$(cat <<EOF
-          Automated package build from \`${BRANCH}\` @ \`${SHA}\`.
+          Automated package build for \`${TAG}\` from \`${BRANCH}\` @ \`${SHA}\`.
 
           ## Downloads
 
@@ -97,28 +110,70 @@ jobs:
 
           Both archives contain a single top-level \`tarifexa/\` directory.
 
-          This is a **prerelease build**. It does **not** deploy to WordPress.org SVN.
-          Publish a non-prerelease GitHub Release from an annotated version tag (for example \`${VERSION}\`) when you want SVN deployment.
+          ## Versioning
+
+          - GitHub tag: \`${TAG}\` (GitHub SemVer convention with \`v\` prefix)
+          - Plugin / Stable Tag: \`${VERSION}\` (WordPress.org SVN strips the leading \`v\`)
+
+          This workflow publishes a **prerelease**. It does **not** deploy to WordPress.org SVN.
+
+          When this version is ready for production:
+
+          1. Review the ZIP assets on this release.
+          2. Edit the release and uncheck **Set as a pre-release**.
+          3. Check **Set as the latest release**.
+
+          That promotion triggers SVN deployment. After a production release exists for \`${TAG}\`, bump the plugin SemVer before the next merge so a new tag such as \`v1.2.1\` can be created.
           EOF
           )"
 
+          publish_prerelease() {
+            local release_tag="$1"
+            local release_title="$2"
+
+            if gh release view "$release_tag" >/dev/null 2>&1; then
+              git tag -f "$release_tag" "$SHA"
+              git push -f origin "refs/tags/${release_tag}"
+              gh release edit "$release_tag" \
+                --title "$release_title" \
+                --notes "$NOTES" \
+                --prerelease \
+                --latest=false
+            else
+              gh release create "$release_tag" \
+                --title "$release_title" \
+                --notes "$NOTES" \
+                --prerelease \
+                --latest=false \
+                --target "$SHA"
+            fi
+
+            gh release upload "$release_tag" \
+              "dist/${WPORG_ZIP}" \
+              "dist/${INSTALL_ZIP}" \
+              dist/manifest.json \
+              --clobber
+          }
+
           if gh release view "$TAG" >/dev/null 2>&1; then
-            gh release edit "$TAG" \
-              --title "$TITLE" \
-              --notes "$NOTES" \
-              --prerelease \
-              --latest=false
-          else
-            gh release create "$TAG" \
-              --title "$TITLE" \
-              --notes "$NOTES" \
-              --prerelease \
-              --latest=false \
-              --target "$SHA"
+            IS_PRERELEASE="$(gh release view "$TAG" --json isPrerelease --jq .isPrerelease)"
+            if [ "$IS_PRERELEASE" = "false" ]; then
+              DEV_TAG="${TAG}-dev"
+              echo "Production release ${TAG} already exists. Publishing movable prerelease ${DEV_TAG} instead. Bump the plugin version for the next production tag."
+              NOTES="$(cat <<EOF
+          Development build after production \`${TAG}\`.
+
+          | Package | Use |
+          | --- | --- |
+          | \`${WPORG_ZIP}\` | WordPress.org / SVN submission candidate |
+          | \`${INSTALL_ZIP}\` | Direct install via Plugins → Add New → Upload Plugin |
+
+          Bump \`tarifexa.php\`, \`readme.txt\` Stable Tag, \`package.json\`, and \`CHANGELOG.md\` to a new SemVer before promoting the next production release.
+          EOF
+          )"
+              publish_prerelease "$DEV_TAG" "Tarifexa ${DEV_TAG}"
+              exit 0
+            fi
           fi
 
-          gh release upload "$TAG" \
-            "dist/${WPORG_ZIP}" \
-            "dist/${INSTALL_ZIP}" \
-            dist/manifest.json \
-            --clobber
+          publish_prerelease "$TAG" "$TITLE"
