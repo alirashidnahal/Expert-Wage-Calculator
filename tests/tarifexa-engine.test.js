@@ -2,7 +2,7 @@
 
 const test = require('node:test');
 const assert = require('node:assert/strict');
-const engine = require('../assets/js/expert-wage-engine.js');
+const engine = require('../assets/js/tarifexa-engine.js');
 
 function fee(year, value, options) {
     return engine.calculate(year, 'general_valuation', { value }, options || {}).baseFee;

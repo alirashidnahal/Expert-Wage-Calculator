@@ -1,12 +1,12 @@
 {
-  "translation-revision-date": "2026-08-23 00:00+0330",
-  "generator": "Expert Wage Calculator translation builder",
-  "source": "assets/js/expert-wage-i18n.js",
+  "translation-revision-date": "2026-08-26 00:00+0330",
+  "generator": "Tarifexa translation builder",
+  "source": "assets/js/tarifexa-i18n.js",
   "domain": "messages",
   "locale_data": {
     "messages": {
       "": {
-        "domain": "expert-wage-calculator",
+        "domain": "tarifexa",
         "lang": "fa_IR",
         "plural-forms": "nplurals=2; plural=(n > 1);"
       },

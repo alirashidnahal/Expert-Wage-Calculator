@@ -1,6 +1,6 @@
 # Contributing
 
-Thank you for contributing to Expert Wage Calculator.
+Thank you for contributing to Tarifexa.
 
 ## Before opening an issue
 
@@ -40,7 +40,7 @@ Do not introduce inferred amounts for rules that the source leaves to an authori
 ## Coding guidelines
 
 - Support PHP 7.4 and WordPress 5.6 or later.
-- Preserve the public shortcodes and `IKExpertWage` API unless a documented major release intentionally changes them.
+- Preserve the public shortcodes and `Tarifexa` JavaScript API unless a documented major release intentionally changes them.
 - Keep calculations integer-safe in rials.
 - Escape output, sanitize shortcode attributes, and follow WordPress security practices.
 - Do not add analytics, tracking, remote code, advertising, or external requests.

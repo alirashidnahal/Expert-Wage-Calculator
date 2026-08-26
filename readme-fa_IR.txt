@@ -1,9 +1,9 @@
-=== Expert Wage Calculator ===
+=== Tarifexa – Judicial Expert Wage Calculator ===
 توسعه‌دهنده: علی رشیدنهال
 وب‌سایت: https://alirashidnahal.com/
 گیت‌هاب: https://github.com/alirashidnahal
 
-افزونه Expert Wage Calculator یک موتور مستقل و نسخه‌بندی‌شده برای برآورد تعرفه‌ای دستمزد کارشناسان رسمی فراهم می‌کند.
+افزونه Tarifexa یک موتور مستقل و نسخه‌بندی‌شده برای برآورد تعرفه‌ای دستمزد کارشناسان رسمی فراهم می‌کند.
 
 == امکانات ==
 
@@ -20,7 +20,7 @@
 == نصب ==
 
 1. فایل ZIP افزونه را از بخش «افزونه‌ها ← افزودن افزونه تازه ← بارگذاری افزونه» نصب کنید.
-2. افزونه Expert Wage Calculator را فعال کنید.
+2. افزونه Tarifexa را فعال کنید.
 3. افزونه برگه محاسبه جامع را ایجاد می‌کند یا برگه موجود با اسلاگ پشتیبانی‌شده را به ماشین‌حساب متصل می‌کند.
 4. شورت‌کد موردنیاز را در برگه، نوشته، ابزارک یا قالب قرار دهید.
 
@@ -28,15 +28,15 @@
 
 محاسبه سریع:
 
-`[ik_expert_wage_quick]`
+`[tarifexa_quick]`
 
 محاسبه جامع:
 
-`[ik_expert_wage_calculator]`
+`[tarifexa]`
 
 افزودن کلاس CSS سفارشی:
 
-`[ik_expert_wage_quick class="my-custom-class"]`
+`[tarifexa_quick class="my-custom-class"]`
 
 == نکته حقوقی ==
 

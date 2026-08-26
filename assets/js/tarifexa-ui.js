@@ -1,12 +1,12 @@
 (function () {
     'use strict';
 
-    if (!window.IKExpertWage) {
+    if (!window.Tarifexa) {
         return;
     }
 
-    const engine = window.IKExpertWage;
-    const i18n = window.ExpertWageCalculatorI18n || { ui: {}, messages: {} };
+    const engine = window.Tarifexa;
+    const i18n = window.TarifexaI18n || { ui: {}, messages: {} };
     const THOUSANDS_SEPARATOR = '\u066C';
 
     function ui(key, fallback) {

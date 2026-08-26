@@ -6,7 +6,7 @@
         module.exports = api;
     }
     if (root) {
-        root.IKExpertWage = api;
+        root.Tarifexa = api;
     }
 }(typeof globalThis !== 'undefined' ? globalThis : this, function () {
     'use strict';
@@ -16,8 +16,8 @@
     const PERSIAN_DIGITS = '۰۱۲۳۴۵۶۷۸۹';
     const ARABIC_DIGITS = '٠١٢٣٤٥٦٧٨٩';
     const THOUSANDS_SEPARATOR = '\u066C';
-    const I18N = typeof globalThis !== 'undefined' && globalThis.ExpertWageCalculatorI18n
-        ? globalThis.ExpertWageCalculatorI18n
+    const I18N = typeof globalThis !== 'undefined' && globalThis.TarifexaI18n
+        ? globalThis.TarifexaI18n
         : null;
 
     function translateText(value) {
