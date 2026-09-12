@@ -20,7 +20,6 @@ const wordpressOrgFiles = [
     'LICENSE'
 ];
 const installExtraFiles = [
-    'readme-fa_IR.txt',
     'CHANGELOG.md'
 ];
 
