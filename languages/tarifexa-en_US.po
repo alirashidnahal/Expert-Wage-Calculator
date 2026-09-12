@@ -31,11 +31,11 @@ msgstr "%s must be greater than zero."
 msgid "%s must contain numbers only."
 msgstr "%s must contain numbers only."
 
-#: assets/js/tarifexa-i18n.js:33 templates/calculator.php:61
+#: assets/js/tarifexa-i18n.js:33 templates/calculator.php:46
 msgid "1402 tariff until the 1405 tariff took effect"
 msgstr "1402 tariff until the 1405 tariff took effect"
 
-#: assets/js/tarifexa-i18n.js:31 templates/calculator.php:60
+#: assets/js/tarifexa-i18n.js:31 templates/calculator.php:45
 msgid "1405 tariff"
 msgstr "1405 tariff"
 
@@ -467,11 +467,11 @@ msgstr "Biotechnology and nanotechnology expert assessment"
 msgid "Boat collision in inland waters"
 msgstr "Boat collision in inland waters"
 
-#: templates/calculator.php:138
+#: templates/calculator.php:123
 msgid "Calculate wage"
 msgstr "Calculate wage"
 
-#: templates/calculator.php:149
+#: templates/calculator.php:134
 msgid "Calculation basis:"
 msgstr "Calculation basis:"
 
@@ -683,7 +683,7 @@ msgstr "Current machinery value"
 msgid "Damage amount"
 msgstr "Damage amount"
 
-#: templates/calculator.php:105 templates/calculator.php:112
+#: templates/calculator.php:90 templates/calculator.php:97
 msgid "day"
 msgstr "day"
 
@@ -827,7 +827,7 @@ msgstr "Each expert share including mission allowance"
 msgid "Effective from the notification date of 1405/05/20"
 msgstr "Effective from the notification date of 1405/05/20"
 
-#: templates/calculator.php:48
+#: templates/calculator.php:33
 msgid "Enter the amount in rials. Tariff bands, the statutory cap, and the same-field panel reduction are applied for the selected year."
 msgstr "Enter the amount in rials. Tariff bands, the statutory cap, and the same-field panel reduction are applied for the selected year."
 
@@ -843,15 +843,15 @@ msgstr "Estimates Iranian judicial expert wages for the 1402 and 1405 tariff cat
 msgid "Exact tariff estimate based on the calculation formula"
 msgstr "Exact tariff estimate based on the calculation formula"
 
-#: templates/calculator.php:84
+#: templates/calculator.php:69
 msgid "Expert group *"
 msgstr "Expert group *"
 
-#: templates/calculator.php:121
+#: templates/calculator.php:106
 msgid "Expert panel"
 msgstr "Expert panel"
 
-#: templates/calculator.php:89
+#: templates/calculator.php:74
 msgid "Expert subject *"
 msgstr "Expert subject *"
 
@@ -859,7 +859,7 @@ msgstr "Expert subject *"
 msgid "Expert subject value"
 msgstr "Expert subject value"
 
-#: assets/js/tarifexa-i18n.js:368 templates/calculator.php:130
+#: assets/js/tarifexa-i18n.js:368 templates/calculator.php:115
 msgid "experts"
 msgstr "experts"
 
@@ -871,11 +871,11 @@ msgstr "Financial matters"
 msgid "For a parcel outside the designated area, an increase of up to 20% may be applied at the authority discretion."
 msgstr "For a parcel outside the designated area, an increase of up to 20% may be applied at the authority discretion."
 
-#: templates/calculator.php:74
+#: templates/calculator.php:59
 msgid "For example: rent, surveying, or Article 39"
 msgstr "For example: rent, surveying, or Article 39"
 
-#: templates/calculator.php:140
+#: templates/calculator.php:125
 msgid "Full calculator for all fields"
 msgstr "Full calculator for all fields"
 
@@ -903,7 +903,7 @@ msgstr "Interpretation of aerial photographs or satellite imagery"
 msgid "item"
 msgstr "item"
 
-#: templates/calculator.php:47
+#: templates/calculator.php:32
 msgid "Judicial Expert Valuation Wage"
 msgstr "Judicial Expert Valuation Wage"
 
@@ -967,11 +967,11 @@ msgstr "Mission days inside the province"
 msgid "Mission days outside the province"
 msgstr "Mission days outside the province"
 
-#: templates/calculator.php:102
+#: templates/calculator.php:87
 msgid "Mission inside the province"
 msgstr "Mission inside the province"
 
-#: templates/calculator.php:109
+#: templates/calculator.php:94
 msgid "Mission outside the province"
 msgstr "Mission outside the province"
 
@@ -1067,7 +1067,7 @@ msgstr "Note to the biotechnology and nanotechnology group"
 msgid "Number of documents"
 msgstr "Number of documents"
 
-#: assets/js/tarifexa-i18n.js:328 assets/js/tarifexa-i18n.js:367 templates/calculator.php:127
+#: assets/js/tarifexa-i18n.js:328 assets/js/tarifexa-i18n.js:367 templates/calculator.php:112
 msgid "Number of panel members"
 msgstr "Number of panel members"
 
@@ -1091,7 +1091,7 @@ msgstr "Number of vehicles"
 msgid "Number of years under review"
 msgstr "Number of years under review"
 
-#: includes/class-tarifexa.php:287
+#: includes/class-tarifexa.php:276
 msgid "Open calculator"
 msgstr "Open calculator"
 
@@ -1147,7 +1147,7 @@ msgstr "Printing and print-shop expert assessment"
 msgid "Quantity"
 msgstr "Quantity"
 
-#: templates/calculator.php:68
+#: templates/calculator.php:53
 msgid "Quick subject search"
 msgstr "Quick subject search"
 
@@ -1227,7 +1227,7 @@ msgstr "Safety and accidents"
 msgid "Sampling of agricultural and livestock products"
 msgstr "Sampling of agricultural and livestock products"
 
-#: templates/calculator.php:51
+#: templates/calculator.php:36
 msgid "Select an expert field or subject to display the inputs required by its tariff article. Calculate each independent subject separately."
 msgstr "Select an expert field or subject to display the inputs required by its tariff article. Calculate each independent subject separately."
 
@@ -1255,7 +1255,7 @@ msgstr "square meters"
 msgid "Statistical expert assessment"
 msgstr "Statistical expert assessment"
 
-#: templates/calculator.php:99
+#: templates/calculator.php:84
 msgid "Statutory additional fees"
 msgstr "Statutory additional fees"
 
@@ -1263,11 +1263,11 @@ msgstr "Statutory additional fees"
 msgid "Subject value"
 msgstr "Subject value"
 
-#: includes/class-tarifexa.php:59 tarifexa.php:3 templates/calculator.php:50
+#: includes/class-tarifexa.php:56 tarifexa.php:3 templates/calculator.php:35
 msgid "Tarifexa – Iranian Judicial Expert Fee Calculator"
 msgstr "Tarifexa – Iranian Judicial Expert Fee Calculator"
 
-#: templates/calculator.php:58
+#: templates/calculator.php:43
 msgid "Tariff year *"
 msgstr "Tariff year *"
 
@@ -1331,11 +1331,11 @@ msgstr "The referring authority determines the number of subjects that may be re
 msgid "The selected tariff year is not supported."
 msgstr "The selected tariff year is not supported."
 
-#: templates/calculator.php:124
+#: templates/calculator.php:109
 msgid "The subject is handled by multiple official experts in the same field."
 msgstr "The subject is handled by multiple official experts in the same field."
 
-#: templates/calculator.php:155
+#: templates/calculator.php:140
 msgid "This result is only a tariff estimate and does not replace the final wage determined by the judicial authority, association, or center."
 msgstr "This result is only a tariff estimate and does not replace the final wage determined by the judicial authority, association, or center."
 
@@ -1347,7 +1347,7 @@ msgstr "Total for the %s-member panel"
 msgid "Transportation claim based on the claimed amount"
 msgstr "Transportation claim based on the claimed amount"
 
-#: templates/calculator.php:116
+#: templates/calculator.php:101
 msgid "Transportation, accommodation, meals, laboratory work, translation, and equipment rental are not included in this total."
 msgstr "Transportation, accommodation, meals, laboratory work, translation, and equipment rental are not included in this total."
 

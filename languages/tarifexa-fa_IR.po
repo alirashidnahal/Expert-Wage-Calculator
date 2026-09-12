@@ -31,11 +31,11 @@ msgstr "%s باید بزرگ‌تر از صفر باشد."
 msgid "%s must contain numbers only."
 msgstr "%s باید فقط شامل عدد باشد."
 
-#: assets/js/tarifexa-i18n.js:33 templates/calculator.php:61
+#: assets/js/tarifexa-i18n.js:33 templates/calculator.php:46
 msgid "1402 tariff until the 1405 tariff took effect"
 msgstr "تعرفه ۱۴۰۲ تا پیش از ابلاغ ۱۴۰۵"
 
-#: assets/js/tarifexa-i18n.js:31 templates/calculator.php:60
+#: assets/js/tarifexa-i18n.js:31 templates/calculator.php:45
 msgid "1405 tariff"
 msgstr "تعرفه ۱۴۰۵"
 
@@ -467,11 +467,11 @@ msgstr "کارشناسی بیو و نانوتکنولوژی"
 msgid "Boat collision in inland waters"
 msgstr "تصادم قایق در آب داخلی"
 
-#: templates/calculator.php:138
+#: templates/calculator.php:123
 msgid "Calculate wage"
 msgstr "محاسبه دستمزد"
 
-#: templates/calculator.php:149
+#: templates/calculator.php:134
 msgid "Calculation basis:"
 msgstr "مبنای محاسبه:"
 
@@ -683,7 +683,7 @@ msgstr "ارزش روز ماشین‌آلات"
 msgid "Damage amount"
 msgstr "میزان خسارت"
 
-#: templates/calculator.php:105 templates/calculator.php:112
+#: templates/calculator.php:90 templates/calculator.php:97
 msgid "day"
 msgstr "روز"
 
@@ -827,7 +827,7 @@ msgstr "سهم هر کارشناس با مأموریت"
 msgid "Effective from the notification date of 1405/05/20"
 msgstr "لازم‌الاجرا از تاریخ ابلاغ ۱۴۰۵/۰۵/۲۰"
 
-#: templates/calculator.php:48
+#: templates/calculator.php:33
 msgid "Enter the amount in rials. Tariff bands, the statutory cap, and the same-field panel reduction are applied for the selected year."
 msgstr "مبلغ را به ریال وارد کنید. پلکان‌ها، سقف قانونی و کسر هیئت هم‌رشته بر اساس سال انتخابی اعمال می‌شود."
 
@@ -843,15 +843,15 @@ msgstr "برآورد دستمزد کارشناسان رسمی دادگستری �
 msgid "Exact tariff estimate based on the calculation formula"
 msgstr "برآورد محاسباتی قطعی بر اساس فرمول تعرفه"
 
-#: templates/calculator.php:84
+#: templates/calculator.php:69
 msgid "Expert group *"
 msgstr "گروه کارشناسی *"
 
-#: templates/calculator.php:121
+#: templates/calculator.php:106
 msgid "Expert panel"
 msgstr "هیئت کارشناسی"
 
-#: templates/calculator.php:89
+#: templates/calculator.php:74
 msgid "Expert subject *"
 msgstr "موضوع کارشناسی *"
 
@@ -859,7 +859,7 @@ msgstr "موضوع کارشناسی *"
 msgid "Expert subject value"
 msgstr "ارزش موضوع کارشناسی"
 
-#: assets/js/tarifexa-i18n.js:368 templates/calculator.php:130
+#: assets/js/tarifexa-i18n.js:368 templates/calculator.php:115
 msgid "experts"
 msgstr "نفر"
 
@@ -871,11 +871,11 @@ msgstr "امور مالی"
 msgid "For a parcel outside the designated area, an increase of up to 20% may be applied at the authority discretion."
 msgstr "برای پلاک خارج از محدوده، تا ۲۰٪ افزایش با نظر مرجع قابل اعمال است."
 
-#: templates/calculator.php:74
+#: templates/calculator.php:59
 msgid "For example: rent, surveying, or Article 39"
 msgstr "مثلاً اجاره‌بها، نقشه‌برداری یا ماده ۳۹"
 
-#: templates/calculator.php:140
+#: templates/calculator.php:125
 msgid "Full calculator for all fields"
 msgstr "محاسبه تخصصی همه رشته‌ها"
 
@@ -903,7 +903,7 @@ msgstr "تفسیر عکس هوایی یا تصویر ماهواره‌ای"
 msgid "item"
 msgstr "مورد"
 
-#: templates/calculator.php:47
+#: templates/calculator.php:32
 msgid "Judicial Expert Valuation Wage"
 msgstr "دستمزد ارزیابی کارشناس رسمی"
 
@@ -967,11 +967,11 @@ msgstr "روز مأموریت داخل استان"
 msgid "Mission days outside the province"
 msgstr "روز مأموریت خارج استان"
 
-#: templates/calculator.php:102
+#: templates/calculator.php:87
 msgid "Mission inside the province"
 msgstr "مأموریت داخل استان"
 
-#: templates/calculator.php:109
+#: templates/calculator.php:94
 msgid "Mission outside the province"
 msgstr "مأموریت خارج استان"
 
@@ -1067,7 +1067,7 @@ msgstr "تبصره گروه بیو و نانو"
 msgid "Number of documents"
 msgstr "تعداد مستندات"
 
-#: assets/js/tarifexa-i18n.js:328 assets/js/tarifexa-i18n.js:367 templates/calculator.php:127
+#: assets/js/tarifexa-i18n.js:328 assets/js/tarifexa-i18n.js:367 templates/calculator.php:112
 msgid "Number of panel members"
 msgstr "تعداد اعضای هیئت"
 
@@ -1091,7 +1091,7 @@ msgstr "تعداد خودرو"
 msgid "Number of years under review"
 msgstr "تعداد سال‌های مورد رسیدگی"
 
-#: includes/class-tarifexa.php:287
+#: includes/class-tarifexa.php:276
 msgid "Open calculator"
 msgstr "مشاهده ماشین‌حساب"
 
@@ -1147,7 +1147,7 @@ msgstr "کارشناسی چاپ و چاپخانه"
 msgid "Quantity"
 msgstr "تعداد"
 
-#: templates/calculator.php:68
+#: templates/calculator.php:53
 msgid "Quick subject search"
 msgstr "جست‌وجوی سریع موضوع"
 
@@ -1227,7 +1227,7 @@ msgstr "ایمنی و حوادث"
 msgid "Sampling of agricultural and livestock products"
 msgstr "نمونه‌برداری محصولات کشاورزی و دامی"
 
-#: templates/calculator.php:51
+#: templates/calculator.php:36
 msgid "Select an expert field or subject to display the inputs required by its tariff article. Calculate each independent subject separately."
 msgstr "رشته یا موضوع کارشناسی را انتخاب کنید تا ورودی‌های متناسب با ماده قانونی نمایش داده شوند. هر موضوع مستقل را جداگانه محاسبه کنید."
 
@@ -1255,7 +1255,7 @@ msgstr "متر مربع"
 msgid "Statistical expert assessment"
 msgstr "کارشناسی آمار"
 
-#: templates/calculator.php:99
+#: templates/calculator.php:84
 msgid "Statutory additional fees"
 msgstr "هزینه‌های افزوده قانونی"
 
@@ -1263,11 +1263,11 @@ msgstr "هزینه‌های افزوده قانونی"
 msgid "Subject value"
 msgstr "ارزش موضوع"
 
-#: includes/class-tarifexa.php:59 tarifexa.php:3 templates/calculator.php:50
+#: includes/class-tarifexa.php:56 tarifexa.php:3 templates/calculator.php:35
 msgid "Tarifexa – Iranian Judicial Expert Fee Calculator"
 msgstr "Tarifexa – محاسبه حق‌الزحمه کارشناس رسمی دادگستری ایران"
 
-#: templates/calculator.php:58
+#: templates/calculator.php:43
 msgid "Tariff year *"
 msgstr "سال تعرفه *"
 
@@ -1331,11 +1331,11 @@ msgstr "تعداد موضوعات قابل بررسی با نظر مقام ار�
 msgid "The selected tariff year is not supported."
 msgstr "سال تعرفه انتخاب‌شده پشتیبانی نمی‌شود."
 
-#: templates/calculator.php:124
+#: templates/calculator.php:109
 msgid "The subject is handled by multiple official experts in the same field."
 msgstr "موضوع توسط چند کارشناس رسمی هم‌رشته انجام می‌شود."
 
-#: templates/calculator.php:155
+#: templates/calculator.php:140
 msgid "This result is only a tariff estimate and does not replace the final wage determined by the judicial authority, association, or center."
 msgstr "این خروجی صرفاً برآورد تعرفه‌ای است و جایگزین تعیین نهایی دستمزد توسط مرجع قضایی، کانون یا مرکز نیست."
 
@@ -1347,7 +1347,7 @@ msgstr "جمع کل هیئت %s نفره"
 msgid "Transportation claim based on the claimed amount"
 msgstr "دعوای حمل‌ونقل بر مبنای مبلغ خواسته"
 
-#: templates/calculator.php:116
+#: templates/calculator.php:101
 msgid "Transportation, accommodation, meals, laboratory work, translation, and equipment rental are not included in this total."
 msgstr "هزینه وسیله رفت‌وآمد، اقامت، غذا، آزمایش، ترجمه و اجاره تجهیزات در این جمع منظور نمی‌شود."
 
