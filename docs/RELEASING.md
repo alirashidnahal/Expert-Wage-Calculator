@@ -77,7 +77,7 @@ git push origin v1.2.0
 gh release create v1.2.0 --title "Tarifexa v1.2.0" --notes-file CHANGELOG.md --latest
 ```
 
-## 5. Verify publication
+## 6. Verify publication
 
 - Confirm the WordPress.org page shows Stable Tag `1.2.0` (without the `v` prefix).
 - Confirm the update is available from a clean WordPress installation.
