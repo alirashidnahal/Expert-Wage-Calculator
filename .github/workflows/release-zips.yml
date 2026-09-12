@@ -74,7 +74,7 @@ jobs:
           ! unzip -l "dist/${INSTALL_ZIP}" | grep -E "(\.github/|tests/|tools/|docs/|node_modules/)"
 
       - name: Upload ZIP artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: tarifexa-zips-${{ steps.meta.outputs.tag }}
           path: |
