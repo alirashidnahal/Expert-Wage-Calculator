@@ -24,7 +24,7 @@ Use this text in the submission form:
 
 Upload `tarifexa-wordpress-org-{version}.zip` from `npm run build:packages` (or the matching GitHub Actions artifact / `build-main` prerelease asset). The archive must contain one top-level directory named `tarifexa` and must be under 10 MB.
 
-For customer sites, use `tarifexa-install-{version}.zip` instead. That package is also WordPress-uploadable and adds Persian readme and changelog files for operators.
+For customer sites, use `tarifexa-install-{version}.zip` instead. That package is also WordPress-uploadable and adds `CHANGELOG.md` for operators.
 
 Do not submit GitHub's automatically generated source archive.
 

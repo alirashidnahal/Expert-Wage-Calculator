@@ -45,7 +45,7 @@ Pushing or merging to `main` or `master` runs `.github/workflows/release-zips.ym
 1. Validates release metadata.
 2. Builds two archives in `dist/`:
    - `tarifexa-wordpress-org-{version}.zip` — production-only package for WordPress.org / SVN trunk submission.
-   - `tarifexa-install-{version}.zip` — customer upload package (same production files plus `readme-fa_IR.txt` and `CHANGELOG.md`).
+   - `tarifexa-install-{version}.zip` — customer upload package (same production files plus `CHANGELOG.md`).
 3. Uploads both ZIP files as workflow artifacts.
 4. Creates or updates a GitHub Release tagged `v{version}` (for example `v1.2.0`) as a **prerelease**, and keeps that tag pointed at the latest build commit.
 
