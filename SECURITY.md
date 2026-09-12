@@ -5,9 +5,9 @@
 Security fixes are provided for the latest released version.
 
 | Version | Supported |
-| --- | --- |
-| 1.1.x | Yes |
-| 1.0.x | No |
+|---------|-----------|
+| 1.1.x   | Yes       |
+| 1.0.x   | No        |
 
 ## Reporting a vulnerability
 

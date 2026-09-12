@@ -1091,7 +1091,7 @@ msgstr ""
 msgid "Number of years under review"
 msgstr ""
 
-#: includes/class-tarifexa.php:287
+#: includes/class-tarifexa.php:276
 msgid "Open calculator"
 msgstr ""
 
@@ -1263,8 +1263,8 @@ msgstr ""
 msgid "Subject value"
 msgstr ""
 
-#: includes/class-tarifexa.php:59 tarifexa.php:3 templates/calculator.php:35
-msgid "Tarifexa – Judicial Expert Wage Calculator"
+#: includes/class-tarifexa.php:56 tarifexa.php:3 templates/calculator.php:35
+msgid "Tarifexa – Iranian Judicial Expert Fee Calculator"
 msgstr ""
 
 #: templates/calculator.php:43

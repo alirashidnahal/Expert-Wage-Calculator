@@ -1,4 +1,4 @@
-# Tarifexa – Judicial Expert Wage Calculator
+# Tarifexa – Iranian Judicial Expert Fee Calculator
 
 [![Tests](https://github.com/alirashidnahal/expert-wage-calculator/actions/workflows/ci.yml/badge.svg)](https://github.com/alirashidnahal/expert-wage-calculator/actions/workflows/ci.yml)
 [![License: GPL v2 or later](https://img.shields.io/badge/License-GPL%20v2%2B-blue.svg)](LICENSE)
@@ -62,11 +62,7 @@ The plugin does not collect, store, transmit, or track personal data. All calcul
 
 ## Disclaimer
 
-Results are tariff estimates and do not replace the final wage determined by a judicial authority, association, or center.
-
-## فارسی
-
-راهنمای فارسی افزونه در فایل [readme-fa_IR.txt](readme-fa_IR.txt) موجود است. افزونه شامل ترجمه کامل فارسی رابط PHP و JavaScript است.
+Results are tariff estimates and do not replace the final fee determined by a judicial authority, association, or center.
 
 ## Author
 

@@ -12,9 +12,9 @@ All notable changes to Tarifexa are documented here. The project follows [Semant
 
 ### Changed
 
-- Rebranded the plugin to Tarifexa – Judicial Expert Wage Calculator.
+- Rebranded the plugin to Tarifexa – Iranian Judicial Expert Fee Calculator.
 - Standardized the plugin slug and text domain as `tarifexa`.
-- Updated shortcodes to `[tarifexa]` and `[tarifexa_quick]`; legacy shortcodes remain registered as aliases.
+- Updated shortcodes to `[tarifexa]` and `[tarifexa_quick]`.
 - Renamed internal PHP, JavaScript, CSS, and translation identifiers to the Tarifexa prefix.
 
 ## [1.1.0] - 2026-08-23

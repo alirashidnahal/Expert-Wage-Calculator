@@ -1091,7 +1091,7 @@ msgstr "Number of vehicles"
 msgid "Number of years under review"
 msgstr "Number of years under review"
 
-#: includes/class-tarifexa.php:287
+#: includes/class-tarifexa.php:276
 msgid "Open calculator"
 msgstr "Open calculator"
 
@@ -1263,9 +1263,9 @@ msgstr "Statutory additional fees"
 msgid "Subject value"
 msgstr "Subject value"
 
-#: includes/class-tarifexa.php:59 tarifexa.php:3 templates/calculator.php:35
-msgid "Tarifexa – Judicial Expert Wage Calculator"
-msgstr "Tarifexa – Judicial Expert Wage Calculator"
+#: includes/class-tarifexa.php:56 tarifexa.php:3 templates/calculator.php:35
+msgid "Tarifexa – Iranian Judicial Expert Fee Calculator"
+msgstr "Tarifexa – Iranian Judicial Expert Fee Calculator"
 
 #: templates/calculator.php:43
 msgid "Tariff year *"

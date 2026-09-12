@@ -16,6 +16,6 @@ Use GitHub Issues for reproducible software defects. Include:
 
 ## Scope
 
-Support does not provide legal advice or determine an expert's final wage. Calculation results remain estimates subject to the responsible authority.
+Support does not provide legal advice or determine an expert's final fee. Calculation results remain estimates subject to the responsible authority.
 
 Security vulnerabilities must be reported privately as described in [SECURITY.md](SECURITY.md).

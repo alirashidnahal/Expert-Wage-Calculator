@@ -1,6 +1,6 @@
-=== Tarifexa – Judicial Expert Wage Calculator ===
+=== Tarifexa – Iranian Judicial Expert Fee Calculator ===
 Contributors: alirashidnahal
-Tags: expert wage, judicial expert, tariff, valuation, calculator
+Tags: expert fee, judicial expert, tariff, valuation, calculator
 Requires at least: 5.6
 Tested up to: 7.1
 Stable tag: 1.2.0
@@ -8,11 +8,11 @@ Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Estimate Iranian judicial expert wages for 1402 and 1405 with quick and full multilingual shortcodes.
+Estimate Iranian judicial expert fees for 1402 and 1405 with quick and full multilingual shortcodes.
 
 == Description ==
 
-Tarifexa provides a standalone, versioned calculation engine for judicial expert wage estimates based on the applicable tariff catalogs.
+Tarifexa provides a standalone, versioned calculation engine for judicial expert fee estimates based on the applicable tariff catalogs.
 
 Features include:
 
@@ -58,9 +58,9 @@ Optional custom CSS class:
 
 == Frequently Asked Questions ==
 
-= Does the estimate replace the wage determined by a judicial authority? =
+= Does the estimate replace the fee determined by a judicial authority? =
 
-No. The result is a tariff estimate. The judicial authority, association, or center determines the final wage.
+No. The result is a tariff estimate. The judicial authority, association, or center determines the final fee.
 
 = Does the plugin depend on a theme or Bootstrap? =
 
@@ -76,7 +76,7 @@ The source language is English. Complete Persian (`fa_IR`) and English (`en_US`)
 
 * Rebranded the plugin to Tarifexa – Judicial Expert Wage Calculator.
 * Standardized the plugin slug and text domain as `tarifexa`.
-* Updated shortcodes to `[tarifexa]` and `[tarifexa_quick]` (legacy shortcodes remain as aliases).
+* Updated shortcodes to `[tarifexa]` and `[tarifexa_quick]`.
 
 = 1.1.0 =
 

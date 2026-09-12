@@ -129,11 +129,11 @@
 
     function addResultRow(container, label, value, emphasized) {
         const row = document.createElement('div');
-        row.className = 'ik-wage-result-row' + (emphasized ? ' is-total' : '');
+        row.className = 'tarifexa-result-row' + (emphasized ? ' is-total' : '');
         const title = document.createElement('span');
         title.textContent = label;
         const amount = document.createElement('strong');
-        amount.className = 'ik-wage-numeric-text';
+        amount.className = 'tarifexa-numeric-text';
         amount.textContent = value;
         row.appendChild(title);
         row.appendChild(amount);
@@ -141,8 +141,8 @@
     }
 
     function controller(root) {
-        if (root.getAttribute('data-ik-wage-initialized') === 'true') { return; }
-        root.setAttribute('data-ik-wage-initialized', 'true');
+        if (root.getAttribute('data-tarifexa-initialized') === 'true') { return; }
+        root.setAttribute('data-tarifexa-initialized', 'true');
         const mode = root.getAttribute('data-mode') || 'full';
         const form = qs(root, '[data-role="form"]');
         const year = qs(root, '[data-role="year"]');
@@ -215,7 +215,7 @@
 
             if (!item.fields.length) {
                 const message = document.createElement('p');
-                message.className = 'ik-wage-no-fields ik-wage-field-full';
+                message.className = 'tarifexa-no-fields tarifexa-field-full';
                 message.textContent = ui('noAdditionalInput', 'برای این موضوع ورودی عددی دیگری لازم نیست.');
                 fieldsContainer.appendChild(message);
                 return;
@@ -223,18 +223,18 @@
 
             item.fields.forEach(function (field) {
                 const group = document.createElement('div');
-                group.className = 'ik-wage-field ik-wage-field-half';
+                group.className = 'tarifexa-field tarifexa-field-half';
                 const label = document.createElement('label');
                 const id = root.id + '-' + field.name;
                 label.setAttribute('for', id);
                 label.textContent = field.label + (field.required === false ? ui('optionalSuffix', ' (اختیاری)') : ' *');
                 const inputWrap = document.createElement('div');
-                inputWrap.className = 'ik-wage-input-wrap';
+                inputWrap.className = 'tarifexa-input-wrap';
                 const input = document.createElement('input');
                 input.type = 'text';
                 input.id = id;
                 input.name = field.name;
-                input.className = 'ik-wage-control';
+                input.className = 'tarifexa-control';
                 input.setAttribute('inputmode', 'numeric');
                 input.setAttribute('autocomplete', 'off');
                 input.setAttribute('aria-describedby', id + '-unit');
@@ -244,7 +244,7 @@
                 if (field.max != null) { input.setAttribute('data-max', field.max); }
                 bindLiveNumericInput(input);
                 const unit = document.createElement('span');
-                unit.className = 'ik-wage-unit';
+                unit.className = 'tarifexa-unit';
                 unit.id = id + '-unit';
                 unit.textContent = field.unit || '';
                 inputWrap.appendChild(input);
@@ -341,7 +341,7 @@
 
         function renderCalculation(calculation) {
             clear(resultRows);
-            resultStatus.className = 'ik-wage-status ' + (calculation.status === 'exact' ? 'is-exact' : 'is-estimate');
+            resultStatus.className = 'tarifexa-status ' + (calculation.status === 'exact' ? 'is-exact' : 'is-estimate');
             resultStatus.textContent = calculation.status === 'exact'
                 ? ui('exactStatus', 'برآورد محاسباتی قطعی بر اساس فرمول تعرفه')
                 : ui('estimateStatus', 'برآورد غیرقطعی؛ مبلغ نهایی نیازمند تأیید مرجع است');
@@ -427,7 +427,7 @@
     }
 
     function boot() {
-        document.querySelectorAll('[data-ik-wage]').forEach(controller);
+        document.querySelectorAll('[data-tarifexa]').forEach(controller);
     }
 
     if (document.readyState === 'loading') {
